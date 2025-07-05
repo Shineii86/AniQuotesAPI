@@ -141,9 +141,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 > <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Smileys/Thinking%20Face.webp" alt="Thinking Face" width="20" height="20" /> Wondering where to get these animated emojis?
 > [Visit here!](https://github.com/Shineii86/AniEmojis) You also should look around my other github repos. Maybe you'll find some cool useful stuff there.
 
-  <a href="https://github.com/Shineii86/AniPay">
-    <img src="https://github.com/Shineii86/AniPay/blob/main/Source/Banner7.png" alt="Banner">
-  </a>
+<a href="https://github.com/Shineii86/AniPay">
+<img src="https://github.com/Shineii86/AniPay/blob/main/Source/Banner6.png" alt="Banner">
+</a>
 
 ## <img src="https://raw.githubusercontent.com/Shineii86/AniEmojis/refs/heads/main/Objects/Telephone.webp" alt="Telephone" width="25" height="25" /> Contact
 
