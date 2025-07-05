@@ -32,7 +32,7 @@
 
 ## 📂 Project Structure
 ```bash
-/
+AniQuotesAPI
 ├── api/
 │   ├── v1/
 │   │   ├── random.js
