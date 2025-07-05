@@ -22,7 +22,7 @@ Thank you for your interest in contributing to AniQuotes API! We welcome contrib
    ```
 3. **Install dependencies**:
    ```bash
-   cd anime-quotes-api
+   cd AniQuotesAPI
    npm install
    ```
 4. **Create a branch** for your changes:
