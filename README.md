@@ -4,16 +4,16 @@
     A Multilingual Anime Quotes API With Image Generation.
 </h4>
 <p align="center">
-    <a href="https://"> Creator </a> •
-    <a href=""> Documentation </a> •
-    <a href=""> Organizations </a>
+    <a href="https://github.com/Shineii86"> Creator </a> •
+    <a href="https://github.com/AniQuotes/Doumentation"> Documentation </a> •
+    <a href="https://github.com/AniQuotes"> Organizations </a>
 </p>
 
 [![Deploy](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://aniquotes.vercel.app)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](CONTRIBUTING.md)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
-## 🚀 Features
+## ⭐ Features
 - 🔀 Random, Anime, and Character Searchable Endpoints
 - 🌍 Multilingual Support: English, Japanese, Hindi, and more
 - 🖼️ Quote Image Generator: Beautiful PNGs with watermark, perfect for social media
