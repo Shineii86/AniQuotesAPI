@@ -64,15 +64,15 @@ AniQuotesAPI
 ### V1
 | Endpoint | Params | Description |
 |----------|--------|-------------|
-| `/v1/random` | None | Random quote |
-| `/v1/anime` | `?name=` | Quotes by anime |
-| `/v1/character` | `?name=` | Quotes by character |
+| `api/v1/random` | None | Random quote |
+| `api/v1/anime` | `?name=` | Quotes by anime |
+| `api/v1/character` | `?name=` | Quotes by character |
 
 ### V2
 | Endpoint | Params | Description |
 |----------|--------|-------------|
-| `/v2/languages` | `?lang=&anime=&character=` | Multilingual quotes |
-| `/v2/image` | `?id=&lang=` | Generate quote image |
+| `api/v2/languages` | `?lang=&anime=&character=` | Multilingual quotes |
+| `api/v2/image` | `?id=&lang=` | Generate quote image |
 
 ## 🗿 Deploy Your Own API
 
