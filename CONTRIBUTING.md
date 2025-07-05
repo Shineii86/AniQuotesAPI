@@ -1,6 +1,6 @@
-# Contributing to Anime Quotes API
+# Contributing to AniQuotes API
 
-Thank you for your interest in contributing to Anime Quotes API! We welcome contributions from everyone, regardless of your experience level. This guide will help you get started with contributing to our project.
+Thank you for your interest in contributing to AniQuotes API! We welcome contributions from everyone, regardless of your experience level. This guide will help you get started with contributing to our project.
 
 ## Table of Contents
 1. [Getting Started](#getting-started)
@@ -18,11 +18,11 @@ Thank you for your interest in contributing to Anime Quotes API! We welcome cont
 1. **Fork** the repository on GitHub
 2. **Clone** your forked repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/anime-quotes-api.git
+   git clone https://github.com/Shineii86/AniQuotesAPI.git
    ```
 3. **Install dependencies**:
    ```bash
-   cd anime-quotes-api
+   cd AniQuotesAPI
    npm install
    ```
 4. **Create a branch** for your changes:
@@ -166,4 +166,4 @@ Join our community:
 
 ---
 
-Thank you for contributing to Anime Quotes API! Your contributions help make this project better for everyone in the anime community. 🎉
+Thank you for contributing to AniQuotes API! Your contributions help make this project better for everyone in the anime community. 🎉
