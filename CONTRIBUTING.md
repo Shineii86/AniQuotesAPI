@@ -18,11 +18,11 @@ Thank you for your interest in contributing to AniQuotes API! We welcome contrib
 1. **Fork** the repository on GitHub
 2. **Clone** your forked repository:
    ```bash
-   git clone https://github.com/Username/AniQuotesAPI.git
+   git clone https://github.com/YOUR_USERNAME/anime-quotes-api.git
    ```
 3. **Install dependencies**:
    ```bash
-   cd AniQuotesAPI
+   cd anime-quotes-api
    npm install
    ```
 4. **Create a branch** for your changes:
@@ -38,14 +38,12 @@ You can contribute in several ways:
 - 💡 Suggest new features
 - 📝 Improve documentation
 - 🛠 Fix issues and improve code
+- 🎨 Enhance the homepage design
 
 ## Adding New Quotes <a name="adding-new-quotes"></a>
 To add new quotes:
 
-1. Open the appropriate JSON file:
-   - English quotes: `data/quotes.json`
-   - Other languages: `data/languages/[language-code].json`
-   
+1. Open `data/quotes.json`
 2. Add your quote using this format:
    ```json
    {
@@ -56,7 +54,6 @@ To add new quotes:
      "language": "en"
    }
    ```
-   
 3. Guidelines:
    - Use the next available ID (check the last ID in the file and increment by 1)
    - Verify the anime title and character name are accurate
@@ -69,12 +66,16 @@ To translate existing quotes:
 
 1. Find the quote you want to translate in `data/quotes.json`
 2. Open or create the appropriate language file in `data/languages/`
+   - English: `en.json`
+   - Japanese: `jp.json`
+   - Hindi: `hi.json`
+   - Create new files for additional languages
 3. Add the translated quote with the **same ID** as the original
    ```json
    {
      "id": 123,
      "quote": "Translated quote here",
-     "anime": "Anime Title (in target language if applicable)",
+     "anime": "Anime Title (in target language)",
      "character": "Character Name",
      "language": "target-language-code"
    }
@@ -134,6 +135,19 @@ Suggest new features by:
 3. Run tests: `npm test`
 4. Lint code: `npm run lint`
 
+### Project Structure
+```
+AniQuotesAPI/
+├── api/               # API endpoints
+├── data/              # Quote database
+│   ├── quotes.json    # Master English quotes
+│   └── languages/     # Translations
+├── utils/             # Helper functions
+├── public/            # Static assets
+├── vercel.json        # Deployment config
+└── package.json       # Dependencies
+```
+
 ## Pull Request Guidelines <a name="pull-request-guidelines"></a>
 1. Keep PRs focused on a single feature/fix
 2. Reference related issues in your PR description
@@ -161,8 +175,8 @@ Unacceptable behavior includes:
 
 ## Community <a name="community"></a>
 Join our community:
-- [GitHub Discussions](https://github.com/Shineii86/AniQuotesAPI/discussions)
-- [Telegram Channel](https://telegram.me/MaximXAPI) (coming soon)
+- [GitHub Discussions](https://github.com/Shineii86/anime-quotes-api/discussions)
+- [Telegram Channel](https://telegram.me/AniQuotes) (coming soon)
 
 ---
 
