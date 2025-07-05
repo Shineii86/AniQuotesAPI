@@ -18,7 +18,7 @@ Thank you for your interest in contributing to AniQuotes API! We welcome contrib
 1. **Fork** the repository on GitHub
 2. **Clone** your forked repository:
    ```bash
-   git clone https://github.com/Shineii86/AniQuotesAPI.git
+   git clone https://github.com/Username/AniQuotesAPI.git
    ```
 3. **Install dependencies**:
    ```bash
