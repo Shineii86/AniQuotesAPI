@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/Shineii86/AniQuotesAPI/blob/main/assets/LogoSD.png" LOGO" width="200" height="200"/></p>
+<p align="center"><a href="https://github.com/AniQuotesAPI"><img src="https://github.com/Shineii86/AniQuotesAPI/blob/main/assets/LogoSD.png" LOGO" width="200" height="200"/></a></p>
 
 <h4 align="center">
     A Multilingual Anime Quotes API With Image Generation.
@@ -20,7 +20,8 @@
 <img src="https://github.com/Shineii86/AniPay/blob/main/Source/Banner1.png" alt="Banner">
 </a>
   
-## ⭐ Features
+## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /> Features
+
 - 🔀 Random, Anime, and Character Searchable Endpoints
 - 🌍 Multilingual Support: English, Japanese, Hindi, and more
 - 🖼️ Quote Image Generator: Beautiful PNGs with watermark, perfect for social media
