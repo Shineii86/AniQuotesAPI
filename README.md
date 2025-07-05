@@ -30,7 +30,7 @@
 - 📜 Clean API Response with Developer Credit on Every Quote
 - 🧠 Error Handling with HTTP Codes: 400, 404, 429, 500
 
-## 📚 Use Case Examples
+## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Books.webp" alt="Books" width="25" height="25" /> Use Case Examples
 - 🎌 Build anime bots (Discord, Telegram, etc.)
 - 🌈 Share quote cards on Instagram, X (Twitter), or Threads
 - ✍️ Write fan blogs or anime content with embedded quotes
@@ -41,7 +41,7 @@
 <img src="https://github.com/Shineii86/AniPay/blob/main/Source/Banner2.png" alt="Banner">
 </a>
 
-## 📂 Project Structure
+## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/File%20Folder.webp" alt="File Folder" width="25" height="25" /> Project Structure
 ```bash
 AniQuotesAPI
 ├── api/
@@ -70,7 +70,7 @@ AniQuotesAPI
 └── README.md
 ```
 
-## 🚀 API Endpoints
+## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Travel and Places/Rocket.webp" alt="Rocket" width="25" height="25" /> API Endpoints
 
 ### V1
 | Endpoint | Params | Description |
@@ -89,7 +89,7 @@ AniQuotesAPI
     <img src="https://github.com/Shineii86/AniPay/blob/main/Source/Banner3.png" alt="Banner">
 </a>
 
-## 🗿 Deploy Your Own API
+## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Bomb.webp" alt="Bomb" width="25" height="25" /> Deploy Your Own API
 
 [![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Shineii86/AniQuotesAPI)
 
@@ -98,7 +98,7 @@ AniQuotesAPI
 3. `npm install`
 4. `vercel deploy`
 
-## 🌻 Add New Quotes
+## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Writing%20Hand.webp" alt="Writing Hand" width="25" height="25" /> Add New Quotes
 
 1. Fork this repository
 2. Add quotes to `data/quotes.json` or language-specific files:
@@ -117,7 +117,7 @@ AniQuotesAPI
 
 3. Submit a Pull Request
 
-## 🤝 Contribution Guide
+## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Handshake.webp" alt="Handshake" width="25" height="25" /> Contribution Guide
 
 We accept contributions in:
 - Adding new quotes
@@ -125,7 +125,7 @@ We accept contributions in:
 - Improving documentation
 - Enhancing API functionality
 
-## 👀 Contributors
+## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Eyes.webp" alt="Eyes" width="25" height="25" /> Contributors
 
 Thanks to these amazing people:
 
