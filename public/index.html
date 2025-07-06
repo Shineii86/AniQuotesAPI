@@ -1,1 +1,629 @@
-x
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniQuotes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #8a2be2;
+            --secondary: #4b0082;
+            --accent: #ff69b4;
+            --light: #f0e6ff;
+            --dark: #1a1a2e;
+            --success: #4ade80;
+            --warning: #fbbf24;
+            --danger: #f87171;
+            --info: #60a5fa;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, var(--dark), #16213e);
+            color: var(--light);
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://i.ibb.co/rf0bHn1c/file-147.jpg');
+            opacity: 0.05;
+            z-index: -1;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            animation: fadeIn 1s ease;
+        }
+        
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .logo i {
+            font-size: 3rem;
+            color: var(--accent);
+            animation: pulse 2s infinite;
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            background: linear-gradient(to right, var(--accent), var(--primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #d0bcff;
+            max-width: 700px;
+            margin: 0 auto 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .badges {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            margin: 1.5rem 0;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .badge-primary {
+            background: var(--primary);
+        }
+        
+        .badge-secondary {
+            background: var(--secondary);
+        }
+        
+        .badge-accent {
+            background: var(--accent);
+        }
+        
+        .badge-info {
+            background: var(--info);
+        }
+        
+        .badge-success {
+            background: var(--success);
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .btn {
+            padding: 0.8rem 1.8rem;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 4px 15px rgba(138, 43, 226, 0.4);
+        }
+        
+        .btn-primary:hover {
+            background: var(--secondary);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(138, 43, 226, 0.6);
+        }
+        
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--light);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
+        }
+        
+        .section {
+            background: rgba(30, 30, 46, 0.7);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            animation: slideUp 0.8s ease;
+        }
+        
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+        
+        .endpoints {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .endpoint-card {
+            background: rgba(26, 26, 46, 0.8);
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(138, 43, 226, 0.3);
+        }
+        
+        .endpoint-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(138, 43, 226, 0.3);
+            border-color: var(--primary);
+        }
+        
+        .endpoint-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .endpoint-method {
+            padding: 0.3rem 0.8rem;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        
+        .method-get {
+            background: rgba(74, 222, 128, 0.2);
+            color: var(--success);
+        }
+        
+        .endpoint-url {
+            font-family: monospace;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.5rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+            overflow-x: auto;
+            font-size: 0.95rem;
+        }
+        
+        .endpoint-description {
+            color: #d0bcff;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        
+        .params {
+            margin-top: 1rem;
+        }
+        
+        .param {
+            display: flex;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+        
+        .param-name {
+            font-weight: bold;
+            color: var(--accent);
+            min-width: 100px;
+        }
+        
+        .param-desc {
+            color: #d0bcff;
+        }
+        
+        .error-codes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        
+        .error-card {
+            background: rgba(26, 26, 46, 0.8);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border-left: 4px solid var(--danger);
+        }
+        
+        .error-card.warning {
+            border-left-color: var(--warning);
+        }
+        
+        .error-card.info {
+            border-left-color: var(--info);
+        }
+        
+        .error-code {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: var(--danger);
+        }
+        
+        .error-card.warning .error-code {
+            color: var(--warning);
+        }
+        
+        .error-card.info .error-code {
+            color: var(--info);
+        }
+        
+        .credits {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #d0bcff;
+        }
+        
+        .credits a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        .credits a:hover {
+            text-decoration: underline;
+        }
+        
+        .example-response {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            font-family: monospace;
+            font-size: 0.9rem;
+            white-space: pre-wrap;
+            line-height: 1.6;
+            overflow-x: auto;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideUp {
+            from { 
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to { 
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+            
+            .section {
+                padding: 1.5rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-quote-left"></i>
+                <h1>AniQuotes</h1>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <p class="subtitle">A free API for anime quotes with multi-language support and image generation. Get inspired by quotes from your favorite anime characters!</p>
+            
+            <div class="badges">
+                <span class="badge badge-primary">Vercel Hosted</span>
+                <span class="badge badge-secondary">Open Source</span>
+                <span class="badge badge-accent">Multi-language</span>
+                <span class="badge badge-info">REST API</span>
+                <span class="badge badge-success">Free Forever</span>
+            </div>
+            
+            <div class="cta-buttons">
+                <a href="#try-it" class="btn btn-primary">
+                    <i class="fas fa-bolt"></i> Try It Now
+                </a>
+                <a href="https://github.com/AniQuotes" target="_blank" class="btn btn-secondary">
+                    <i class="fab fa-github"></i> GitHub Organization
+                </a>
+            </div>
+        </header>
+        
+        <section class="section" id="try-it">
+            <h2 class="section-title"><i class="fas fa-code"></i> API Endpoints</h2>
+            
+            <div class="endpoints">
+                <!-- V1 Endpoints -->
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <h3>Random Quote</h3>
+                        <span class="endpoint-method method-get">GET</span>
+                    </div>
+                    <div class="endpoint-url">/v1/random</div>
+                    <p class="endpoint-description">Get a random anime quote from our collection.</p>
+                    
+                    <div class="example-response">{
+  "id": 42,
+  "quote": "Believe in the me that believes in you!",
+  "anime": "Gurren Lagann",
+  "character": "Kamina",
+  "language": "en",
+  "credit": "GitHub/Shineii86"
+}</div>
+                </div>
+                
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <h3>Quotes by Anime</h3>
+                        <span class="endpoint-method method-get">GET</span>
+                    </div>
+                    <div class="endpoint-url">/v1/anime?name=:anime_name</div>
+                    <p class="endpoint-description">Get quotes from a specific anime.</p>
+                    
+                    <div class="params">
+                        <div class="param">
+                            <span class="param-name">name</span>
+                            <span class="param-desc">Name of the anime</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <h3>Quotes by Character</h3>
+                        <span class="endpoint-method method-get">GET</span>
+                    </div>
+                    <div class="endpoint-url">/v1/character?name=:character_name</div>
+                    <p class="endpoint-description">Get quotes said by a specific character.</p>
+                    
+                    <div class="params">
+                        <div class="param">
+                            <span class="param-name">name</span>
+                            <span class="param-desc">Name of the character</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- V2 Endpoints -->
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <h3>Multi-language Quotes</h3>
+                        <span class="endpoint-method method-get">GET</span>
+                    </div>
+                    <div class="endpoint-url">/v2/languages?lang=:language_code</div>
+                    <p class="endpoint-description">Get quotes in specific languages (en, jp, hi, etc).</p>
+                    
+                    <div class="params">
+                        <div class="param">
+                            <span class="param-name">lang</span>
+                            <span class="param-desc">Language code (required)</span>
+                        </div>
+                        <div class="param">
+                            <span class="param-name">anime</span>
+                            <span class="param-desc">Filter by anime name</span>
+                        </div>
+                        <div class="param">
+                            <span class="param-name">character</span>
+                            <span class="param-desc">Filter by character name</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <h3>Quote Image</h3>
+                        <span class="endpoint-method method-get">GET</span>
+                    </div>
+                    <div class="endpoint-url">/v2/image?id=:quote_id&lang=:language_code</div>
+                    <p class="endpoint-description">Generate a beautiful image with the quote text and anime styling.</p>
+                    
+                    <div class="params">
+                        <div class="param">
+                            <span class="param-name">id</span>
+                            <span class="param-desc">Quote ID (required)</span>
+                        </div>
+                        <div class="param">
+                            <span class="param-name">lang</span>
+                            <span class="param-desc">Language code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title"><i class="fas fa-exclamation-triangle"></i> Error Handling</h2>
+            
+            <div class="error-codes">
+                <div class="error-card">
+                    <div class="error-code">400</div>
+                    <h3>Bad Request</h3>
+                    <p>Invalid or missing parameters in the request.</p>
+                    <div class="example-response">{
+  "error": "Missing 'name' parameter",
+  "credit": "GitHub/Shineii86"
+}</div>
+                </div>
+                
+                <div class="error-card warning">
+                    <div class="error-code">404</div>
+                    <h3>Not Found</h3>
+                    <p>The requested resource could not be found.</p>
+                    <div class="example-response">{
+  "error": "No quotes found",
+  "credit": "GitHub/Shineii86"
+}</div>
+                </div>
+                
+                <div class="error-card info">
+                    <div class="error-code">429</div>
+                    <h3>Too Many Requests</h3>
+                    <p>Rate limit exceeded. Please try again later.</p>
+                    <div class="example-response">{
+  "error": "Rate limit exceeded",
+  "credit": "GitHub/Shineii86"
+}</div>
+                </div>
+                
+                <div class="error-card">
+                    <div class="error-code">500</div>
+                    <h3>Server Error</h3>
+                    <p>Internal server error. Please try again later.</p>
+                    <div class="example-response">{
+  "error": "Database connection failed",
+  "credit": "GitHub/Shineii86"
+}</div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title"><i class="fas fa-heart"></i> Contribute</h2>
+            <p>Help us expand our collection of anime quotes! Submit your favorite quotes through GitHub:</p>
+            
+            <div class="cta-buttons">
+                <a href="https://github.com/Shineii86/AniQuotes" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-github"></i> Submit a Pull Request
+                </a>
+            </div>
+            
+            <h3 style="margin-top: 2rem; color: var(--accent);">How to contribute:</h3>
+            <ol style="margin: 1rem 0 1rem 2rem; line-height: 2;">
+                <li>Fork the repository on GitHub</li>
+                <li>Add your quotes to the appropriate JSON file</li>
+                <li>Follow the existing data structure</li>
+                <li>Submit a pull request with a description of your changes</li>
+            </ol>
+            
+            <div class="example-response">{
+  "id": 123,
+  "quote": "Your favorite quote here",
+  "anime": "Anime Title",
+  "character": "Character Name",
+  "language": "en"
+}</div>
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title"><i class="fas fa-rocket"></i> Deploy Your Own</h2>
+            <p>Want to host your own instance? Deploying is easy with Vercel:</p>
+            
+            <div class="cta-buttons">
+                <a href="https://vercel.com/new/clone?repository-url=https://github.com/Shineii86/AniQuotes" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-cloud-upload-alt"></i> Deploy to Vercel
+                </a>
+            </div>
+            
+            <h3 style="margin-top: 2rem; color: var(--accent);">Deployment Steps:</h3>
+            <ol style="margin: 1rem 0 1rem 2rem; line-height: 2;">
+                <li>Click the "Deploy to Vercel" button above</li>
+                <li>Sign in to your Vercel account (or create one)</li>
+                <li>Select your preferred configuration</li>
+                <li>C}lick "Deploy" - your API will be live in seconds!</li>
+            </ol>
+        </section>
+        
+        <footer class="credits">
+            <p>Created and Maintained by <a href="https://github.com/Shineii86" target="_blank">Shinei Nouzen</a></p>
+            <p style="margin-top: 1rem;">Copyright © 2025 AniQuotes | All Rights Reserved</p>
+        </footer>
+    </div>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Add animations when elements come into view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'slideUp 0.8s ease forwards';
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
