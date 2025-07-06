@@ -59,6 +59,17 @@ AniQuotesAPI
 │       ├── en.json
 │       ├── jp.json
 │       └── hi.json
+├── fonts/
+│   ├── NotoSans/
+│       ├── NotoSans-Regular.ttf
+│       ├── NotoSans-Bold.ttf
+│       └── NotoSans-Italic.ttf
+│   ├── NotoSansJP/
+│       ├── NotoSansJP-Regular.ttf
+│       └── NotoSansJP-Bold.ttf
+│   ├── Anime/
+│       └── AnimeAce.ttf
+│       └── AnimeFont.ttf
 ├── utils/
 │   ├── helpers.js
 │   ├── errors.js
