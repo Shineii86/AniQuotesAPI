@@ -5,7 +5,7 @@
 </h4>
 <p align="center">
     <a href="https://github.com/Shineii86"> Creator </a> •
-    <a href="https://github.com/AniQuotes/Doumentation"> Documentation </a> •
+    <a href="https://github.com/AniQuotes/Documentation"> Documentation </a> •
     <a href="https://github.com/AniQuotes"> Organizations </a>
 </p>
 
