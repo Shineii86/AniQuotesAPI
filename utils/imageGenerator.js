@@ -33,7 +33,6 @@ try {
   console.log('Fonts registered successfully');
 } catch (error) {
   console.error('Font registration error:', error.message);
-  console.error('Stack trace:', error.stack);
 }
 
 // Color palette with Zero Two inspired colors
@@ -58,15 +57,8 @@ const GRADIENT_COLORS = [
 // Main image generation function
 module.exports.generateImage = async (quoteId, lang = 'en') => {
   try {
-    console.log(`Generating image for quote ID: ${quoteId}, language: ${lang}`);
     const quote = await findQuoteById(quoteId, lang);
-    
-    if (!quote) {
-      console.error(`Quote not found for ID: ${quoteId}, lang: ${lang}`);
-      throw new Error('Quote not found');
-    }
-    
-    console.log(`Using quote: ${quote.quote.substring(0, 30)}...`);
+    if (!quote) throw new Error('Quote not found');
     
     // Set font sizes based on language
     const titleSize = lang === 'jp' ? 40 : 42;
@@ -87,7 +79,6 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
     // Add anime theme randomly (30% chance)
     const useAnimeTheme = Math.random() > 0.7;
     if (useAnimeTheme) {
-      console.log('Using anime theme');
       titleFont = `${titleSize + 4}px "Anime Ace"`;
       subtitleFont = `${subtitleSize - 2}px "Anime Ace"`;
     }
@@ -101,27 +92,18 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
     const quoteMetrics = wrapTextForMeasurement(tempCtx, `"${quote.quote}"`, 1000);
     const lineCount = quoteMetrics.lines.length;
     
-    // Measure attribution text
-    const attribution = `- ${quote.character}, ${quote.anime}`;
-    tempCtx.font = subtitleFont;
-    const attributionWidth = tempCtx.measureText(attribution).width;
-    
     // Calculate canvas dimensions
     const minHeight = 630;
     const padding = 80;
     const lineHeight = 60;
     const attributionSpacing = 50;
-    const watermarkHeight = 40;
     
     const calculatedHeight = padding * 2 + 
                            (lineCount * lineHeight) + 
-                           attributionSpacing + 
-                           watermarkHeight;
+                           attributionSpacing;
     
     const height = Math.max(minHeight, calculatedHeight);
     const width = 1200;
-    
-    console.log(`Creating canvas: ${width}x${height}px`);
     
     // Create main canvas
     const canvas = createCanvas(width, height);
@@ -136,8 +118,6 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
     
     ctx.fillStyle = gradient;
     ctx.fillRect(0, 0, width, height);
-    
-    console.log(`Applied gradient: ${gradientColors[0]} to ${gradientColors[1]}`);
     
     // Add decorative elements
     ctx.fillStyle = 'rgba(255, 255, 255, 0.15)';
@@ -176,55 +156,22 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
     
     // Render attribution
     ctx.font = subtitleFont;
+    const attribution = `- ${quote.character}, ${quote.anime}`;
     const attributionY = quoteY + (lineCount * lineHeight) + attributionSpacing;
     ctx.fillText(attribution, width / 2, attributionY);
     
-    // Render professional watermark
-    ctx.shadowBlur = 0;
+    // Watermark - V5
+    const watermarkText = 'API Source: Github/AniQuotes';
+    ctx.font = `bold 16px "Noto Sans"`;
     ctx.textAlign = 'right';
     ctx.textBaseline = 'alphabetic';
-    
-    const watermarkText = '© API Source: Github/AniQuotes';
-    ctx.font = `bold ${watermarkSize}px "Noto Sans"`;
-    
-    // Calculate watermark position
-    const watermarkPadding = 20;
-    const watermarkX = width - watermarkPadding;
-    const watermarkY = height - watermarkPadding;
-    
-    // Draw watermark background
-    const watermarkWidth = ctx.measureText(watermarkText).width + 30;
-    const watermarkHeightRect = 30;
-    
-    // Draw rounded rectangle without polyfill
-    const cornerRadius = 5;
-    const rectX = width - watermarkWidth - watermarkPadding;
-    const rectY = height - watermarkHeightRect - watermarkPadding + 5;
-    
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.3)';
-    ctx.beginPath();
-    ctx.moveTo(rectX + cornerRadius, rectY);
-    ctx.lineTo(rectX + watermarkWidth - cornerRadius, rectY);
-    ctx.quadraticCurveTo(rectX + watermarkWidth, rectY, rectX + watermarkWidth, rectY + cornerRadius);
-    ctx.lineTo(rectX + watermarkWidth, rectY + watermarkHeightRect - cornerRadius);
-    ctx.quadraticCurveTo(
-      rectX + watermarkWidth, 
-      rectY + watermarkHeightRect, 
-      rectX + watermarkWidth - cornerRadius, 
-      rectY + watermarkHeightRect
-    );
-    ctx.lineTo(rectX + cornerRadius, rectY + watermarkHeightRect);
-    ctx.quadraticCurveTo(rectX, rectY + watermarkHeightRect, rectX, rectY + watermarkHeightRect - cornerRadius);
-    ctx.lineTo(rectX, rectY + cornerRadius);
-    ctx.quadraticCurveTo(rectX, rectY, rectX + cornerRadius, rectY);
-    ctx.closePath();
-    ctx.fill();
-    
-    // Draw watermark text
     ctx.fillStyle = 'rgba(255, 255, 255, 0.85)';
-    ctx.fillText(watermarkText, watermarkX, watermarkY);
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.5)';
+    ctx.shadowBlur = 3;
+    ctx.fillText(watermarkText, width - 20, height - 20);
     
     // Draw decorative elements
+    ctx.shadowBlur = 0;
     ctx.strokeStyle = '#ffffff';
     ctx.lineWidth = 2;
     
@@ -240,13 +187,11 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
     ctx.lineTo(width - padding, height - padding + 30);
     ctx.stroke();
     
-    console.log('Image generated successfully');
     return canvas.toBuffer('image/png');
     
   } catch (error) {
     console.error('Image generation error:', error.message);
-    console.error('Stack trace:', error.stack);
-    throw new Error('Image generation failed: ' + error.message);
+    throw new Error('Image generation failed');
   }
 };
 
