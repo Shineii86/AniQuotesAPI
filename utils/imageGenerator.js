@@ -1,10 +1,16 @@
-const { createCanvas } = require('canvas');
+const { createCanvas, loadImage, GlobalFonts } = require('@napi-rs/canvas');
+const path = require('path');
 const { findQuoteById } = require('./helpers');
 
-// Font setup
-const registerFont = require('canvas').registerFont;
-registerFont(path.join(__dirname, '../fonts/NotoSansJP-Bold.ttf'), { family: 'Noto Sans JP' });
-registerFont(path.join(__dirname, '../fonts/NotoSans-Regular.ttf'), { family: 'Noto Sans' });
+// Preload fonts at startup
+GlobalFonts.registerFromPath(
+  path.join(__dirname, '../fonts/NotoSansJP-Bold.ttf'), 
+  'Noto Sans JP'
+);
+GlobalFonts.registerFromPath(
+  path.join(__dirname, '../fonts/NotoSans-Regular.ttf'), 
+  'Noto Sans'
+);
 
 module.exports.generateImage = async (quoteId, lang = 'en') => {
   const quote = await findQuoteById(quoteId, lang);
@@ -13,14 +19,14 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
   const canvas = createCanvas(1200, 630);
   const ctx = canvas.getContext('2d');
   
-  // Background gradient
+  // Create gradient background
   const gradient = ctx.createLinearGradient(0, 0, 1200, 630);
   gradient.addColorStop(0, '#1a1a2e');
   gradient.addColorStop(1, '#16213e');
   ctx.fillStyle = gradient;
   ctx.fillRect(0, 0, 1200, 630);
   
-  // Add subtle pattern
+  // Add decorative elements
   ctx.fillStyle = 'rgba(255, 43, 121, 0.05)';
   for (let i = 0; i < 100; i++) {
     ctx.beginPath();
@@ -34,26 +40,24 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
     ctx.fill();
   }
   
-  // Quote text
+  // Text styling
   ctx.fillStyle = '#ffffff';
   ctx.textAlign = 'center';
   
-  // Use appropriate font based on language
+  // Font selection
   const fontFamily = lang === 'jp' ? 'Noto Sans JP' : 'Noto Sans';
   ctx.font = `bold 42px "${fontFamily}"`;
   
-  // Wrap text function
+  // Text wrapping function
   const wrapText = (text, x, y, maxWidth, lineHeight) => {
     const words = text.split(' ');
     let line = '';
-    let testLine;
-    let metrics;
     
     for (const word of words) {
-      testLine = line + word + ' ';
-      metrics = ctx.measureText(testLine);
+      const testLine = line + word + ' ';
+      const metrics = ctx.measureText(testLine);
       
-      if (metrics.width > maxWidth) {
+      if (metrics.width > maxWidth && line !== '') {
         ctx.fillText(line, x, y);
         line = word + ' ';
         y += lineHeight;
@@ -64,9 +68,10 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
     ctx.fillText(line, x, y);
   };
   
+  // Render quote
   wrapText(`"${quote.quote}"`, 600, 200, 1000, 60);
   
-  // Character & Anime
+  // Render character and anime
   ctx.font = `italic 36px "${fontFamily}"`;
   ctx.fillText(`- ${quote.character}, ${quote.anime}`, 600, 450);
   
@@ -75,7 +80,7 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
   ctx.font = '20px "Noto Sans"';
   ctx.fillText('API Powered By • GitHub/Shineii86', 950, 610);
   
-  // Zero Two inspired decoration
+  // Decorative lines
   ctx.strokeStyle = '#ff2b79';
   ctx.lineWidth = 2;
   ctx.beginPath();
