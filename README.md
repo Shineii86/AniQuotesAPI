@@ -9,7 +9,7 @@
     <a href="https://github.com/AniQuotes"> Organizations </a>
 </p>
 
-[![Deploy](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://aniquotes.vercel.app)
+[![Deploy](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://aniquotesapi.vercel.app)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](CONTRIBUTING.md)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
