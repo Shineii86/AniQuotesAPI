@@ -1,0 +1,17 @@
+{
+  "routes": [
+    { "src": "/", "dest": "/api" },
+    { "src": "/v1/(.*)", "dest": "/api/v1/$1" },
+    { "src": "/v2/(.*)", "dest": "/api/v2/$1" },
+    { "src": "/images/(.*)", "dest": "/public/images/$1" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
+    }
+  ]
+}
