@@ -25,7 +25,7 @@ module.exports = (req, res) => {
     
     res.json({
       api: 'AniQuotes API',
-      version: '2.1.0',
+      version: '2.5',
       credit: 'GitHub/Shineii86',
       status: 'alive',
       health,
@@ -42,7 +42,8 @@ module.exports = (req, res) => {
           languages: '/v2/languages?lang=:lang',
           image: '/v2/image?id=:id'
         },
-        status: '/status'
+        creator: 'GitHub/Shineii86',
+        Message: 'Created with ❤️ by Shinei Nouzen'
       }
     });
   } catch (error) {
