@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "scripts": {
     "start": "vercel dev",
-    "test": "jest"
+    "test": "jest",
+    "build": "npm install"
   },
   "dependencies": {
+    "@napi-rs/canvas": "^0.1.45",
     "@vercel/node": "^2.8.4",
-    "canvas": "^2.11.2",
     "node-fetch": "^3.3.0"
   },
   "devDependencies": {
