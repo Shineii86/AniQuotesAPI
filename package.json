@@ -1,0 +1,17 @@
+{
+  "name": "anime-quotes-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vercel dev",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@vercel/node": "^2.8.4",
+    "canvas": "^2.11.2",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "vercel": "^28.16.11"
+  }
+}
