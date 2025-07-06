@@ -1,30 +1,1402 @@
 [
   {
     "id": 1,
-    "quote": "お前を信じるお前を信じろ！",
-    "anime": "天元突破グレンラガン",
-    "character": "カミナ",
-    "language": "jp"
-  },
-  {
-    "id": 2,
-    "quote": "怪物を作るのは顔じゃない、人生で下す選択だ",
-    "anime": "NARUTO -ナルト-",
+    "quote": "俺は逃げない、俺は絶対に自分の言葉を曲げない！それが俺の忍道だ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
     "character": "うずまきナルト",
     "language": "jp"
   },
   {
+    "id": 2,
+    "quote": "忍者の世界では、ルールを破る者はクズ呼ばわりされる。けれど、仲間を大切にしない奴はそれ以上のクズだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "はたけカカシ",
+    "language": "jp"
+  },
+  {
     "id": 3,
-    "quote": "リスクを取らなければ、未来を創ることはできない！",
-    "anime": "ワンピース",
-    "character": "モンキー・D・ルフィ",
+    "quote": "自分の運命が気に入らないなら、それを受け入れるな。代わりに、自分が望む通りに変える勇気を持て。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "長門（ペイン）",
     "language": "jp"
   },
   {
     "id": 4,
-    "quote": "自分が他人と違うと知ることから始まる。その違いを受け入れることで、乗り越え、より強くなれる",
+    "quote": "落ちこぼれが天才を努力で上回る。それを証明してやる！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "ロック・リー",
+    "language": "jp"
+  },
+  {
+    "id": 5,
+    "quote": "痛みを知ることが、なぜ他人に優しくしようとするのかという理由そのものだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "我愛羅",
+    "language": "jp"
+  },
+  {
+    "id": 6,
+    "quote": "人は傷つくと憎しみを覚える...人が他人を傷つけると、憎まれ罪悪感に苛まれる。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "自来也",
+    "language": "jp"
+  },
+  {
+    "id": 7,
+    "quote": "心の穴は他人によって埋められる...俺の友達がそれを教えてくれた。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはオビト",
+    "language": "jp"
+  },
+  {
+    "id": 8,
+    "quote": "自分自身を認めることができない者は、最終的に失敗する。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはイタチ",
+    "language": "jp"
+  },
+  {
+    "id": 9,
+    "quote": "忍の人生は、どう生きるかではなく、死ぬ前に何を成し遂げるかで測られる。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "波風ミナト",
+    "language": "jp"
+  },
+  {
+    "id": 10,
+    "quote": "本当の力は、自分のために戦うときに生まれるのではない。誰かを守るために戦うときに生まれる。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "日向ヒナタ",
+    "language": "jp"
+  },
+  {
+    "id": 11,
+    "quote": "人が愛を知った瞬間、憎しみを背負うリスクを冒すことになる。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはマダラ",
+    "language": "jp"
+  },
+  {
+    "id": 12,
+    "quote": "俺を殺したいなら、俺を呪え！俺を憎め！そして醜く長生きしろ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはサスケ",
+    "language": "jp"
+  },
+  {
+    "id": 13,
+    "quote": "真の教師は性質変化を教えない。人生をどう生きるかを教える。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "猿飛アスマ",
+    "language": "jp"
+  },
+  {
+    "id": 14,
+    "quote": "愚かさと天才の違いは、天才には限界があることだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "奈良シカマル",
+    "language": "jp"
+  },
+  {
+    "id": 15,
+    "quote": "同情？それは俺が最も嫌いな感情だ。何も変わらない。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "サソリ",
+    "language": "jp"
+  },
+  {
+    "id": 16,
+    "quote": "人は孤独に勝つことはできない。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "キラービー",
+    "language": "jp"
+  },
+  {
+    "id": 17,
+    "quote": "長く生きれば生きるほど、現実は痛み、苦しみ、そして空虚だけで成り立っていることを実感する。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "ペイン",
+    "language": "jp"
+  },
+  {
+    "id": 18,
+    "quote": "人が愛を学んだとき、憎しみのリスクを背負わなければならない。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "トビ",
+    "language": "jp"
+  },
+  {
+    "id": 19,
+    "quote": "何が正しいかを知っていてそれを無視することは、臆病者の行為だ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "春野サクラ",
+    "language": "jp"
+  },
+  {
+    "id": 20,
+    "quote": "誰かがまだあなたのことを考えてくれる場所、それが家と呼べる場所だ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "自来也",
+    "language": "jp"
+  },
+  {
+    "id": 21,
+    "quote": "希望という概念は諦めることに他ならない。この世に真の意味を持たない言葉だ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはマダラ",
+    "language": "jp"
+  },
+  {
+    "id": 22,
+    "quote": "相手の痛みを分かち合わなければ、その人を理解することは決してできない。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "長門",
+    "language": "jp"
+  },
+  {
+    "id": 23,
+    "quote": "愛など必要ない。力こそが唯一の真の必要性だ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはサスケ",
+    "language": "jp"
+  },
+  {
+    "id": 24,
+    "quote": "この世は俺が思っていたほど単純じゃなかった...だから考えるのをやめた。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "飛段",
+    "language": "jp"
+  },
+  {
+    "id": 25,
+    "quote": "人は困難を乗り越えられるようになったとき成長する。守ることは大切だが、人が一人で学ばなければならないこともある。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うみのイルカ",
+    "language": "jp"
+  },
+  {
+    "id": 26,
+    "quote": "死んでも構わない。勝つ必要はない...ただ自分の立場を守り、逃げなければいいんだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "日向ネジ",
+    "language": "jp"
+  },
+  {
+    "id": 27,
+    "quote": "諦めたとき、夢も何もかも全て消えてしまう。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うずまきクシナ",
+    "language": "jp"
+  },
+  {
+    "id": 28,
+    "quote": "自分を許し、自分の本当の性質を受け入れることができる者...それが強い者だ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはイタチ",
+    "language": "jp"
+  },
+  {
+    "id": 29,
+    "quote": "忍の真の尺度は、どう生きるかではなく、どう死ぬかだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "志村ダンゾウ",
+    "language": "jp"
+  },
+  {
+    "id": 30,
+    "quote": "恐怖は悪ではない。それはあなたの弱さが何かを教えてくれる。そして弱さを知れば、より強く、より優しくなれる。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "紅蓮",
+    "language": "jp"
+  },
+  {
+    "id": 31,
+    "quote": "時には知るために苦しみ、成長するために倒れ、得るために失わなければならない。人生最大の教訓は痛みを通して学ぶものだから。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "ペイン",
+    "language": "jp"
+  },
+  {
+    "id": 32,
+    "quote": "次世代は常に前世代を超えていく。それが人生の終わりなき循環の一つだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "猿飛ヒルゼン",
+    "language": "jp"
+  },
+  {
+    "id": 33,
+    "quote": "どんなに嫌でも、これがお前だ。それから逃げることは、自分自身から逃げることと変わらない。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "干柿鬼鮫",
+    "language": "jp"
+  },
+  {
+    "id": 34,
+    "quote": "笑顔は困難な状況から抜け出す最も簡単な方法だ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "サイ",
+    "language": "jp"
+  },
+  {
+    "id": 35,
+    "quote": "忍者とは、何を投げかけられても耐え抜く者だ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うずまきナルト",
+    "language": "jp"
+  },
+  {
+    "id": 36,
+    "quote": "弱者は何も決められない。死に方さえも。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "小南",
+    "language": "jp"
+  },
+  {
+    "id": 37,
+    "quote": "俺を諦めさせようとするのはやめろ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うずまきナルト",
+    "language": "jp"
+  },
+  {
+    "id": 38,
+    "quote": "愛する人を守るとき、心の奥から勇気が湧き上がる。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "チヨ",
+    "language": "jp"
+  },
+  {
+    "id": 39,
+    "quote": "世界は憎しみと痛みで満ちている。でもまだ平和を達成することは可能だと信じている。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "弥彦",
+    "language": "jp"
+  },
+  {
+    "id": 40,
+    "quote": "殺される覚悟のある者だけが、殺していいのだ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "ルルーシュ・ランペルージ",
+    "language": "jp"
+  },
+  {
+    "id": 41,
+    "quote": "どんなに深い夜でも、最終的には必ず朝になる。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "夕日紅",
+    "language": "jp"
+  },
+  {
+    "id": 42,
+    "quote": "天才？それって何だ？『天才』？俺は生まれながらの才能なんてない、ネジのような才能もない...でも努力して、絶対に諦めない！それが俺の才能...それが俺の忍道だ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "ロック・リー",
+    "language": "jp"
+  },
+  {
+    "id": 43,
+    "quote": "自分の道が気に入らないなら、別の道を切り開け！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "綱手",
+    "language": "jp"
+  },
+  {
+    "id": 44,
+    "quote": "いつまでもあなたを愛している。死ぬ日まで、そしてその先も。その時でさえ、永遠にあなたを愛し続ける。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "白",
+    "language": "jp"
+  },
+  {
+    "id": 45,
+    "quote": "時には知るために苦しみ、成長するために倒れ、得るために失わなければならない。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "ペイン",
+    "language": "jp"
+  },
+  {
+    "id": 46,
+    "quote": "青春の炎は永遠に燃える！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "マイト・ガイ",
+    "language": "jp"
+  },
+  {
+    "id": 47,
+    "quote": "仲間を死なせはしない。命をかけてお前を守る！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うずまきナルト",
+    "language": "jp"
+  },
+  {
+    "id": 48,
+    "quote": "俺を殺したいなら、憎め、嫌悪しろ、そして醜く生き延びろ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはサスケ",
+    "language": "jp"
+  },
+  {
+    "id": 49,
+    "quote": "人々が互いを理解する瞬間...それが真の平和の始まりだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うずまきナルト",
+    "language": "jp"
+  },
+  {
+    "id": 50,
+    "quote": "私は打ち負かされないために存在する。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "はたけカカシ",
+    "language": "jp"
+  },
+  {
+    "id": 51,
+    "quote": "一人でいる痛みは、完全にこの世界から外れているでしょう？なぜかわからないが、君の気持ちがとてもよくわかって、本当に痛い。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはオビト",
+    "language": "jp"
+  },
+  {
+    "id": 52,
+    "quote": "ついにわかった...誰かが私を必要としている。私はここで必要なのだ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "我愛羅",
+    "language": "jp"
+  },
+  {
+    "id": 53,
+    "quote": "人々は正しく真実だと受け入れるものに縛られて生きている...それが現実を定義する方法だ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはイタチ",
+    "language": "jp"
+  },
+  {
+    "id": 54,
+    "quote": "忍者は表面下を見なければならない。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "はたけカカシ",
+    "language": "jp"
+  },
+  {
+    "id": 55,
+    "quote": "私は完璧ではないが、いつも自分らしい。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うずまきナルト",
+    "language": "jp"
+  },
+  {
+    "id": 56,
+    "quote": "現実に目覚めろ！この呪われた世界では、何も計画通りに進まない。生きれば生きるほど、この現実に存在するのは痛み、苦しみ、無益さだけだということに気づく。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはマダラ",
+    "language": "jp"
+  },
+  {
+    "id": 57,
+    "quote": "男が愛を知ったとき、憎しみのリスクを背負わなければならない。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはオビト",
+    "language": "jp"
+  },
+  {
+    "id": 58,
+    "quote": "写輪眼の真の力は...術をコピーすることだけではない。すべての嘘を見抜き、この世界の真実を理解することだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはイタチ",
+    "language": "jp"
+  },
+  {
+    "id": 59,
+    "quote": "自分の忍道を信じることを決してやめない！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うずまきナルト",
+    "language": "jp"
+  },
+  {
+    "id": 60,
+    "quote": "この世界では、光があるところには影もある。勝者の概念が存在する限り、敗者も存在しなければならない。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはマダラ",
+    "language": "jp"
+  },
+  {
+    "id": 61,
+    "quote": "力は意志ではない。物事を物理的に起こす現象だ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはマダラ",
+    "language": "jp"
+  },
+  {
+    "id": 62,
+    "quote": "うちは一族は復讐に運命づけられた一族だ。たとえその復讐が...自分たちの血に対するものであっても。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはサスケ",
+    "language": "jp"
+  },
+  {
+    "id": 63,
+    "quote": "希望の概念は諦めること以外の何物でもない。この世界で真の意味を持たない言葉だ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはマダラ",
+    "language": "jp"
+  },
+  {
+    "id": 64,
+    "quote": "真の孤独とは、人でいっぱいの部屋にいても一人だと感じることだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "はたけカカシ",
+    "language": "jp"
+  },
+  {
+    "id": 65,
+    "quote": "初心者と達人の違いは、達人の方が初心者が試みたよりも多く失敗しているということだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "自来也",
+    "language": "jp"
+  },
+  {
+    "id": 66,
+    "quote": "この呪われた世界...憎しみの循環...俺が断ち切る！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うずまきナルト",
+    "language": "jp"
+  },
+  {
+    "id": 67,
+    "quote": "人が愛を知る瞬間、憎しみを背負うリスクを冒す。そして憎しみが犠牲を生み出すのだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはマダラ",
+    "language": "jp"
+  },
+  {
+    "id": 68,
+    "quote": "俺は決して言葉を撤回しない！それが俺の忍道、忍者の道だ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うずまきナルト",
+    "language": "jp"
+  },
+  {
+    "id": 69,
+    "quote": "戦いに希望はない。人類の集合意識から生まれた絶対的な絶望だけがある。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはマダラ",
+    "language": "jp"
+  },
+  {
+    "id": 70,
+    "quote": "無限月読がついにこの世界に平和をもたらすだろう。憎しみの呪われた循環の終わりを。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはマダラ",
+    "language": "jp"
+  },
+  {
+    "id": 71,
+    "quote": "忍の人生は、どう生きたかではなく、死ぬ前に何を成し遂げたかで測られる。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "デイダラ",
+    "language": "jp"
+  },
+  {
+    "id": 72,
+    "quote": "すべての忍の秘技は...決して諦めないことだ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "マイト・ガイ",
+    "language": "jp"
+  },
+  {
+    "id": 73,
+    "quote": "変わりたいなら、まず自分を変えることから始めろ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "奈良シカマル",
+    "language": "jp"
+  },
+  {
+    "id": 74,
+    "quote": "最強の対戦相手でも、必ず弱点がある。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "日向ネジ",
+    "language": "jp"
+  },
+  {
+    "id": 75,
+    "quote": "俺の監督下で仲間が殺し合うことは絶対に許さない！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うずまきナルト",
+    "language": "jp"
+  },
+  {
+    "id": 76,
+    "quote": "芸術は爆発だ！それは瞬間的な美しさだ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "デイダラ",
+    "language": "jp"
+  },
+  {
+    "id": 77,
+    "quote": "逆境に咲く花は、最も稀で美しいものだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "綱手",
+    "language": "jp"
+  },
+  {
+    "id": 78,
+    "quote": "大切なものを守らなければならないとき、本当に強くなれるのだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "桃地再不斬",
+    "language": "jp"
+  },
+  {
+    "id": 79,
+    "quote": "人の心の闇...それが真の醜さだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはサスケ",
+    "language": "jp"
+  },
+  {
+    "id": 80,
+    "quote": "この世界には、痛みのない教訓は存在しない。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "はたけカカシ",
+    "language": "jp"
+  },
+  {
+    "id": 81,
+    "quote": "復讐で満ちた心には愛の居場所がない。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "春野サクラ",
+    "language": "jp"
+  },
+  {
+    "id": 82,
+    "quote": "真の強さは戦いに勝つことではない。最も大切なものを守ることだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "日向ヒナタ",
+    "language": "jp"
+  },
+  {
+    "id": 83,
+    "quote": "火の意志は決して消えない！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "千手柱間",
+    "language": "jp"
+  },
+  {
+    "id": 84,
+    "quote": "人生を急いで進む利点はない。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "奈良シカマル",
+    "language": "jp"
+  },
+  {
+    "id": 85,
+    "quote": "忍の武器は心だ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "はたけカカシ",
+    "language": "jp"
+  },
+  {
+    "id": 86,
+    "quote": "自分の運命が気に入らないなら、受け入れるな。それを変える勇気を持て！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うずまきナルト",
+    "language": "jp"
+  },
+  {
+    "id": 87,
+    "quote": "火影になることが俺の夢だ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うずまきナルト",
+    "language": "jp"
+  },
+  {
+    "id": 88,
+    "quote": "最も強い毒は憎しみだ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "チヨ",
+    "language": "jp"
+  },
+  {
+    "id": 89,
+    "quote": "社会では、多くの能力を持たない者ほど文句を言うことが多い。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "サイ",
+    "language": "jp"
+  },
+  {
+    "id": 90,
+    "quote": "闇を見る目と痛みを感じる手が、いつか光を創り出す。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "長門",
+    "language": "jp"
+  },
+  {
+    "id": 91,
+    "quote": "目的のない人生は全く人生ではない。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "干柿鬼鮫",
+    "language": "jp"
+  },
+  {
+    "id": 92,
+    "quote": "我々は殺すために戦うのではなく、周りの大切な命を守るために戦う。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "波風ミナト",
+    "language": "jp"
+  },
+  {
+    "id": 93,
+    "quote": "最も困難な選択には最も強い意志が必要だ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはイタチ",
+    "language": "jp"
+  },
+  {
+    "id": 94,
+    "quote": "法律や制限、予測や想像に縛られていては、真の変化は成し遂げられない。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "ペイン",
+    "language": "jp"
+  },
+  {
+    "id": 95,
+    "quote": "人々がお互いを理解し合う瞬間、世界はついに平和を知るだろう。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "弥彦",
+    "language": "jp"
+  },
+  {
+    "id": 96,
+    "quote": "犠牲のない人生は意味のない人生だ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "大蛇丸",
+    "language": "jp"
+  },
+  {
+    "id": 97,
+    "quote": "結局のところ、力だけが唯一の真の美徳であり...弱さが唯一の悪徳だ。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うちはマダラ",
+    "language": "jp"
+  },
+  {
+    "id": 98,
+    "quote": "平和への道は犠牲で舗装されている。",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "千手扉間",
+    "language": "jp"
+  },
+  {
+    "id": 99,
+    "quote": "たとえ死んでも、俺は永遠に火影だ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "猿飛ヒルゼン",
+    "language": "jp"
+  },
+  {
+    "id": 100,
+    "quote": "だってばよ！",
+    "anime": "NARUTO -ナルト- 疾風伝",
+    "character": "うずまきナルト",
+    "language": "jp"
+  },
+  {
+    "id": 101,
+    "quote": "影が長く投げかけられるほど、光はより明るくなければならない。",
+    "anime": "ナルト疾風伝",
+    "character": "猿飛ヒルゼン",
+    "language": "jp"
+  },
+  {
+    "id": 102,
+    "quote": "真の師匠は永遠の生徒である。",
+    "anime": "ナルト疾風伝",
+    "character": "マイト・ガイ",
+    "language": "jp"
+  },
+  {
+    "id": 103,
+    "quote": "ルールを破る奴はクズだ。でも仲間を見捨てる奴はそれ以上のクズだ。",
+    "anime": "ナルト疾風伝",
+    "character": "うちはオビト",
+    "language": "jp"
+  },
+  {
+    "id": 104,
+    "quote": "一人の力では何も変えられない。だから人の力を借りる必要がある。",
+    "anime": "ナルト疾風伝",
+    "character": "奈良シカマル",
+    "language": "jp"
+  },
+  {
+    "id": 105,
+    "quote": "癒えることのない傷...それが憎しみだ。",
+    "anime": "ナルト疾風伝",
+    "character": "うちはサスケ",
+    "language": "jp"
+  },
+  {
+    "id": 106,
+    "quote": "大切な人を守る時、本当の強さが生まれる。",
+    "anime": "ナルト疾風伝",
+    "character": "桃地再不斬",
+    "language": "jp"
+  },
+  {
+    "id": 107,
+    "quote": "俺の痛みはお前の痛みよりもはるかに大きい！",
+    "anime": "ナルト疾風伝",
+    "character": "長門",
+    "language": "jp"
+  },
+  {
+    "id": 108,
+    "quote": "本当の戦いは限界まで追い詰められてから始まる。",
+    "anime": "ナルト疾風伝",
+    "character": "はたけカカシ",
+    "language": "jp"
+  },
+  {
+    "id": 109,
+    "quote": "夢は寝てる時に見るものじゃない。眠れなくするものだ。",
+    "anime": "ナルト疾風伝",
+    "character": "ロック・リー",
+    "language": "jp"
+  },
+  {
+    "id": 110,
+    "quote": "世界は憎しみと痛みで満ちている。だが平和はいつか来ると信じている。",
+    "anime": "ナルト疾風伝",
+    "character": "うずまきナルト",
+    "language": "jp"
+  },
+  {
+    "id": 111,
+    "quote": "力は能力からではなく、不屈の意志から生まれる。",
+    "anime": "ナルト疾風伝",
+    "character": "うちはイタチ",
+    "language": "jp"
+  },
+  {
+    "id": 112,
+    "quote": "道を見失った時は、心の中の目標に耳を傾けろ。",
+    "anime": "ナルト疾風伝",
+    "character": "大筒木ハゴロモ",
+    "language": "jp"
+  },
+  {
+    "id": 113,
+    "quote": "忍の世界は憎しみに支配されている。だが俺がその連鎖を断ち切る。",
+    "anime": "ナルト疾風伝",
+    "character": "うずまきナルト",
+    "language": "jp"
+  },
+  {
+    "id": 114,
+    "quote": "医学の術は自然が病気を治している間に患者を楽しませることだ。",
+    "anime": "ナルト疾風伝",
+    "character": "綱手",
+    "language": "jp"
+  },
+  {
+    "id": 115,
+    "quote": "夜の闇が星をより明るく輝かせる。",
+    "anime": "ナルト疾風伝",
+    "character": "千手柱間",
+    "language": "jp"
+  },
+  {
+    "id": 116,
+    "quote": "他人を理解しなければ、本当に自分を理解することはできない。",
+    "anime": "ナルト疾風伝",
+    "character": "自来也",
+    "language": "jp"
+  },
+  {
+    "id": 117,
+    "quote": "諦めようと思った時こそ、なぜそんなに長く頑張ったのかを思い出せ。",
+    "anime": "ナルト疾風伝",
+    "character": "日向ネジ",
+    "language": "jp"
+  },
+  {
+    "id": 118,
+    "quote": "君の言葉はどんな刃よりも深く切り裂く。",
+    "anime": "ナルト疾風伝",
+    "character": "うちはサスケ",
+    "language": "jp"
+  },
+  {
+    "id": 119,
+    "quote": "指導者は民の先頭を歩き、自らの手本で道を示さなければならない。",
+    "anime": "ナルト疾風伝",
+    "character": "我愛羅",
+    "language": "jp"
+  },
+  {
+    "id": 120,
+    "quote": "未来は道ではなく、選択だ。",
+    "anime": "ナルト疾風伝",
+    "character": "波風ミナト",
+    "language": "jp"
+  },
+  {
+    "id": 121,
+    "quote": "勝てば生き、負ければ死ぬ。戦わなければ勝てない！",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 122,
+    "quote": "この世界は残酷だ...だけど美しい。",
     "anime": "進撃の巨人",
     "character": "ミカサ・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 123,
+    "quote": "世界は無慈悲だが、とても美しい。",
+    "anime": "進撃の巨人",
+    "character": "リヴァイ・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 124,
+    "quote": "何かを犠牲にできない者は何も変えることはできない。",
+    "anime": "進撃の巨人",
+    "character": "アルミン・アルレルト",
+    "language": "jp"
+  },
+  {
+    "id": 125,
+    "quote": "夢をあきらめて死ね。",
+    "anime": "進撃の巨人",
+    "character": "リヴァイ・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 126,
+    "quote": "俺はお前と同じだ。ずっと自分を憎んできた。この世に生まれて...ただ生きているだけで自分を許せなかった。",
+    "anime": "進撃の巨人",
+    "character": "ライナー・ブラウン",
+    "language": "jp"
+  },
+  {
+    "id": 127,
+    "quote": "我々にできる唯一のことは、自分の選択を後悔しないと信じることだ。",
+    "anime": "進撃の巨人",
+    "character": "リヴァイ・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 128,
+    "quote": "どの選択肢を選ぶべきかわからない。決定は君に任せる。だが何を選んでも...結果を受け入れる覚悟をしろ。",
+    "anime": "進撃の巨人",
+    "character": "エルヴィン・スミス",
+    "language": "jp"
+  },
+  {
+    "id": 129,
+    "quote": "俺はこの世界に生まれた。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 130,
+    "quote": "我々は皆自由だ。我々に関する限り、世界で最も自由な兵士だ。",
+    "anime": "進撃の巨人",
+    "character": "ハンジ・ゾエ",
+    "language": "jp"
+  },
+  {
+    "id": 131,
+    "quote": "俺は進み続ける...敵を駆逐するまで。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 132,
+    "quote": "本当に誰かを倒す唯一の方法は、その人を理解することだ。",
+    "anime": "進撃の巨人",
+    "character": "アルミン・アルレルト",
+    "language": "jp"
+  },
+  {
+    "id": 133,
+    "quote": "戦わなければ勝てない！",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 134,
+    "quote": "あの化け物どもを一匹残らず駆逐してやる！",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 135,
+    "quote": "死にたくない...この世界に生まれたから。",
+    "anime": "進撃の巨人",
+    "character": "アルミン・アルレルト",
+    "language": "jp"
+  },
+  {
+    "id": 136,
+    "quote": "人類は一人...もしくはそれ以下になるまで戦い続けるだろう。",
+    "anime": "進撃の巨人",
+    "character": "ケニー・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 137,
+    "quote": "誰もが何かに酔っていなければ前に進み続けることはできない。",
+    "anime": "進撃の巨人",
+    "character": "エルヴィン・スミス",
+    "language": "jp"
+  },
+  {
+    "id": 138,
+    "quote": "もう何が正しいかわからない。だが前に進み続けなければならない。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 139,
+    "quote": "これは物語だ。君が始めた物語だ。そうだろう、エレン？",
+    "anime": "進撃の巨人",
+    "character": "ジーク・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 140,
+    "quote": "我々は皆何かの奴隷だ。",
+    "anime": "進撃の巨人",
+    "character": "ケニー・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 141,
+    "quote": "私は戦うことを覚えた普通の女の子です。",
+    "anime": "進撃の巨人",
+    "character": "ミカサ・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 142,
+    "quote": "この世界で唯一の真実は、真実などないということだ。",
+    "anime": "進撃の巨人",
+    "character": "リヴァイ・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 143,
+    "quote": "人類を救うために、我々は人間性を捨てなければならない。",
+    "anime": "進撃の巨人",
+    "character": "ドット・ピクシス",
+    "language": "jp"
+  },
+  {
+    "id": 144,
+    "quote": "神と悪魔の違いは、どちらが勝つかだ。",
+    "anime": "進撃の巨人",
+    "character": "ハンジ・ゾエ",
+    "language": "jp"
+  },
+  {
+    "id": 145,
+    "quote": "神になりたくない。ただ敵を駆逐したいだけだ。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 146,
+    "quote": "後悔し始めると、将来の決断が鈍り、他人に決断を委ねることになる。",
+    "anime": "進撃の巨人",
+    "character": "リヴァイ・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 147,
+    "quote": "俺はお前と同じだ。ずっと自分を憎んできた。",
+    "anime": "進撃の巨人",
+    "character": "ライナー・ブラウン",
+    "language": "jp"
+  },
+  {
+    "id": 148,
+    "quote": "人々が本当に恐ろしいものに直面すると、心が凍りつく。",
+    "anime": "進撃の巨人",
+    "character": "アルミン・アルレルト",
+    "language": "jp"
+  },
+  {
+    "id": 149,
+    "quote": "人類の敵はこの壁の向こうにいる。それは我々だ。",
+    "anime": "進撃の巨人",
+    "character": "ライナー・ブラウン",
+    "language": "jp"
+  },
+  {
+    "id": 150,
+    "quote": "俺は自由だ...",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 151,
+    "quote": "この世界に消えてほしくない。",
+    "anime": "進撃の巨人",
+    "character": "リヴァイ・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 152,
+    "quote": "まだ海を見ていない。",
+    "anime": "進撃の巨人",
+    "character": "アルミン・アルレルト",
+    "language": "jp"
+  },
+  {
+    "id": 153,
+    "quote": "死ぬつもりはない。この壁の外を見るまでは。",
+    "anime": "進撃の巨人",
+    "character": "アルミン・アルレルト",
+    "language": "jp"
+  },
+  {
+    "id": 154,
+    "quote": "戦え！勝て！戦え！勝て！",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 155,
+    "quote": "俺は鎧の巨人で、こいつは超大型巨人だ。",
+    "anime": "進撃の巨人",
+    "character": "ライナー・ブラウン",
+    "language": "jp"
+  },
+  {
+    "id": 156,
+    "quote": "俺たちにできることは前に進むことだけだ。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 157,
+    "quote": "俺はお前と同じだ。エルディア人としての重荷を背負ってきた。",
+    "anime": "進撃の巨人",
+    "character": "ジーク・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 158,
+    "quote": "自分の一部も捨てられなければ、何も変えることはできない。",
+    "anime": "進撃の巨人",
+    "character": "ケニー・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 159,
+    "quote": "そのマフラーを何度でも巻いてやる！",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 160,
+    "quote": "心臓を捧げよ！",
+    "anime": "進撃の巨人",
+    "character": "調査兵団",
+    "language": "jp"
+  },
+  {
+    "id": 161,
+    "quote": "あそこにいる敵を全て殺せば...俺たちは自由になれるのか？",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 162,
+    "quote": "世界は残酷だ。だがそれでも美しい。",
+    "anime": "進撃の巨人",
+    "character": "ミカサ・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 163,
+    "quote": "これが俺たちが選んだ道だ。もう後戻りはできない。",
+    "anime": "進撃の巨人",
+    "character": "リヴァイ・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 164,
+    "quote": "世界全部を破壊する。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 165,
+    "quote": "俺たちは同じだ。お前と俺は同じだ。",
+    "anime": "進撃の巨人",
+    "character": "ライナー・ブラウン",
+    "language": "jp"
+  },
+  {
+    "id": 166,
+    "quote": "これが唯一の方法だ。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 167,
+    "quote": "私はこうして生まれた。この残酷な世界に。",
+    "anime": "進撃の巨人",
+    "character": "ユミル",
+    "language": "jp"
+  },
+  {
+    "id": 168,
+    "quote": "自分の手で自由を取り戻す。",
+    "anime": "進撃の巨人",
+    "character": "ミカサ・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 169,
+    "quote": "俺たちにできるのは前に進むことだけだ。",
+    "anime": "進撃の巨人",
+    "character": "アルミン・アルレルト",
+    "language": "jp"
+  },
+  {
+    "id": 170,
+    "quote": "私はあなたの敵じゃない。一度もなかった。",
+    "anime": "進撃の巨人",
+    "character": "アニ・レオンハート",
+    "language": "jp"
+  },
+  {
+    "id": 171,
+    "quote": "これが自由だ。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 172,
+    "quote": "俺たちにできるのは戦うことだけだ！",
+    "anime": "進撃の巨人",
+    "character": "エルヴィン・スミス",
+    "language": "jp"
+  },
+  {
+    "id": 173,
+    "quote": "この憎しみの連鎖を終わらせる。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 174,
+    "quote": "俺は自由だ。何が起ころうと俺は自由だ。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 175,
+    "quote": "すまない。死ぬつもりはない。まだ死ねない。",
+    "anime": "進撃の巨人",
+    "character": "アルミン・アルレルト",
+    "language": "jp"
+  },
+  {
+    "id": 176,
+    "quote": "俺たちには諦める権利など与えられていない。",
+    "anime": "進撃の巨人",
+    "character": "エルヴィン・スミス",
+    "language": "jp"
+  },
+  {
+    "id": 177,
+    "quote": "私はこうして生まれた。この残酷な世界に。",
+    "anime": "進撃の巨人",
+    "character": "ユミル",
+    "language": "jp"
+  },
+  {
+    "id": 178,
+    "quote": "自分の手で自由を取り戻す。",
+    "anime": "進撃の巨人",
+    "character": "ミカサ・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 179,
+    "quote": "俺たちにできるのは前に進むことだけだ。",
+    "anime": "進撃の巨人",
+    "character": "アルミン・アルレルト",
+    "language": "jp"
+  },
+  {
+    "id": 180,
+    "quote": "私はあなたの敵じゃない。一度もなかった。",
+    "anime": "進撃の巨人",
+    "character": "アニ・レオンハート",
+    "language": "jp"
+  },
+  {
+    "id": 181,
+    "quote": "これが俺たちが選んだ道だ。もう後戻りはできない。",
+    "anime": "進撃の巨人",
+    "character": "リヴァイ・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 182,
+    "quote": "世界全部を破壊する。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 183,
+    "quote": "俺たちは同じだ。お前と俺は同じだ。",
+    "anime": "進撃の巨人",
+    "character": "ライナー・ブラウン",
+    "language": "jp"
+  },
+  {
+    "id": 184,
+    "quote": "これが唯一の方法だ。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 185,
+    "quote": "私はこうして生まれた。この残酷な世界に。",
+    "anime": "進撃の巨人",
+    "character": "ユミル",
+    "language": "jp"
+  },
+  {
+    "id": 186,
+    "quote": "俺たちは皆、自由の奴隷だ。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 187,
+    "quote": "俺は進み続ける。敵を駆逐するまで。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 188,
+    "quote": "外の世界を見て理解したい。",
+    "anime": "進撃の巨人",
+    "character": "アルミン・アルレルト",
+    "language": "jp"
+  },
+  {
+    "id": 189,
+    "quote": "これはお前が始めた物語だ。",
+    "anime": "進撃の巨人",
+    "character": "ジーク・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 190,
+    "quote": "俺たちは進み続けなければならない。死んでも。死んだ後でも。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 191,
+    "quote": "夢を諦めて君のために死ぬ。",
+    "anime": "進撃の巨人",
+    "character": "アルミン・アルレルト",
+    "language": "jp"
+  },
+  {
+    "id": 192,
+    "quote": "生きる自由は死ぬ自由だ。",
+    "anime": "進撃の巨人",
+    "character": "ケニー・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 193,
+    "quote": "全部殺してやる。この地球上の動物を最後の一匹まで。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 194,
+    "quote": "これが俺たちが選んだ道だ。もう後戻りはできない。",
+    "anime": "進撃の巨人",
+    "character": "リヴァイ・アッカーマン",
+    "language": "jp"
+  },
+  {
+    "id": 195,
+    "quote": "世界全部を破壊する。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 196,
+    "quote": "俺たちは同じだ。お前と俺は同じだ。",
+    "anime": "進撃の巨人",
+    "character": "ライナー・ブラウン",
+    "language": "jp"
+  },
+  {
+    "id": 197,
+    "quote": "これが唯一の方法だ。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 198,
+    "quote": "私はこの世界に生まれた。",
+    "anime": "進撃の巨人",
+    "character": "ヒストリア・レイス",
+    "language": "jp"
+  },
+  {
+    "id": 199,
+    "quote": "俺たちは自由だ。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
+    "language": "jp"
+  },
+  {
+    "id": 200,
+    "quote": "これが唯一の方法だ。",
+    "anime": "進撃の巨人",
+    "character": "エレン・イェーガー",
     "language": "jp"
   }
 ]
