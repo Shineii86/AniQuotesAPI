@@ -179,12 +179,12 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
     const attributionY = quoteY + (lineCount * lineHeight) + attributionSpacing;
     ctx.fillText(attribution, width / 2, attributionY);
     
-    // Render watermark
+    // Render professional watermark
     ctx.shadowBlur = 0;
     ctx.textAlign = 'right';
     ctx.textBaseline = 'alphabetic';
     
-    const watermarkText = 'API Powered By • GitHub/Shineii86';
+    const watermarkText = '© API Source: Github/AniQuotes';
     ctx.font = `bold ${watermarkSize}px "Noto Sans"`;
     
     // Calculate watermark position
@@ -196,15 +196,28 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
     const watermarkWidth = ctx.measureText(watermarkText).width + 30;
     const watermarkHeightRect = 30;
     
+    // Draw rounded rectangle without polyfill
+    const cornerRadius = 5;
+    const rectX = width - watermarkWidth - watermarkPadding;
+    const rectY = height - watermarkHeightRect - watermarkPadding + 5;
+    
     ctx.fillStyle = 'rgba(0, 0, 0, 0.3)';
     ctx.beginPath();
-    ctx.roundRect(
-      width - watermarkWidth - watermarkPadding,
-      height - watermarkHeightRect - watermarkPadding + 5,
-      watermarkWidth,
-      watermarkHeightRect,
-      5
+    ctx.moveTo(rectX + cornerRadius, rectY);
+    ctx.lineTo(rectX + watermarkWidth - cornerRadius, rectY);
+    ctx.quadraticCurveTo(rectX + watermarkWidth, rectY, rectX + watermarkWidth, rectY + cornerRadius);
+    ctx.lineTo(rectX + watermarkWidth, rectY + watermarkHeightRect - cornerRadius);
+    ctx.quadraticCurveTo(
+      rectX + watermarkWidth, 
+      rectY + watermarkHeightRect, 
+      rectX + watermarkWidth - cornerRadius, 
+      rectY + watermarkHeightRect
     );
+    ctx.lineTo(rectX + cornerRadius, rectY + watermarkHeightRect);
+    ctx.quadraticCurveTo(rectX, rectY + watermarkHeightRect, rectX, rectY + watermarkHeightRect - cornerRadius);
+    ctx.lineTo(rectX, rectY + cornerRadius);
+    ctx.quadraticCurveTo(rectX, rectY, rectX + cornerRadius, rectY);
+    ctx.closePath();
     ctx.fill();
     
     // Draw watermark text
@@ -324,21 +337,4 @@ function wrapJapaneseText(ctx, text, x, y, maxWidth, lineHeight) {
   for (const [i, lineText] of lines.entries()) {
     ctx.fillText(lineText, x, y + (i * lineHeight));
   }
-}
-
-// Add roundRect support if not available
-if (!CanvasRenderingContext2D.prototype.roundRect) {
-  CanvasRenderingContext2D.prototype.roundRect = function(x, y, width, height, radius) {
-    if (width < 2 * radius) radius = width / 2;
-    if (height < 2 * radius) radius = height / 2;
-    
-    this.beginPath();
-    this.moveTo(x + radius, y);
-    this.arcTo(x + width, y, x + width, y + height, radius);
-    this.arcTo(x + width, y + height, x, y + height, radius);
-    this.arcTo(x, y + height, x, y, radius);
-    this.arcTo(x, y, x + width, y, radius);
-    this.closePath();
-    return this;
-  };
 }
