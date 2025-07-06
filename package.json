@@ -1,5 +1,5 @@
 {
-  "name": "anime-quotes-api",
+  "name": "aniquotes",
   "version": "1.0.0",
   "scripts": {
     "start": "vercel dev",
