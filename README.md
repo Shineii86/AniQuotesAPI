@@ -15,6 +15,7 @@
 
 ![Last Commit](https://img.shields.io/github/last-commit/Shineii86/AniQuotesAPI?style=for-the-badge)
 ![Repo Size](https://img.shields.io/github/repo-size/Shineii86/AniQuotesAPI?style=for-the-badge) [![GitHub Stars](https://img.shields.io/github/stars/Shineii86/AniQuotesAPI?style=for-the-badge)](https://github.com/Shineii86/AniQuotesAPI/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/Shineii86/AniQuotesAPI?style=for-the-badge)](https://github.com/Shineii86/AniQuotesAPI/fork)
+[![API Status](https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=API%20Status&style=for-the-badge&up_color=green&up_message=online&url=https%3A%2F%2Faniquotesapi.vercel.app)](https://aniquotesapi.vercel.app)
 
 <a href="https://github.com/Shineii86/AniPay">
 <img src="https://github.com/Shineii86/AniPay/blob/main/Source/Banner1.png" alt="Banner">
