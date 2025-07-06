@@ -175,8 +175,8 @@ Unacceptable behavior includes:
 
 ## Community <a name="community"></a>
 Join our community:
-- [GitHub Discussions](https://github.com/Shineii86/anime-quotes-api/discussions)
-- [Telegram Channel](https://telegram.me/AniQuotes) (coming soon)
+- [GitHub Discussions](https://github.com/Shineii86/AniQuotesAPI/Discussions)
+- [Telegram Channel](https://telegram.me/AniQuotesAPI) (coming soon)
 
 ---
 
