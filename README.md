@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/AniQuotesAPI"><img src="https://github.com/Shineii86/AniQuotesAPI/blob/main/assets/LogoSD.png" LOGO" width="200" height="200"/></a></p>
+<p align="center"><a href="https://github.com/AniQuotes"><img src="https://github.com/Shineii86/AniQuotesAPI/blob/main/assets/LogoSD.png" LOGO" width="200" height="200"/></a></p>
 
 <h4 align="center">
     A Multilingual Anime Quotes API With Image Generation.
