@@ -4,21 +4,7 @@ const { findQuoteById } = require('./helpers');
 
 // Preload all required fonts at startup
 try {
-  // English Fonts
-  GlobalFonts.registerFromPath(
-    path.join(__dirname, '../fonts/NotoSans/NotoSans-Regular.ttf'),
-    'Noto Sans'
-  );
-  GlobalFonts.registerFromPath(
-    path.join(__dirname, '../fonts/NotoSans/NotoSans-Bold.ttf'),
-    'Noto Sans Bold'
-  );
-  GlobalFonts.registerFromPath(
-    path.join(__dirname, '../fonts/NotoSans/NotoSans-Italic.ttf'),
-    'Noto Sans Italic'
-  );
-  
-  // Japanese Fonts
+  // Register Japanese fonts
   GlobalFonts.registerFromPath(
     path.join(__dirname, '../fonts/NotoSansJP/NotoSansJP-Regular.ttf'),
     'Noto Sans JP'
@@ -28,15 +14,23 @@ try {
     'Noto Sans JP Bold'
   );
   
-  // Anime Fonts
+  // Register English fonts
+  GlobalFonts.registerFromPath(
+    path.join(__dirname, '../fonts/NotoSans/NotoSans-Regular.ttf'),
+    'Noto Sans'
+  );
+  GlobalFonts.registerFromPath(
+    path.join(__dirname, '../fonts/NotoSans/NotoSans-Bold.ttf'),
+    'Noto Sans Bold'
+  );
+  
+  // Register anime font
   GlobalFonts.registerFromPath(
     path.join(__dirname, '../fonts/Anime/AnimeAce.ttf'),
     'Anime Ace'
   );
 } catch (error) {
   console.error('Font registration error:', error);
-  // Fallback to system fonts if custom fonts fail
-  console.warn('Using system fonts as fallback');
 }
 
 module.exports.generateImage = async (quoteId, lang = 'en') => {
@@ -71,35 +65,44 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
   ctx.fillStyle = '#ffffff';
   ctx.textAlign = 'center';
   
-  // Determine font families
-  let titleFontFamily = 'Noto Sans Bold';
-  let subtitleFontFamily = 'Noto Sans Italic';
-  let watermarkFontFamily = 'Noto Sans';
+  // Determine font families based on language
+  let titleFont, subtitleFont, watermarkFont;
   
   if (lang === 'jp') {
-    titleFontFamily = 'Noto Sans JP Bold';
-    subtitleFontFamily = 'Noto Sans JP';
+    // Use Japanese fonts
+    titleFont = '42px "Noto Sans JP Bold"';
+    subtitleFont = 'italic 36px "Noto Sans JP"';
+    watermarkFont = '20px "Noto Sans JP"';
+  } else {
+    // Use English fonts
+    titleFont = '42px "Noto Sans Bold"';
+    subtitleFont = 'italic 36px "Noto Sans"';
+    watermarkFont = '20px "Noto Sans"';
   }
   
   // Add anime theme randomly (30% chance)
   const useAnimeTheme = Math.random() > 0.7;
   if (useAnimeTheme) {
-    titleFontFamily = 'Anime Ace';
-    subtitleFontFamily = 'Anime Ace';
+    titleFont = '46px "Anime Ace"';
+    subtitleFont = '34px "Anime Ace"';
   }
   
-  // Render quote
-  ctx.font = `42px "${titleFontFamily}"`;
-  wrapText(ctx, `"${quote.quote}"`, 600, 200, 1000, 60);
+  // Render quote - use different wrapping for Japanese
+  ctx.font = titleFont;
+  if (lang === 'jp') {
+    wrapJapaneseText(ctx, `"${quote.quote}"`, 600, 200, 1000, 60);
+  } else {
+    wrapText(ctx, `"${quote.quote}"`, 600, 200, 1000, 60);
+  }
   
   // Render character and anime
-  ctx.font = `italic 36px "${subtitleFontFamily}"`;
+  ctx.font = subtitleFont;
   ctx.fillText(`- ${quote.character}, ${quote.anime}`, 600, 450);
   
   // Watermark
   ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
-  ctx.font = `20px "${watermarkFontFamily}"`;
-  ctx.fillText('API Powered By • GitHub/Shineii86', 950, 610);
+  ctx.font = watermarkFont;
+  ctx.fillText('© API Powered By • GitHub/Shineii86', 950, 610);
   
   // Decorative lines
   ctx.strokeStyle = '#ff2b79';
@@ -117,7 +120,7 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
   return canvas.toBuffer('image/png');
 };
 
-// Improved text wrapping function
+// Text wrapping for languages with spaces (English, etc.)
 function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
   const words = text.split(' ');
   let line = '';
@@ -130,6 +133,30 @@ function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
     if (metrics.width > maxWidth && line !== '') {
       lines.push(line);
       line = word;
+    } else {
+      line = testLine;
+    }
+  }
+  lines.push(line);
+  
+  for (const [i, lineText] of lines.entries()) {
+    ctx.fillText(lineText, x, y + (i * lineHeight));
+  }
+}
+
+// Special text wrapping for Japanese (character-based)
+function wrapJapaneseText(ctx, text, x, y, maxWidth, lineHeight) {
+  const characters = text.split('');
+  let line = '';
+  let lines = [];
+  
+  for (const char of characters) {
+    const testLine = line + char;
+    const metrics = ctx.measureText(testLine);
+    
+    if (metrics.width > maxWidth && line !== '') {
+      lines.push(line);
+      line = char;
     } else {
       line = testLine;
     }
