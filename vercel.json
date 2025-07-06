@@ -1,6 +1,7 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "/api" },
+    { "source": "/", "destination": "/api/home.js" },
+    { "source": "/apistatus", "destination": "/api/index.js" },
     { "source": "/v1/(.*)", "destination": "/api/v1/$1" },
     { "source": "/v2/(.*)", "destination": "/api/v2/$1" }
   ],
@@ -8,20 +9,26 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { 
-          "key": "Cache-Control", 
-          "value": "public, max-age=3600, s-maxage=3600, stale-while-revalidate=60" 
-        }
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
       ]
     },
     {
-      "source": "/images/(.*)",
+      "source": "/",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
+    },
+    {
+      "source": "/v2/image",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
       ]
     }
   ],
-  "trailingSlash": false,
-  "cleanUrls": true
+  "functions": {
+    "api/v2/image.js": {
+      "includeFiles": "fonts/**"
+    }
+  },
+  "trailingSlash": false
 }
