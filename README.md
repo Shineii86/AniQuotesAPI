@@ -1,13 +1,10 @@
-<p align="center"><a href="https://github.com/AniQuotes"><img src="https://github.com/Shineii86/AniQuotesAPI/blob/main/assets/LogoSD.png" LOGO" width="200" height="200"/></a></p>
+<div align="center"><a href="https://github.com/AniQuotes"><img src="https://github.com/Shineii86/AniQuotesAPI/blob/main/assets/LogoSD.png" LOGO" width="200" height="200"/></a>
 
-<h4 align="center">
-    A Multilingual Anime Quotes API With Image Generation.
-</h4>
-<p align="center">
-    <a href="https://github.com/Shineii86"> Creator </a> •
+*A Multilingual Anime Quotes API With Image Generation.*
+    
+<a href="https://github.com/Shineii86"> Creator </a> •
     <a href="https://github.com/AniQuotes/Documentation"> Documentation </a> •
     <a href="https://github.com/AniQuotes"> Organizations </a>
-</p>
 
 [![Deploy](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://aniquotesapi.vercel.app)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](CONTRIBUTING.md)
@@ -16,6 +13,8 @@
 ![Last Commit](https://img.shields.io/github/last-commit/Shineii86/AniQuotesAPI?style=for-the-badge)
 ![Repo Size](https://img.shields.io/github/repo-size/Shineii86/AniQuotesAPI?style=for-the-badge) [![GitHub Stars](https://img.shields.io/github/stars/Shineii86/AniQuotesAPI?style=for-the-badge)](https://github.com/Shineii86/AniQuotesAPI/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/Shineii86/AniQuotesAPI?style=for-the-badge)](https://github.com/Shineii86/AniQuotesAPI/fork)
 [![API Status](https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=API%20Status&style=for-the-badge&up_color=green&up_message=online&url=https%3A%2F%2Faniquotesapi.vercel.app)](https://aniquotesapi.vercel.app)
+
+</div>
 
 <a href="https://github.com/Shineii86/AniPay">
 <img src="https://github.com/Shineii86/AniPay/blob/main/Source/Banner1.png" alt="Banner">
