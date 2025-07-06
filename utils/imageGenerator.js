@@ -33,47 +33,45 @@ try {
   console.error('Font registration error:', error);
 }
 
-// Color palette from your list
+// Updated color palette
 const GRADIENT_COLORS = [
-  ['#00A0FA', '#FF00F7'],   // ooAOFA to FFOoF7
-  ['#FF0064', '#D1008C'],   // FFoo64 to D1oo8C
-  ['#FF8500', '#FF0077'],   // FF85oo to FSoo77
-  ['#FF9800', '#FF00F7'],   // FF98oo to FFOoF7
-  ['#004895', '#E3893D'],   // 004895 to ES893D
-  ['#00A0FA', '#8D00AD'],   // ooAOFA to 8DooAD
-  ['#D5404A', '#FF0D37'],   // D5404A to FFoD37
-  ['#FF0061', '#0082FD'],   // FFoo61 to oo82FD
-  ['#BC4664', '#7B1CC6'],   // BC4664 to 7B1CC6
-  ['#D1008C', '#288FA7'],   // D1oo8C to 288FA7
-  ['#FF3533', '#2960E1'],   // FF3533 to 2960E1
-  ['#FF452D', '#45F324'],   // FF452D to 45F324
-  ['#36E869', '#3780A9'],   // 36E869 to 3780A9
-  ['#42AE9A', '#FF9514'],   // 42AE9A to FF9514
-  ['#FF0D37', '#FFC600']    // FFOD37 to FFC6oo
+  ['#FF2B79', '#9B30FF'],   // Pink to Purple
+  ['#00A0FA', '#FF00F7'],   // Blue to Pink
+  ['#FF0064', '#D1008C'],   // Deep Pink to Magenta
+  ['#FF8500', '#FF0077'],   // Orange to Pink
+  ['#004895', '#E3893D'],   // Navy to Gold
+  ['#00A0FA', '#8D00AD'],   // Blue to Purple
+  ['#D5404A', '#FF0D37'],   // Crimson to Red
+  ['#FF0061', '#0082FD'],   // Pink to Blue
+  ['#BC4664', '#7B1CC6'],   // Maroon to Purple
+  ['#D1008C', '#288FA7'],   // Magenta to Teal
+  ['#FF3533', '#2960E1'],   // Red to Blue
+  ['#FF452D', '#45F324'],   // Orange to Green
+  ['#36E869', '#3780A9'],   // Green to Blue
+  ['#42AE9A', '#FF9514'],   // Teal to Orange
+  ['#FF0D37', '#FFC600']    // Red to Yellow
 ];
 
-module.exports.generateImage = async (quoteId, lang = 'en') => {
-  const quote = await findQuoteById(quoteId, lang);
-  if (!quote) throw new Error('Quote not found');
-  
+module.exports.generateImageFromQuote = async (quote, lang = 'en') => {
   // Determine font families based on language
-  let titleFont, subtitleFont, watermarkFont;
+  let titleFont, subtitleFont;
+  const titleSize = 42;
+  const subtitleSize = 32;
+  const watermarkSize = 16;
   
   if (lang === 'jp') {
-    titleFont = '42px "Noto Sans JP Bold"';
-    subtitleFont = 'italic 36px "Noto Sans JP"';
-    watermarkFont = '20px "Noto Sans JP"';
+    titleFont = `bold ${titleSize}px "Noto Sans JP Bold"`;
+    subtitleFont = `italic ${subtitleSize}px "Noto Sans JP"`;
   } else {
-    titleFont = '42px "Noto Sans Bold"';
-    subtitleFont = 'italic 36px "Noto Sans"';
-    watermarkFont = '20px "Noto Sans"';
+    titleFont = `bold ${titleSize}px "Noto Sans Bold"`;
+    subtitleFont = `italic ${subtitleSize}px "Noto Sans"`;
   }
   
   // Add anime theme randomly (30% chance)
   const useAnimeTheme = Math.random() > 0.7;
   if (useAnimeTheme) {
-    titleFont = '46px "Anime Ace"';
-    subtitleFont = '34px "Anime Ace"';
+    titleFont = `${titleSize + 4}px "Anime Ace"`;
+    subtitleFont = `${subtitleSize - 2}px "Anime Ace"`;
   }
   
   // Create temporary canvas for text measurement
@@ -85,12 +83,14 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
   const quoteWidth = tempCtx.measureText(`"${quote.quote}"`).width;
   
   tempCtx.font = subtitleFont;
-  const charWidth = tempCtx.measureText(`- ${quote.character}, ${quote.anime}`).width;
+  const attribution = `- ${quote.character}, ${quote.anime}`;
+  const attributionWidth = tempCtx.measureText(attribution).width;
   
   // Calculate required dimensions
   const maxWidth = 1000;
   const minHeight = 630;
   const padding = 100;
+  const verticalSpacing = 70;
   
   // Calculate number of lines needed
   tempCtx.font = titleFont;
@@ -98,12 +98,9 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
   
   // Calculate canvas height
   const lineHeight = 60;
-  const characterHeight = 50;
-  const watermarkHeight = 30;
   const calculatedHeight = padding * 2 + 
                           (lines.length * lineHeight) + 
-                          characterHeight + 
-                          watermarkHeight;
+                          verticalSpacing;
   
   const height = Math.max(minHeight, calculatedHeight);
   
@@ -119,7 +116,7 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
   ctx.fillStyle = gradient;
   ctx.fillRect(0, 0, 1200, height);
   
-  // Add decorative elements (sakura petals for Japanese, stars for others)
+  // Add decorative elements
   ctx.fillStyle = 'rgba(255, 255, 255, 0.15)';
   const elementCount = lang === 'jp' ? 50 : 100;
   
@@ -129,10 +126,8 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
     const y = Math.random() * height;
     
     if (lang === 'jp') {
-      // Draw sakura petals
       drawSakuraPetals(ctx, x, y, size);
     } else {
-      // Draw stars
       ctx.beginPath();
       ctx.arc(x, y, size, 0, Math.PI * 2);
       ctx.fill();
@@ -147,7 +142,7 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
   
   // Render quote
   ctx.font = titleFont;
-  const quoteY = padding + 100;
+  const quoteY = padding + 80;
   
   if (lang === 'jp') {
     wrapJapaneseText(ctx, `"${quote.quote}"`, 600, quoteY, maxWidth, lineHeight);
@@ -157,16 +152,32 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
   
   // Render character and anime
   ctx.font = subtitleFont;
-  const charY = quoteY + (lines.length * lineHeight) + 50;
-  ctx.fillText(`- ${quote.character}, ${quote.anime}`, 600, charY);
+  const charY = quoteY + (lines.length * lineHeight) + 60;
+  ctx.fillText(attribution, 600, charY);
   
-  // Watermark
-  ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
-  ctx.font = watermarkFont;
+  // API Watermark
+  ctx.fillStyle = 'rgba(255, 255, 255, 0.65)';
+  ctx.font = `${watermarkSize}px "Noto Sans"`;
   ctx.shadowBlur = 5;
-  ctx.fillText('© API Powered By • GitHub/Shineii86', 950, height - 30);
   
-  // Decorative lines
+  // Create watermark background
+  const watermarkText = 'API Powered By • GitHub/Shineii86';
+  const watermarkWidth = ctx.measureText(watermarkText).width + 30;
+  const watermarkHeight = 35;
+  const watermarkX = 1200 - watermarkWidth + 20;
+  const watermarkY = height - 35;
+  
+  ctx.fillStyle = 'rgba(0, 0, 0, 0.35)';
+  ctx.beginPath();
+  ctx.roundRect(watermarkX - 10, watermarkY - watermarkHeight + 15, 
+               watermarkWidth, watermarkHeight, 5);
+  ctx.fill();
+  
+  // Watermark text
+  ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+  ctx.fillText(watermarkText, watermarkX + watermarkWidth/2 - 20, watermarkY);
+  
+  // Decorative elements
   ctx.strokeStyle = '#ffffff';
   ctx.lineWidth = 2;
   ctx.shadowBlur = 0;
@@ -174,16 +185,16 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
   // Top decorative line
   ctx.beginPath();
   ctx.moveTo(100, 80);
-  ctx.lineTo(300, 80);
+  ctx.lineTo(250, 80);
   ctx.stroke();
   
   // Bottom decorative line
   ctx.beginPath();
-  ctx.moveTo(900, height - 50);
+  ctx.moveTo(950, height - 50);
   ctx.lineTo(1100, height - 50);
   ctx.stroke();
   
-  // Add anime-themed corner decorations if using anime theme
+  // Anime-themed corner decorations
   if (useAnimeTheme) {
     ctx.strokeStyle = '#ff2b79';
     ctx.lineWidth = 4;
