@@ -1,16 +1,43 @@
-const { createCanvas, loadImage, GlobalFonts } = require('@napi-rs/canvas');
+const { createCanvas, GlobalFonts } = require('@napi-rs/canvas');
 const path = require('path');
 const { findQuoteById } = require('./helpers');
 
-// Preload fonts at startup
-GlobalFonts.registerFromPath(
-  path.join(__dirname, '../fonts/NotoSansJP-Bold.ttf'), 
-  'Noto Sans JP'
-);
-GlobalFonts.registerFromPath(
-  path.join(__dirname, '../fonts/NotoSans-Regular.ttf'), 
-  'Noto Sans'
-);
+// Preload all required fonts at startup
+try {
+  // English Fonts
+  GlobalFonts.registerFromPath(
+    path.join(__dirname, '../fonts/NotoSans/NotoSans-Regular.ttf'),
+    'Noto Sans'
+  );
+  GlobalFonts.registerFromPath(
+    path.join(__dirname, '../fonts/NotoSans/NotoSans-Bold.ttf'),
+    'Noto Sans Bold'
+  );
+  GlobalFonts.registerFromPath(
+    path.join(__dirname, '../fonts/NotoSans/NotoSans-Italic.ttf'),
+    'Noto Sans Italic'
+  );
+  
+  // Japanese Fonts
+  GlobalFonts.registerFromPath(
+    path.join(__dirname, '../fonts/NotoSansJP/NotoSansJP-Regular.ttf'),
+    'Noto Sans JP'
+  );
+  GlobalFonts.registerFromPath(
+    path.join(__dirname, '../fonts/NotoSansJP/NotoSansJP-Bold.ttf'),
+    'Noto Sans JP Bold'
+  );
+  
+  // Anime Fonts
+  GlobalFonts.registerFromPath(
+    path.join(__dirname, '../fonts/Anime/AnimeAce.ttf'),
+    'Anime Ace'
+  );
+} catch (error) {
+  console.error('Font registration error:', error);
+  // Fallback to system fonts if custom fonts fail
+  console.warn('Using system fonts as fallback');
+}
 
 module.exports.generateImage = async (quoteId, lang = 'en') => {
   const quote = await findQuoteById(quoteId, lang);
@@ -44,40 +71,34 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
   ctx.fillStyle = '#ffffff';
   ctx.textAlign = 'center';
   
-  // Font selection
-  const fontFamily = lang === 'jp' ? 'Noto Sans JP' : 'Noto Sans';
-  ctx.font = `bold 42px "${fontFamily}"`;
+  // Determine font families
+  let titleFontFamily = 'Noto Sans Bold';
+  let subtitleFontFamily = 'Noto Sans Italic';
+  let watermarkFontFamily = 'Noto Sans';
   
-  // Text wrapping function
-  const wrapText = (text, x, y, maxWidth, lineHeight) => {
-    const words = text.split(' ');
-    let line = '';
-    
-    for (const word of words) {
-      const testLine = line + word + ' ';
-      const metrics = ctx.measureText(testLine);
-      
-      if (metrics.width > maxWidth && line !== '') {
-        ctx.fillText(line, x, y);
-        line = word + ' ';
-        y += lineHeight;
-      } else {
-        line = testLine;
-      }
-    }
-    ctx.fillText(line, x, y);
-  };
+  if (lang === 'jp') {
+    titleFontFamily = 'Noto Sans JP Bold';
+    subtitleFontFamily = 'Noto Sans JP';
+  }
+  
+  // Add anime theme randomly (30% chance)
+  const useAnimeTheme = Math.random() > 0.7;
+  if (useAnimeTheme) {
+    titleFontFamily = 'Anime Ace';
+    subtitleFontFamily = 'Anime Ace';
+  }
   
   // Render quote
-  wrapText(`"${quote.quote}"`, 600, 200, 1000, 60);
+  ctx.font = `42px "${titleFontFamily}"`;
+  wrapText(ctx, `"${quote.quote}"`, 600, 200, 1000, 60);
   
   // Render character and anime
-  ctx.font = `italic 36px "${fontFamily}"`;
+  ctx.font = `italic 36px "${subtitleFontFamily}"`;
   ctx.fillText(`- ${quote.character}, ${quote.anime}`, 600, 450);
   
   // Watermark
   ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
-  ctx.font = '20px "Noto Sans"';
+  ctx.font = `20px "${watermarkFontFamily}"`;
   ctx.fillText('API Powered By • GitHub/Shineii86', 950, 610);
   
   // Decorative lines
@@ -95,3 +116,27 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
   
   return canvas.toBuffer('image/png');
 };
+
+// Improved text wrapping function
+function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
+  const words = text.split(' ');
+  let line = '';
+  let lines = [];
+  
+  for (const word of words) {
+    const testLine = line ? `${line} ${word}` : word;
+    const metrics = ctx.measureText(testLine);
+    
+    if (metrics.width > maxWidth && line !== '') {
+      lines.push(line);
+      line = word;
+    } else {
+      line = testLine;
+    }
+  }
+  lines.push(line);
+  
+  for (const [i, lineText] of lines.entries()) {
+    ctx.fillText(lineText, x, y + (i * lineHeight));
+  }
+}
