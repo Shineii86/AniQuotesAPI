@@ -29,15 +29,15 @@ module.exports.getAPIStats = () => {
   
   try {
     const masterQuotes = readMasterQuotes();
-    const supportedLanguages = ['en', ...getSupportedLanguages()];
+    const supportedLanguages = getSupportedLanguages();
     
     const stats = {
-      totalQuotes: masterQuotes.length,
+      // Will calculate total later
       quotesByLanguage: {},
       quotesByAnime: {},
       quotesByCharacter: {},
       lastUpdated: new Date().toISOString(),
-      supportedLanguages
+      supportedLanguages: ['en', ...supportedLanguages]
     };
     
     // Process master quotes
@@ -51,16 +51,27 @@ module.exports.getAPIStats = () => {
       stats.quotesByCharacter[character] = (stats.quotesByCharacter[character] || 0) + 1;
     });
     
-    // Process translations
-    supportedLanguages.forEach(lang => {
-      try {
-        const quotes = readLanguageQuotes(lang);
-        stats.quotesByLanguage[lang] = quotes.length;
-      } catch (error) {
-        console.error(`Error processing ${lang} quotes:`, error);
-        stats.quotesByLanguage[lang] = 0;
-      }
-    });
+    // Set English count from master quotes
+    stats.quotesByLanguage['en'] = masterQuotes.length;
+    
+    // Process other languages and calculate total quotes
+    let totalQuotes = masterQuotes.length; // Start with English count
+    
+    supportedLanguages
+      .filter(lang => lang !== 'en') // Exclude English
+      .forEach(lang => {
+        try {
+          const quotes = readLanguageQuotes(lang);
+          stats.quotesByLanguage[lang] = quotes.length;
+          totalQuotes += quotes.length; // Add to total count
+        } catch (error) {
+          console.error(`Error processing ${lang} quotes:`, error);
+          stats.quotesByLanguage[lang] = 0;
+        }
+      });
+    
+    // Set total quotes count
+    stats.totalQuotes = totalQuotes;
     
     // Cache the results
     statsCache = stats;
