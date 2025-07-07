@@ -32,7 +32,6 @@ module.exports.getAPIStats = () => {
     const supportedLanguages = getSupportedLanguages();
     
     const stats = {
-      // Will calculate total later
       quotesByLanguage: {},
       quotesByAnime: {},
       quotesByCharacter: {},
@@ -40,37 +39,36 @@ module.exports.getAPIStats = () => {
       supportedLanguages: ['en', ...supportedLanguages]
     };
     
-    // Process master quotes
+    // Process master quotes for anime/character counts
     masterQuotes.forEach(quote => {
-      // Count by anime
       const anime = quote.anime.trim();
-      stats.quotesByAnime[anime] = (stats.quotesByAnime[anime] || 0) + 1;
-      
-      // Count by character
       const character = quote.character.trim();
+      
+      stats.quotesByAnime[anime] = (stats.quotesByAnime[anime] || 0) + 1;
       stats.quotesByCharacter[character] = (stats.quotesByCharacter[character] || 0) + 1;
     });
     
-    // Set English count from master quotes
-    stats.quotesByLanguage['en'] = masterQuotes.length;
+    // Calculate total quotes across all languages
+    let totalQuotes = 0;
     
-    // Process other languages and calculate total quotes
-    let totalQuotes = masterQuotes.length; // Start with English count
+    // Process all languages including English
+    stats.supportedLanguages.forEach(lang => {
+      try {
+        // For English, use master quotes directly
+        const quotes = lang === 'en' 
+          ? masterQuotes 
+          : readLanguageQuotes(lang);
+          
+        const count = quotes.length;
+        stats.quotesByLanguage[lang] = count;
+        totalQuotes += count;
+      } catch (error) {
+        console.error(`Error processing ${lang} quotes:`, error);
+        stats.quotesByLanguage[lang] = 0;
+      }
+    });
     
-    supportedLanguages
-      .filter(lang => lang !== 'en') // Exclude English
-      .forEach(lang => {
-        try {
-          const quotes = readLanguageQuotes(lang);
-          stats.quotesByLanguage[lang] = quotes.length;
-          totalQuotes += quotes.length; // Add to total count
-        } catch (error) {
-          console.error(`Error processing ${lang} quotes:`, error);
-          stats.quotesByLanguage[lang] = 0;
-        }
-      });
-    
-    // Set total quotes count
+    // Add total quotes to stats
     stats.totalQuotes = totalQuotes;
     
     // Cache the results
