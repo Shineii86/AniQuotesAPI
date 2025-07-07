@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 1,
+    "quote": "No voy a huir, ¡nunca rompo mi palabra! Ese es mi nindo: ¡mi camino ninja!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 2,
+    "quote": "En el mundo ninja, aquellos que rompen las reglas son escoria... pero aquellos que abandonan a sus amigos son peores que escoria.",
+    "anime": "Naruto Shippuden",
+    "character": "Kakashi Hatake",
+    "language": "es"
+  },
+  {
+    "id": 3,
+    "quote": "Si no te gusta tu destino, no lo aceptes. En su lugar, ten el coraje de cambiarlo como quieras que sea.",
+    "anime": "Naruto Shippuden",
+    "character": "Nagato (Pain)",
+    "language": "es"
+  },
+  {
+    "id": 4,
+    "quote": "Un desertor vencerá al genio a través del trabajo duro. ¡Y lo probaré!",
+    "anime": "Naruto Shippuden",
+    "character": "Rock Lee",
+    "language": "es"
+  },
+  {
+    "id": 5,
+    "quote": "Saber lo que se siente estar en dolor es exactamente por qué tratamos de ser amables con los demás.",
+    "anime": "Naruto Shippuden",
+    "character": "Gaara",
+    "language": "es"
+  },
+  {
+    "id": 6,
+    "quote": "Cuando las personas son lastimadas, aprenden a odiar... Cuando las personas lastiman a otros, se vuelven odiadas y atormentadas por la culpa.",
+    "anime": "Naruto Shippuden",
+    "character": "Jiraiya",
+    "language": "es"
+  },
+  {
+    "id": 7,
+    "quote": "El agujero en el corazón de uno se llena por otros... Mis amigos me hicieron darme cuenta de eso.",
+    "anime": "Naruto Shippuden",
+    "character": "Obito Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 8,
+    "quote": "Aquellos que no pueden reconocerse a sí mismos eventualmente fallarán.",
+    "anime": "Naruto Shippuden",
+    "character": "Itachi Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 9,
+    "quote": "La vida de un shinobi no se mide por cómo vive, sino por lo que logra antes de su muerte.",
+    "anime": "Naruto Shippuden",
+    "character": "Minato Namikaze",
+    "language": "es"
+  },
+  {
+    "id": 10,
+    "quote": "El verdadero poder no viene cuando luchas por ti mismo. Viene cuando luchas para proteger a alguien.",
+    "anime": "Naruto Shippuden",
+    "character": "Hinata Hyuga",
+    "language": "es"
+  },
+  {
+    "id": 11,
+    "quote": "El momento en que las personas llegan a conocer el amor, corren el riesgo de cargar odio.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 12,
+    "quote": "Si quieres matarme, ¡maldíceme! ¡Ódiame! ¡Y vive una vida larga y desagradable!",
+    "anime": "Naruto Shippuden",
+    "character": "Sasuke Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 13,
+    "quote": "Un verdadero maestro no enseña transformación de la naturaleza; te enseña cómo vivir tu vida.",
+    "anime": "Naruto Shippuden",
+    "character": "Asuma Sarutobi",
+    "language": "es"
+  },
+  {
+    "id": 14,
+    "quote": "La diferencia entre la estupidez y el genio es que el genio tiene sus límites.",
+    "anime": "Naruto Shippuden",
+    "character": "Shikamaru Nara",
+    "language": "es"
+  },
+  {
+    "id": 15,
+    "quote": "¿Simpatía? Esa es la emoción que más odio. No cambia nada.",
+    "anime": "Naruto Shippuden",
+    "character": "Sasori",
+    "language": "es"
+  },
+  {
+    "id": 16,
+    "quote": "Las personas no pueden ganar contra su soledad.",
+    "anime": "Naruto Shippuden",
+    "character": "Killer Bee",
+    "language": "es"
+  },
+  {
+    "id": 17,
+    "quote": "Mientras más vives, más te das cuenta de que la realidad está hecha solo de dolor, sufrimiento y vacío.",
+    "anime": "Naruto Shippuden",
+    "character": "Pain",
+    "language": "es"
+  },
+  {
+    "id": 18,
+    "quote": "Cuando un hombre aprende a amar, debe soportar el riesgo del odio.",
+    "anime": "Naruto Shippuden",
+    "character": "Tobi",
+    "language": "es"
+  },
+  {
+    "id": 19,
+    "quote": "Saber lo que es correcto y elegir ignorarlo es el acto de un cobarde.",
+    "anime": "Naruto Shippuden",
+    "character": "Sakura Haruno",
+    "language": "es"
+  },
+  {
+    "id": 20,
+    "quote": "Un lugar donde alguien todavía piensa en ti es un lugar al que puedes llamar hogar.",
+    "anime": "Naruto Shippuden",
+    "character": "Jiraiya",
+    "language": "es"
+  },
+  {
+    "id": 21,
+    "quote": "El concepto de esperanza no es más que rendirse. Una palabra que no tiene verdadero significado.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 22,
+    "quote": "Si no compartes el dolor de alguien, nunca podrás entenderlo.",
+    "anime": "Naruto Shippuden",
+    "character": "Nagato",
+    "language": "es"
+  },
+  {
+    "id": 23,
+    "quote": "El amor no es necesario; ¡el poder es la única verdadera necesidad!",
+    "anime": "Naruto Shippuden",
+    "character": "Sasuke Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 24,
+    "quote": "El mundo no es tan simple como pensé que era... así que dejé de pensar.",
+    "anime": "Naruto Shippuden",
+    "character": "Hidan",
+    "language": "es"
+  },
+  {
+    "id": 25,
+    "quote": "Una persona crece cuando es capaz de superar las dificultades. La protección es importante, pero hay cosas que una persona debe aprender por sí misma.",
+    "anime": "Naruto Shippuden",
+    "character": "Iruka Umino",
+    "language": "es"
+  },
+  {
+    "id": 26,
+    "quote": "No me importa si muero. No tengo que ganar... solo necesito mantenerme firme y no huir.",
+    "anime": "Naruto Shippuden",
+    "character": "Neji Hyuga",
+    "language": "es"
+  },
+  {
+    "id": 27,
+    "quote": "Cuando te rindes, tus sueños y todo lo demás, se van.",
+    "anime": "Naruto Shippuden",
+    "character": "Kushina Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 28,
+    "quote": "Aquellos que se perdonan a sí mismos y son capaces de aceptar su verdadera naturaleza... ¡Esos son los fuertes!",
+    "anime": "Naruto Shippuden",
+    "character": "Itachi Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 29,
+    "quote": "La verdadera medida de un shinobi no es cómo vive sino cómo muere.",
+    "anime": "Naruto Shippuden",
+    "character": "Danzo Shimura",
+    "language": "es"
+  },
+  {
+    "id": 30,
+    "quote": "El miedo no es malo. Te dice cuál es tu debilidad. Y una vez que conoces tu debilidad, puedes volverte más fuerte y también más amable.",
+    "anime": "Naruto Shippuden",
+    "character": "Guren",
+    "language": "es"
+  },
+  {
+    "id": 31,
+    "quote": "A veces debes sufrir para saber, caer para crecer, perder para ganar porque las mejores lecciones de la vida se aprenden a través del dolor.",
+    "anime": "Naruto Shippuden",
+    "character": "Pain",
+    "language": "es"
+  },
+  {
+    "id": 32,
+    "quote": "La próxima generación siempre superará a la anterior. Es uno de los ciclos infinitos de la vida.",
+    "anime": "Naruto Shippuden",
+    "character": "Hiruzen Sarutobi",
+    "language": "es"
+  },
+  {
+    "id": 33,
+    "quote": "No importa cuánto lo odies, esto es lo que eres. Tratar de huir de eso no es diferente a huir de ti mismo.",
+    "anime": "Naruto Shippuden",
+    "character": "Kisame Hoshigaki",
+    "language": "es"
+  },
+  {
+    "id": 34,
+    "quote": "Una sonrisa es la forma más fácil de salir de una situación difícil.",
+    "anime": "Naruto Shippuden",
+    "character": "Sai",
+    "language": "es"
+  },
+  {
+    "id": 35,
+    "quote": "Un ninja es alguien que resiste sin importar lo que se le arroje.",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 36,
+    "quote": "Los débiles no pueden decidir nada, ni siquiera cómo morir.",
+    "anime": "Naruto Shippuden",
+    "character": "Konan",
+    "language": "es"
+  },
+  {
+    "id": 37,
+    "quote": "¡Deberías dejar de intentar hacerme rendirme!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 38,
+    "quote": "Cuando proteges a alguien que amas, el coraje surge desde adentro.",
+    "anime": "Naruto Shippuden",
+    "character": "Chiyo",
+    "language": "es"
+  },
+  {
+    "id": 39,
+    "quote": "El mundo está lleno de odio y dolor. Pero aún creo que es posible lograr la paz.",
+    "anime": "Naruto Shippuden",
+    "character": "Yahiko",
+    "language": "es"
+  },
+  {
+    "id": 40,
+    "quote": "¡Los únicos que deben matar son aquellos que están preparados para ser matados!",
+    "anime": "Naruto Shippuden",
+    "character": "Lelouch Lamperouge",
+    "language": "es"
+  },
+  {
+    "id": 41,
+    "quote": "No importa cuán profunda sea la noche, siempre se convierte en día, eventualmente.",
+    "anime": "Naruto Shippuden",
+    "character": "Kurenai Yuhi",
+    "language": "es"
+  },
+  {
+    "id": 42,
+    "quote": "¿Un genio? ¿Qué significa eso? ¿'Genio'? No nací con mucho talento natural, no soy dotado como Neji... ¡pero trabajo duro y nunca me rindo! Ese es mi don... ¡esa es mi forma ninja!",
+    "anime": "Naruto Shippuden",
+    "character": "Rock Lee",
+    "language": "es"
+  },
+  {
+    "id": 43,
+    "quote": "¡Si no te gusta tu camino, empieza a pavimentar otro!",
+    "anime": "Naruto Shippuden",
+    "character": "Tsunade",
+    "language": "es"
+  },
+  {
+    "id": 44,
+    "quote": "Te amaré siempre, hasta el día que muera y más allá. Incluso entonces, te amaré a través de todo el tiempo.",
+    "anime": "Naruto Shippuden",
+    "character": "Haku",
+    "language": "es"
+  },
+  {
+    "id": 45,
+    "quote": "A veces debes sufrir para saber, caer para crecer, perder para ganar.",
+    "anime": "Naruto Shippuden",
+    "character": "Pain",
+    "language": "es"
+  },
+  {
+    "id": 46,
+    "quote": "¡El fuego de la juventud arde eternamente!",
+    "anime": "Naruto Shippuden",
+    "character": "Might Guy",
+    "language": "es"
+  },
+  {
+    "id": 47,
+    "quote": "No dejaré que mis camaradas mueran. ¡Te protegeré con mi vida!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 48,
+    "quote": "Si quieres matarme, ódiame, detéstame, y sobrevive de manera desagradable.",
+    "anime": "Naruto Shippuden",
+    "character": "Sasuke Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 49,
+    "quote": "El momento en que las personas se entienden entre sí... ahí es cuando comienza la verdadera paz.",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 50,
+    "quote": "Existo para no ser derrotado.",
+    "anime": "Naruto Shippuden",
+    "character": "Kakashi Hatake",
+    "language": "es"
+  },
+  {
+    "id": 51,
+    "quote": "El dolor de estar solo está completamente fuera de este mundo, ¿no es así? No sé por qué, pero entiendo tanto tus sentimientos que realmente duele.",
+    "anime": "Naruto Shippuden",
+    "character": "Obito Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 52,
+    "quote": "Finalmente entiendo ahora... Alguien me necesita. ¡Me necesitan aquí mismo!",
+    "anime": "Naruto Shippuden",
+    "character": "Gaara",
+    "language": "es"
+  },
+  {
+    "id": 53,
+    "quote": "Las personas viven sus vidas atadas por lo que aceptan como correcto y verdadero... así es como definen la realidad.",
+    "anime": "Naruto Shippuden",
+    "character": "Itachi Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 54,
+    "quote": "Un ninja debe ver debajo de lo evidente.",
+    "anime": "Naruto Shippuden",
+    "character": "Kakashi Hatake",
+    "language": "es"
+  },
+  {
+    "id": 55,
+    "quote": "No soy perfecto, pero siempre soy yo mismo.",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 56,
+    "quote": "¡Despierta a la realidad! Nada sale como está planeado en este mundo maldito. Mientras más vives, más te das cuenta de que las únicas cosas que verdaderamente existen en esta realidad son meramente dolor, sufrimiento y futilidad.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 57,
+    "quote": "Cuando un hombre aprende a amar, debe soportar el riesgo del odio.",
+    "anime": "Naruto Shippuden",
+    "character": "Obito Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 58,
+    "quote": "El verdadero poder del Sharingan... no es solo copiar jutsu. Es ver a través de todas las mentiras y entender la verdad de este mundo.",
+    "anime": "Naruto Shippuden",
+    "character": "Itachi Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 59,
+    "quote": "¡Nunca dejaré de creer en mi propia forma ninja!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 60,
+    "quote": "En este mundo, donde hay luz, también hay sombras. Mientras exista el concepto de ganadores, también debe haber perdedores.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 61,
+    "quote": "El poder no es voluntad, es el fenómeno de hacer que las cosas sucedan físicamente.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 62,
+    "quote": "Los Uchiha son un clan destinado a la venganza. Incluso si esa venganza... es contra su propia sangre.",
+    "anime": "Naruto Shippuden",
+    "character": "Sasuke Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 63,
+    "quote": "El concepto de esperanza no es más que rendirse. Una palabra que no tiene verdadero significado en este mundo.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 64,
+    "quote": "La verdadera soledad es estar en una habitación llena de gente y aún sentirse solo.",
+    "anime": "Naruto Shippuden",
+    "character": "Kakashi Hatake",
+    "language": "es"
+  },
+  {
+    "id": 65,
+    "quote": "La diferencia entre un novato y un maestro es que el maestro ha fallado más veces de las que el novato ha intentado.",
+    "anime": "Naruto Shippuden",
+    "character": "Jiraiya",
+    "language": "es"
+  },
+  {
+    "id": 66,
+    "quote": "Este mundo maldito... el ciclo del odio... ¡Lo voy a romper!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 67,
+    "quote": "En el momento en que las personas conocen el amor, corren el riesgo de cargar con el odio. Y el odio es lo que crea el sacrificio.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 68,
+    "quote": "¡Nunca me echo atrás con mi palabra! ¡Ese es mi nindo, mi camino ninja!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 69,
+    "quote": "No existe tal cosa como la esperanza en la batalla. Solo existe la desesperación absoluta nacida de la conciencia colectiva de la humanidad.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 70,
+    "quote": "El Tsukuyomi Infinito finalmente traerá paz a este mundo. Un fin al ciclo maldito del odio.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 71,
+    "quote": "La vida de un ninja no se mide por cómo vivió sino por lo que logró antes de su muerte.",
+    "anime": "Naruto Shippuden",
+    "character": "Deidara",
+    "language": "es"
+  },
+  {
+    "id": 72,
+    "quote": "La técnica secreta de todo shinobi... ¡es nunca rendirse!",
+    "anime": "Naruto Shippuden",
+    "character": "Might Guy",
+    "language": "es"
+  },
+  {
+    "id": 73,
+    "quote": "Si quieres cambiar, empieza por cambiarte a ti mismo primero.",
+    "anime": "Naruto Shippuden",
+    "character": "Shikamaru Nara",
+    "language": "es"
+  },
+  {
+    "id": 74,
+    "quote": "Incluso el oponente más fuerte siempre tiene una debilidad.",
+    "anime": "Naruto Shippuden",
+    "character": "Neji Hyuga",
+    "language": "es"
+  },
+  {
+    "id": 75,
+    "quote": "¡Nunca permitiré que los camaradas se maten entre sí bajo mi vigilancia!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 76,
+    "quote": "¡El arte es una explosión! ¡Es belleza fugaz!",
+    "anime": "Naruto Shippuden",
+    "character": "Deidara",
+    "language": "es"
+  },
+  {
+    "id": 77,
+    "quote": "La flor que florece en la adversidad es la más rara y hermosa de todas.",
+    "anime": "Naruto Shippuden",
+    "character": "Tsunade",
+    "language": "es"
+  },
+  {
+    "id": 78,
+    "quote": "Cuando tienes algo importante que proteger, ahí es cuando puedes volverte verdaderamente fuerte.",
+    "anime": "Naruto Shippuden",
+    "character": "Zabuza Momochi",
+    "language": "es"
+  },
+  {
+    "id": 79,
+    "quote": "La oscuridad en los corazones de las personas... esa es la verdadera fealdad.",
+    "anime": "Naruto Shippuden",
+    "character": "Sasuke Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 80,
+    "quote": "En este mundo, no existe tal cosa como una lección sin dolor.",
+    "anime": "Naruto Shippuden",
+    "character": "Kakashi Hatake",
+    "language": "es"
+  },
+  {
+    "id": 81,
+    "quote": "Un corazón lleno de venganza no tiene lugar para el amor.",
+    "anime": "Naruto Shippuden",
+    "character": "Sakura Haruno",
+    "language": "es"
+  },
+  {
+    "id": 82,
+    "quote": "La verdadera fuerza no se trata de ganar batallas. Se trata de proteger lo que más importa.",
+    "anime": "Naruto Shippuden",
+    "character": "Hinata Hyuga",
+    "language": "es"
+  },
+  {
+    "id": 83,
+    "quote": "¡La voluntad de fuego nunca se extinguirá!",
+    "anime": "Naruto Shippuden",
+    "character": "Hashirama Senju",
+    "language": "es"
+  },
+  {
+    "id": 84,
+    "quote": "No hay ventaja en apresurarse a través de la vida.",
+    "anime": "Naruto Shippuden",
+    "character": "Shikamaru Nara",
+    "language": "es"
+  },
+  {
+    "id": 85,
+    "quote": "¡El arma de un shinobi es su corazón!",
+    "anime": "Naruto Shippuden",
+    "character": "Kakashi Hatake",
+    "language": "es"
+  },
+  {
+    "id": 86,
+    "quote": "Si no te gusta tu destino, no lo aceptes. ¡Ten el coraje de cambiarlo!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 87,
+    "quote": "¡Convertirme en Hokage es mi sueño!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 88,
+    "quote": "El veneno más fuerte es el odio.",
+    "anime": "Naruto Shippuden",
+    "character": "Chiyo",
+    "language": "es"
+  },
+  {
+    "id": 89,
+    "quote": "En la sociedad, aquellos que no tienen muchas habilidades, a menudo se quejan más.",
+    "anime": "Naruto Shippuden",
+    "character": "Sai",
+    "language": "es"
+  },
+  {
+    "id": 90,
+    "quote": "Los ojos que ven la oscuridad y las manos que sienten dolor algún día crearán luz.",
+    "anime": "Naruto Shippuden",
+    "character": "Nagato",
+    "language": "es"
+  },
+  {
+    "id": 91,
+    "quote": "Una vida sin propósito no es vida en absoluto.",
+    "anime": "Naruto Shippuden",
+    "character": "Kisame Hoshigaki",
+    "language": "es"
+  },
+  {
+    "id": 92,
+    "quote": "Luchamos no para matar, sino para proteger las vidas preciosas que nos rodean.",
+    "anime": "Naruto Shippuden",
+    "character": "Minato Namikaze",
+    "language": "es"
+  },
+  {
+    "id": 93,
+    "quote": "Las decisiones más difíciles requieren las voluntades más fuertes.",
+    "anime": "Naruto Shippuden",
+    "character": "Itachi Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 94,
+    "quote": "El verdadero cambio no puede hacerse si está limitado por leyes y limitaciones, predicciones e imaginación.",
+    "anime": "Naruto Shippuden",
+    "character": "Pain",
+    "language": "es"
+  },
+  {
+    "id": 95,
+    "quote": "El momento en que las personas lleguen a entenderse mutuamente, el mundo finalmente conocerá la paz.",
+    "anime": "Naruto Shippuden",
+    "character": "Yahiko",
+    "language": "es"
+  },
+  {
+    "id": 96,
+    "quote": "Una vida sin sacrificio es una sin significado.",
+    "anime": "Naruto Shippuden",
+    "character": "Orochimaru",
+    "language": "es"
+  },
+  {
+    "id": 97,
+    "quote": "Al final, el poder es la única virtud real... y la debilidad, el único vicio.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 98,
+    "quote": "El camino hacia la paz está pavimentado con sacrificios.",
+    "anime": "Naruto Shippuden",
+    "character": "Tobirama Senju",
+    "language": "es"
+  },
+  {
+    "id": 99,
+    "quote": "¡Incluso si muero, siempre seré Hokage!",
+    "anime": "Naruto Shippuden",
+    "character": "Hiruzen Sarutobi",
+    "language": "es"
+  },
+  {
+    "id": 100,
+    "quote": "¡Créelo!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 101,
+    "quote": "Cuanto más larga es la sombra que se proyecta, más brillante debe ser la luz.",
+    "anime": "Naruto Shippuden",
+    "character": "Hiruzen Sarutobi",
+    "language": "es"
+  },
+  {
+    "id": 102,
+    "quote": "Un verdadero maestro es un eterno estudiante.",
+    "anime": "Naruto Shippuden",
+    "character": "Might Guy",
+    "language": "es"
+  },
+  {
+    "id": 103,
+    "quote": "Aquellos que rompen las reglas son escoria, pero aquellos que abandonan a sus amigos son peor que escoria.",
+    "anime": "Naruto Shippuden",
+    "character": "Obito Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 104,
+    "quote": "El poder de una persona no es suficiente para cambiar nada. Por eso necesitamos aceptar ayuda de otros.",
+    "anime": "Naruto Shippuden",
+    "character": "Shikamaru Nara",
+    "language": "es"
+  },
+  {
+    "id": 105,
+    "quote": "Una herida que nunca sana... eso es lo que es el odio.",
+    "anime": "Naruto Shippuden",
+    "character": "Sasuke Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 106,
+    "quote": "Cuando proteges a alguien precioso para ti, obtienes verdadera fuerza.",
+    "anime": "Naruto Shippuden",
+    "character": "Zabuza Momochi",
+    "language": "es"
+  },
+  {
+    "id": 107,
+    "quote": "¡Mi dolor es mucho mayor que el tuyo!",
+    "anime": "Naruto Shippuden",
+    "character": "Nagato",
+    "language": "es"
+  },
+  {
+    "id": 108,
+    "quote": "La verdadera batalla comienza solo después de que hayas sido llevado al límite.",
+    "anime": "Naruto Shippuden",
+    "character": "Kakashi Hatake",
+    "language": "es"
+  },
+  {
+    "id": 109,
+    "quote": "Un sueño no es algo que ves cuando duermes. Es algo que no te deja dormir.",
+    "anime": "Naruto Shippuden",
+    "character": "Rock Lee",
+    "language": "es"
+  },
+  {
+    "id": 110,
+    "quote": "El mundo está lleno de odio y dolor. Pero creo que la paz llegará algún día.",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 111,
+    "quote": "El poder no viene de la capacidad, sino de la voluntad indomable.",
+    "anime": "Naruto Shippuden",
+    "character": "Itachi Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 112,
+    "quote": "Cuando pierdas de vista tu camino, escucha el destino en tu corazón.",
+    "anime": "Naruto Shippuden",
+    "character": "Hagoromo Ōtsutsuki",
+    "language": "es"
+  },
+  {
+    "id": 113,
+    "quote": "El mundo shinobi está gobernado por el odio. Pero yo romperé ese ciclo.",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "es"
+  },
+  {
+    "id": 114,
+    "quote": "El arte de la medicina consiste en entretener al paciente mientras la naturaleza cura la enfermedad.",
+    "anime": "Naruto Shippuden",
+    "character": "Tsunade",
+    "language": "es"
+  },
+  {
+    "id": 115,
+    "quote": "La oscuridad de la noche hace que las estrellas brillen más.",
+    "anime": "Naruto Shippuden",
+    "character": "Hashirama Senju",
+    "language": "es"
+  },
+  {
+    "id": 116,
+    "quote": "Si no entiendes a otros, no puedes entenderte verdaderamente a ti mismo.",
+    "anime": "Naruto Shippuden",
+    "character": "Jiraiya",
+    "language": "es"
+  },
+  {
+    "id": 117,
+    "quote": "En el momento en que pienses en rendirte, piensa en la razón por la que aguantaste tanto tiempo.",
+    "anime": "Naruto Shippuden",
+    "character": "Neji Hyuga",
+    "language": "es"
+  },
+  {
+    "id": 118,
+    "quote": "Tus palabras cortan más profundo que cualquier espada.",
+    "anime": "Naruto Shippuden",
+    "character": "Sasuke Uchiha",
+    "language": "es"
+  },
+  {
+    "id": 119,
+    "quote": "Un líder debe caminar por delante de su gente, mostrándoles el camino con su ejemplo.",
+    "anime": "Naruto Shippuden",
+    "character": "Gaara",
+    "language": "es"
+  },
+  {
+    "id": 120,
+    "quote": "El futuro no es un camino, sino una elección.",
+    "anime": "Naruto Shippuden",
+    "character": "Minato Namikaze",
+    "language": "es"
+  },
+  {
+    "id": 121,
+    "quote": "Si ganas, vives. Si pierdes, mueres. ¡Si no luchas, no puedes ganar!",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 122,
+    "quote": "Este mundo es cruel... pero también hermoso.",
+    "anime": "Ataque a los Titanes",
+    "character": "Mikasa Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 123,
+    "quote": "El mundo es despiadado, y también es muy hermoso.",
+    "anime": "Ataque a los Titanes",
+    "character": "Levi Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 124,
+    "quote": "Alguien que no puede sacrificar nada no puede cambiar nada.",
+    "anime": "Ataque a los Titanes",
+    "character": "Armin Arlert",
+    "language": "es"
+  },
+  {
+    "id": 125,
+    "quote": "Renuncia a tus sueños y muere.",
+    "anime": "Ataque a los Titanes",
+    "character": "Levi Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 126,
+    "quote": "Soy igual que tú. Siempre me he odiado a mí mismo. Nacido en este mundo... nunca he sido capaz de perdonarme por estar vivo.",
+    "anime": "Ataque a los Titanes",
+    "character": "Reiner Braun",
+    "language": "es"
+  },
+  {
+    "id": 127,
+    "quote": "Lo único que se nos permite hacer es creer que no nos arrepentiremos de la elección que hicimos.",
+    "anime": "Ataque a los Titanes",
+    "character": "Levi Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 128,
+    "quote": "No sé qué opción deberías elegir. Te dejaré la decisión a ti. Pero sea lo que elijas... prepárate para aceptar las consecuencias.",
+    "anime": "Ataque a los Titanes",
+    "character": "Erwin Smith",
+    "language": "es"
+  },
+  {
+    "id": 129,
+    "quote": "Nací en este mundo.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 130,
+    "quote": "Todos somos libres. En lo que a nosotros respecta, somos los soldados más libres del mundo.",
+    "anime": "Ataque a los Titanes",
+    "character": "Hange Zoë",
+    "language": "es"
+  },
+  {
+    "id": 131,
+    "quote": "Sigo avanzando... hasta que mis enemigos sean destruidos.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 132,
+    "quote": "La única forma de derrotar verdaderamente a alguien es entenderlo.",
+    "anime": "Ataque a los Titanes",
+    "character": "Armin Arlert",
+    "language": "es"
+  },
+  {
+    "id": 133,
+    "quote": "¡Si no luchas, no puedes ganar!",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 134,
+    "quote": "¡Voy a matar hasta el último de esos animales!",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 135,
+    "quote": "No quiero morir... porque nací en este mundo.",
+    "anime": "Ataque a los Titanes",
+    "character": "Armin Arlert",
+    "language": "es"
+  },
+  {
+    "id": 136,
+    "quote": "La humanidad nunca dejará de luchar contra sí misma hasta que quede solo un humano... o menos.",
+    "anime": "Ataque a los Titanes",
+    "character": "Kenny Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 137,
+    "quote": "Todo el mundo tenía que estar borracho de algo para seguir adelante.",
+    "anime": "Ataque a los Titanes",
+    "character": "Erwin Smith",
+    "language": "es"
+  },
+  {
+    "id": 138,
+    "quote": "Ya no sé qué está bien. Pero sé que debo seguir avanzando.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 139,
+    "quote": "Esta es una historia. Una historia que tú comenzaste. ¿No es así, Eren?",
+    "anime": "Ataque a los Titanes",
+    "character": "Zeke Yeager",
+    "language": "es"
+  },
+  {
+    "id": 140,
+    "quote": "Todos somos esclavos de algo.",
+    "anime": "Ataque a los Titanes",
+    "character": "Kenny Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 141,
+    "quote": "Solo soy una chica normal que aprendió a luchar.",
+    "anime": "Ataque a los Titanes",
+    "character": "Mikasa Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 142,
+    "quote": "La única verdad en este mundo es que no hay verdad.",
+    "anime": "Ataque a los Titanes",
+    "character": "Levi Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 143,
+    "quote": "Para salvar a la humanidad, debemos abandonar nuestra humanidad.",
+    "anime": "Ataque a los Titanes",
+    "character": "Dot Pixis",
+    "language": "es"
+  },
+  {
+    "id": 144,
+    "quote": "La diferencia entre un dios y un demonio está en qué lado gana.",
+    "anime": "Ataque a los Titanes",
+    "character": "Hange Zoë",
+    "language": "es"
+  },
+  {
+    "id": 145,
+    "quote": "No quiero ser un dios. Solo quiero destruir a mis enemigos.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 146,
+    "quote": "Si empiezas a arrepentirte, entorpecerás tus futuras decisiones y dejarás que otros tomen tus decisiones por ti.",
+    "anime": "Ataque a los Titanes",
+    "character": "Levi Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 147,
+    "quote": "Soy igual que tú. Siempre me he odiado a mí mismo.",
+    "anime": "Ataque a los Titanes",
+    "character": "Reiner Braun",
+    "language": "es"
+  },
+  {
+    "id": 148,
+    "quote": "Cuando las personas se enfrentan a algo verdaderamente aterrador, sus corazones se congelan.",
+    "anime": "Ataque a los Titanes",
+    "character": "Armin Arlert",
+    "language": "es"
+  },
+  {
+    "id": 149,
+    "quote": "El enemigo de la humanidad está más allá de estos muros. Y somos nosotros.",
+    "anime": "Ataque a los Titanes",
+    "character": "Reiner Braun",
+    "language": "es"
+  },
+  {
+    "id": 150,
+    "quote": "Soy libre...",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 151,
+    "quote": "No quiero que este mundo desaparezca.",
+    "anime": "Ataque a los Titanes",
+    "character": "Levi Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 152,
+    "quote": "No hemos visto el océano todavía.",
+    "anime": "Ataque a los Titanes",
+    "character": "Armin Arlert",
+    "language": "es"
+  },
+  {
+    "id": 153,
+    "quote": "No voy a morir. No hasta que vea lo que hay fuera de estos muros.",
+    "anime": "Ataque a los Titanes",
+    "character": "Armin Arlert",
+    "language": "es"
+  },
+  {
+    "id": 154,
+    "quote": "¡Lucha! ¡Vence! ¡Lucha! ¡Vence!",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 155,
+    "quote": "Soy el Titán Acorazado y él es el Titán Colosal.",
+    "anime": "Ataque a los Titanes",
+    "character": "Reiner Braun",
+    "language": "es"
+  },
+  {
+    "id": 156,
+    "quote": "Lo único que podemos hacer es seguir avanzando.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 157,
+    "quote": "Soy igual que tú. He cargado con el destino de ser eldiano.",
+    "anime": "Ataque a los Titanes",
+    "character": "Zeke Yeager",
+    "language": "es"
+  },
+  {
+    "id": 158,
+    "quote": "No puedes cambiar nada a menos que puedas descartar parte de ti mismo también.",
+    "anime": "Ataque a los Titanes",
+    "character": "Kenny Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 159,
+    "quote": "¡Te envolvré esa bufanda tantas veces como quieras!",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 160,
+    "quote": "¡Dedica tu corazón!",
+    "anime": "Ataque a los Titanes",
+    "character": "Cuerpo de Exploración",
+    "language": "es"
+  },
+  {
+    "id": 161,
+    "quote": "Si matamos a todos nuestros enemigos de allí... ¿seremos finalmente libres?",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 162,
+    "quote": "El mundo es un lugar cruel. Pero también es muy hermoso.",
+    "anime": "Ataque a los Titanes",
+    "character": "Mikasa Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 163,
+    "quote": "Voy a exterminar hasta el último Titán en esta tierra.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 164,
+    "quote": "La única forma de ganar es luchando.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 165,
+    "quote": "No quiero morir. Aún no estoy lista para morir.",
+    "anime": "Ataque a los Titanes",
+    "character": "Sasha Blouse",
+    "language": "es"
+  },
+  {
+    "id": 166,
+    "quote": "Estaba tan equivocado. No hay buenos en este mundo.",
+    "anime": "Ataque a los Titanes",
+    "character": "Reiner Braun",
+    "language": "es"
+  },
+  {
+    "id": 167,
+    "quote": "Solo soy un niño que no sabía nada.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 168,
+    "quote": "¡Si no luchas, no puedes sobrevivir!",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 169,
+    "quote": "Somos iguales. Ambos nacimos en este mundo.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 170,
+    "quote": "Ya no quiero ser un peón.",
+    "anime": "Ataque a los Titanes",
+    "character": "Historia Reiss",
+    "language": "es"
+  },
+  {
+    "id": 171,
+    "quote": "Lo único que se nos permite creer es que no nos arrepentiremos de la elección que hicimos.",
+    "anime": "Ataque a los Titanes",
+    "character": "Levi Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 172,
+    "quote": "No tengo arrepentimientos. Nací en este mundo.",
+    "anime": "Ataque a los Titanes",
+    "character": "Grisha Yeager",
+    "language": "es"
+  },
+  {
+    "id": 173,
+    "quote": "Seguiré avanzando. Hasta que destruya a los enemigos.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 174,
+    "quote": "No puedes esperar una historia de terror con final feliz.",
+    "anime": "Ataque a los Titanes",
+    "character": "Levi Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 175,
+    "quote": "¡Lo único que nos queda es luchar!",
+    "anime": "Ataque a los Titanes",
+    "character": "Erwin Smith",
+    "language": "es"
+  },
+  {
+    "id": 176,
+    "quote": "Voy a terminar con este ciclo de odio.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 177,
+    "quote": "Soy libre. No importa lo que pase, soy libre.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 178,
+    "quote": "Lo siento. No voy a morir. Aún no puedo morir.",
+    "anime": "Ataque a los Titanes",
+    "character": "Armin Arlert",
+    "language": "es"
+  },
+  {
+    "id": 179,
+    "quote": "Esto es libertad.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 180,
+    "quote": "No se nos ha dado el derecho a rendirnos.",
+    "anime": "Ataque a los Titanes",
+    "character": "Erwin Smith",
+    "language": "es"
+  },
+  {
+    "id": 181,
+    "quote": "Nací así. Directo en este mundo cruel.",
+    "anime": "Ataque a los Titanes",
+    "character": "Ymir",
+    "language": "es"
+  },
+  {
+    "id": 182,
+    "quote": "Te quitaré la libertad con mis propias manos.",
+    "anime": "Ataque a los Titanes",
+    "character": "Mikasa Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 183,
+    "quote": "Lo único que podemos hacer es seguir adelante.",
+    "anime": "Ataque a los Titanes",
+    "character": "Armin Arlert",
+    "language": "es"
+  },
+  {
+    "id": 184,
+    "quote": "No soy tu enemiga. Nunca lo fui.",
+    "anime": "Ataque a los Titanes",
+    "character": "Annie Leonhart",
+    "language": "es"
+  },
+  {
+    "id": 185,
+    "quote": "Voy a poner fin a este mundo.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 186,
+    "quote": "Todos somos esclavos de la libertad.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 187,
+    "quote": "Seguiré avanzando. Hasta que destruya a mis enemigos.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 188,
+    "quote": "Quiero ver y entender el mundo exterior.",
+    "anime": "Ataque a los Titanes",
+    "character": "Armin Arlert",
+    "language": "es"
+  },
+  {
+    "id": 189,
+    "quote": "Esta es la historia que tú comenzaste.",
+    "anime": "Ataque a los Titanes",
+    "character": "Zeke Yeager",
+    "language": "es"
+  },
+  {
+    "id": 190,
+    "quote": "Tenemos que seguir avanzando, aunque muramos. Incluso después de que muramos.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 191,
+    "quote": "Renunciaré a mi sueño y moriré por ti.",
+    "anime": "Ataque a los Titanes",
+    "character": "Armin Arlert",
+    "language": "es"
+  },
+  {
+    "id": 192,
+    "quote": "La libertad de vivir es la libertad de morir.",
+    "anime": "Ataque a los Titanes",
+    "character": "Kenny Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 193,
+    "quote": "Los mataré a todos. Hasta el último de esos animales que está en esta tierra.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 194,
+    "quote": "Este es el camino que hemos elegido. Ya no hay vuelta atrás.",
+    "anime": "Ataque a los Titanes",
+    "character": "Levi Ackerman",
+    "language": "es"
+  },
+  {
+    "id": 195,
+    "quote": "Destruiré el mundo entero.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 196,
+    "quote": "Somos iguales. Tú y yo somos iguales.",
+    "anime": "Ataque a los Titanes",
+    "character": "Reiner Braun",
+    "language": "es"
+  },
+  {
+    "id": 197,
+    "quote": "Voy a poner fin a esta guerra.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 198,
+    "quote": "Esta es la única manera.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  },
+  {
+    "id": 199,
+    "quote": "Nací en este mundo.",
+    "anime": "Ataque a los Titanes",
+    "character": "Historia Reiss",
+    "language": "es"
+  },
+  {
+    "id": 200,
+    "quote": "Somos libres.",
+    "anime": "Ataque a los Titanes",
+    "character": "Eren Yeager",
+    "language": "es"
+  }
+]
