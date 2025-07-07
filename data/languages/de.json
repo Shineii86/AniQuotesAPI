@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 1,
+    "quote": "Ich werde nicht weglaufen, ich gehe nie auf mein Wort zurück! Das ist mein Nindo: mein Ninja-Weg!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 2,
+    "quote": "In der Ninja-Welt sind diejenigen, die die Regeln brechen, Abschaum... aber diejenigen, die ihre Freunde im Stich lassen, sind schlimmer als Abschaum.",
+    "anime": "Naruto Shippuden",
+    "character": "Kakashi Hatake",
+    "language": "de"
+  },
+  {
+    "id": 3,
+    "quote": "Wenn dir dein Schicksal nicht gefällt, akzeptiere es nicht. Hab stattdessen den Mut, es so zu ändern, wie du es willst.",
+    "anime": "Naruto Shippuden",
+    "character": "Nagato (Pain)",
+    "language": "de"
+  },
+  {
+    "id": 4,
+    "quote": "Ein Versager wird das Genie durch harte Arbeit schlagen. Und ich werde es beweisen!",
+    "anime": "Naruto Shippuden",
+    "character": "Rock Lee",
+    "language": "de"
+  },
+  {
+    "id": 5,
+    "quote": "Zu wissen, wie es sich anfühlt, Schmerzen zu haben, ist genau der Grund, warum wir versuchen, freundlich zu anderen zu sein.",
+    "anime": "Naruto Shippuden",
+    "character": "Gaara",
+    "language": "de"
+  },
+  {
+    "id": 6,
+    "quote": "Wenn Menschen verletzt werden, lernen sie zu hassen... Wenn Menschen andere verletzen, werden sie gehasst und von Schuld geplagt.",
+    "anime": "Naruto Shippuden",
+    "character": "Jiraiya",
+    "language": "de"
+  },
+  {
+    "id": 7,
+    "quote": "Das Loch im Herzen wird von anderen gefüllt... Meine Freunde haben mir das klargemacht.",
+    "anime": "Naruto Shippuden",
+    "character": "Obito Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 8,
+    "quote": "Diejenigen, die sich selbst nicht anerkennen können, werden schließlich versagen.",
+    "anime": "Naruto Shippuden",
+    "character": "Itachi Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 9,
+    "quote": "Das Leben eines Shinobi wird nicht daran gemessen, wie er lebt, sondern daran, was er vor seinem Tod erreicht.",
+    "anime": "Naruto Shippuden",
+    "character": "Minato Namikaze",
+    "language": "de"
+  },
+  {
+    "id": 10,
+    "quote": "Wahre Macht kommt nicht, wenn du für dich selbst kämpfst. Sie kommt, wenn du kämpfst, um jemanden zu beschützen.",
+    "anime": "Naruto Shippuden",
+    "character": "Hinata Hyuga",
+    "language": "de"
+  },
+  {
+    "id": 11,
+    "quote": "In dem Moment, in dem Menschen die Liebe kennenlernen, riskieren sie, Hass zu tragen.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 12,
+    "quote": "Wenn du mich töten willst, verfluche mich! Hasse mich! Und lebe ein langes, hässliches Leben!",
+    "anime": "Naruto Shippuden",
+    "character": "Sasuke Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 13,
+    "quote": "Ein wahrer Lehrer lehrt nicht die Transformation der Natur; er lehrt dir, wie du dein Leben leben sollst.",
+    "anime": "Naruto Shippuden",
+    "character": "Asuma Sarutobi",
+    "language": "de"
+  },
+  {
+    "id": 14,
+    "quote": "Der Unterschied zwischen Dummheit und Genialität ist, dass Genialität ihre Grenzen hat.",
+    "anime": "Naruto Shippuden",
+    "character": "Shikamaru Nara",
+    "language": "de"
+  },
+  {
+    "id": 15,
+    "quote": "Sympathie? Das ist die Emotion, die ich am meisten hasse. Sie ändert nichts.",
+    "anime": "Naruto Shippuden",
+    "character": "Sasori",
+    "language": "de"
+  },
+  {
+    "id": 16,
+    "quote": "Menschen können nicht gegen ihre Einsamkeit gewinnen.",
+    "anime": "Naruto Shippuden",
+    "character": "Killer Bee",
+    "language": "de"
+  },
+  {
+    "id": 17,
+    "quote": "Je länger du lebst, desto mehr erkennst du, dass die Realität nur aus Schmerz, Leiden und Leere besteht.",
+    "anime": "Naruto Shippuden",
+    "character": "Pain",
+    "language": "de"
+  },
+  {
+    "id": 18,
+    "quote": "Wenn ein Mann lernt zu lieben, muss er das Risiko des Hasses tragen.",
+    "anime": "Naruto Shippuden",
+    "character": "Tobi",
+    "language": "de"
+  },
+  {
+    "id": 19,
+    "quote": "Zu wissen, was richtig ist, und sich zu entscheiden, es zu ignorieren, ist die Tat eines Feiglings.",
+    "anime": "Naruto Shippuden",
+    "character": "Sakura Haruno",
+    "language": "de"
+  },
+  {
+    "id": 20,
+    "quote": "Ein Ort, wo jemand noch an dich denkt, ist ein Ort, den du Zuhause nennen kannst.",
+    "anime": "Naruto Shippuden",
+    "character": "Jiraiya",
+    "language": "de"
+  },
+  {
+    "id": 21,
+    "quote": "Das Konzept der Hoffnung ist nichts anderes als aufzugeben. Ein Wort, das keine wahre Bedeutung hat.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 22,
+    "quote": "Wenn du jemandes Schmerz nicht teilst, kannst du ihn niemals verstehen.",
+    "anime": "Naruto Shippuden",
+    "character": "Nagato",
+    "language": "de"
+  },
+  {
+    "id": 23,
+    "quote": "Liebe ist nicht notwendig; Macht ist die einzige wahre Notwendigkeit!",
+    "anime": "Naruto Shippuden",
+    "character": "Sasuke Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 24,
+    "quote": "Die Welt ist nicht so einfach, wie ich dachte... also hörte ich auf zu denken.",
+    "anime": "Naruto Shippuden",
+    "character": "Hidan",
+    "language": "de"
+  },
+  {
+    "id": 25,
+    "quote": "Eine Person wächst, wenn sie Schwierigkeiten überwinden kann. Schutz ist wichtig, aber es gibt Dinge, die eine Person allein lernen muss.",
+    "anime": "Naruto Shippuden",
+    "character": "Iruka Umino",
+    "language": "de"
+  },
+  {
+    "id": 26,
+    "quote": "Es ist mir egal, ob ich sterbe. Ich muss nicht gewinnen... ich muss nur meinen Standpunkt halten und nicht weglaufen.",
+    "anime": "Naruto Shippuden",
+    "character": "Neji Hyuga",
+    "language": "de"
+  },
+  {
+    "id": 27,
+    "quote": "Wenn du aufgibst, sind deine Träume und alles andere weg.",
+    "anime": "Naruto Shippuden",
+    "character": "Kushina Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 28,
+    "quote": "Diejenigen, die sich selbst vergeben und ihre wahre Natur akzeptieren können... Das sind die Starken!",
+    "anime": "Naruto Shippuden",
+    "character": "Itachi Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 29,
+    "quote": "Das wahre Maß eines Shinobi ist nicht, wie er lebt, sondern wie er stirbt.",
+    "anime": "Naruto Shippuden",
+    "character": "Danzo Shimura",
+    "language": "de"
+  },
+  {
+    "id": 30,
+    "quote": "Angst ist nicht böse. Sie zeigt dir deine Schwäche. Und sobald du deine Schwäche kennst, kannst du stärker und auch freundlicher werden.",
+    "anime": "Naruto Shippuden",
+    "character": "Guren",
+    "language": "de"
+  },
+  {
+    "id": 31,
+    "quote": "Manchmal musst du leiden, um zu wissen, fallen, um zu wachsen, verlieren, um zu gewinnen, denn die größten Lektionen des Lebens werden durch Schmerz gelernt.",
+    "anime": "Naruto Shippuden",
+    "character": "Pain",
+    "language": "de"
+  },
+  {
+    "id": 32,
+    "quote": "Die nächste Generation wird die vorherige immer übertreffen. Es ist einer der endlosen Zyklen des Lebens.",
+    "anime": "Naruto Shippuden",
+    "character": "Hiruzen Sarutobi",
+    "language": "de"
+  },
+  {
+    "id": 33,
+    "quote": "Egal wie sehr du es hasst, das bist du. Zu versuchen, davor wegzulaufen, ist nicht anders, als vor dir selbst wegzulaufen.",
+    "anime": "Naruto Shippuden",
+    "character": "Kisame Hoshigaki",
+    "language": "de"
+  },
+  {
+    "id": 34,
+    "quote": "Ein Lächeln ist der einfachste Weg aus einer schwierigen Situation.",
+    "anime": "Naruto Shippuden",
+    "character": "Sai",
+    "language": "de"
+  },
+  {
+    "id": 35,
+    "quote": "Ein Ninja ist jemand, der durchhält, egal was auf ihn zukommt.",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 36,
+    "quote": "Die Schwachen können nichts entscheiden, nicht einmal wie sie sterben.",
+    "anime": "Naruto Shippuden",
+    "character": "Konan",
+    "language": "de"
+  },
+  {
+    "id": 37,
+    "quote": "Du solltest aufhören zu versuchen, mich zum Aufgeben zu bringen!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 38,
+    "quote": "Wenn du jemanden beschützt, den du liebst, steigt Mut von innen auf.",
+    "anime": "Naruto Shippuden",
+    "character": "Chiyo",
+    "language": "de"
+  },
+  {
+    "id": 39,
+    "quote": "Die Welt ist voller Hass und Schmerz. Aber ich glaube immer noch, dass es möglich ist, Frieden zu erreichen.",
+    "anime": "Naruto Shippuden",
+    "character": "Yahiko",
+    "language": "de"
+  },
+  {
+    "id": 40,
+    "quote": "Nur diejenigen, die bereit sind zu sterben, sollten töten!",
+    "anime": "Naruto Shippuden",
+    "character": "Lelouch Lamperouge",
+    "language": "de"
+  },
+  {
+    "id": 41,
+    "quote": "Egal wie tief die Nacht ist, sie wird schließlich zu Tag.",
+    "anime": "Naruto Shippuden",
+    "character": "Kurenai Yuhi",
+    "language": "de"
+  },
+  {
+    "id": 42,
+    "quote": "Ein Genie, ja? Was bedeutet das? 'Genie'? Ich wurde nicht mit viel natürlichem Talent geboren, bin nicht begabt wie Neji... aber ich arbeite hart und gebe niemals auf! Das ist mein Geschenk... das ist mein Ninja-Weg!",
+    "anime": "Naruto Shippuden",
+    "character": "Rock Lee",
+    "language": "de"
+  },
+  {
+    "id": 43,
+    "quote": "Wenn dir dein Weg nicht gefällt, fang an, einen anderen zu pflastern!",
+    "anime": "Naruto Shippuden",
+    "character": "Tsunade",
+    "language": "de"
+  },
+  {
+    "id": 44,
+    "quote": "Ich werde dich immer lieben, bis zu dem Tag, an dem ich sterbe und darüber hinaus. Selbst dann werde ich dich für alle Zeit lieben.",
+    "anime": "Naruto Shippuden",
+    "character": "Haku",
+    "language": "de"
+  },
+  {
+    "id": 45,
+    "quote": "Manchmal musst du leiden, um zu wissen, fallen, um zu wachsen, verlieren, um zu gewinnen.",
+    "anime": "Naruto Shippuden",
+    "character": "Pain",
+    "language": "de"
+  },
+  {
+    "id": 46,
+    "quote": "Das Feuer der Jugend brennt ewig!",
+    "anime": "Naruto Shippuden",
+    "character": "Might Guy",
+    "language": "de"
+  },
+  {
+    "id": 47,
+    "quote": "Ich werde meine Kameraden nicht sterben lassen. Ich werde dich mit meinem Leben beschützen!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 48,
+    "quote": "Wenn du mich töten willst, hasse mich, verabscheue mich und überlebe auf hässliche Weise.",
+    "anime": "Naruto Shippuden",
+    "character": "Sasuke Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 49,
+    "quote": "Der Moment, in dem sich Menschen verstehen... das ist, wenn wahrer Frieden beginnt.",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 50,
+    "quote": "Ich existiere, um nicht besiegt zu werden.",
+    "anime": "Naruto Shippuden",
+    "character": "Kakashi Hatake",
+    "language": "de"
+  },
+  {
+    "id": 51,
+    "quote": "Der Schmerz, allein zu sein, ist völlig von dieser Welt, nicht wahr? Ich weiß nicht warum, aber ich verstehe deine Gefühle so sehr, dass es wirklich weh tut.",
+    "anime": "Naruto Shippuden",
+    "character": "Obito Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 52,
+    "quote": "Ich verstehe es endlich... Jemand braucht mich. Ich werde hier gebraucht!",
+    "anime": "Naruto Shippuden",
+    "character": "Gaara",
+    "language": "de"
+  },
+  {
+    "id": 53,
+    "quote": "Menschen leben ihr Leben gebunden an das, was sie als richtig und wahr akzeptieren... so definieren sie Realität.",
+    "anime": "Naruto Shippuden",
+    "character": "Itachi Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 54,
+    "quote": "Ein Ninja muss unter die Oberfläche sehen.",
+    "anime": "Naruto Shippuden",
+    "character": "Kakashi Hatake",
+    "language": "de"
+  },
+  {
+    "id": 55,
+    "quote": "Ich bin nicht perfekt, aber ich bin immer ich selbst.",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 56,
+    "quote": "Wach auf zur Realität! Nichts läuft jemals wie geplant in dieser verfluchten Welt. Je länger du lebst, desto mehr erkennst du, dass die einzigen Dinge, die wirklich in dieser Realität existieren, nur Schmerz, Leiden und Sinnlosigkeit sind.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 57,
+    "quote": "Wenn ein Mann lernt zu lieben, muss er das Risiko des Hasses tragen.",
+    "anime": "Naruto Shippuden",
+    "character": "Obito Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 58,
+    "quote": "Die wahre Macht des Sharingan... ist nicht nur Jutsu zu kopieren. Es bedeutet durch alle Lügen zu sehen und die Wahrheit dieser Welt zu verstehen.",
+    "anime": "Naruto Shippuden",
+    "character": "Itachi Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 59,
+    "quote": "Ich werde niemals aufhören, an meinen eigenen Ninja-Weg zu glauben!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 60,
+    "quote": "In dieser Welt, wo Licht ist, gibt es auch Schatten. Solange das Konzept von Gewinnern existiert, muss es auch Verlierer geben.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 61,
+    "quote": "Macht ist nicht Wille, es ist das Phänomen, Dinge physisch geschehen zu lassen.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 62,
+    "quote": "Die Uchiha sind ein Clan, der zur Rache bestimmt ist. Selbst wenn diese Rache... gegen ihr eigenes Blut ist.",
+    "anime": "Naruto Shippuden",
+    "character": "Sasuke Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 63,
+    "quote": "Das Konzept der Hoffnung ist nichts anderes als aufzugeben. Ein Wort, das keine wahre Bedeutung in dieser Welt hat.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 64,
+    "quote": "Wahre Einsamkeit ist, in einem Raum voller Menschen zu sein und sich trotzdem allein zu fühlen.",
+    "anime": "Naruto Shippuden",
+    "character": "Kakashi Hatake",
+    "language": "de"
+  },
+  {
+    "id": 65,
+    "quote": "Der Unterschied zwischen einem Anfänger und einem Meister ist, dass der Meister öfter versagt hat, als der Anfänger es versucht hat.",
+    "anime": "Naruto Shippuden",
+    "character": "Jiraiya",
+    "language": "de"
+  },
+  {
+    "id": 66,
+    "quote": "Diese verfluchte Welt... der Kreislauf des Hasses... Ich werde ihn brechen!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 67,
+    "quote": "In dem Moment, in dem Menschen Liebe kennenlernen, laufen sie Gefahr, Hass zu tragen. Und Hass ist es, was Opfer schafft.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 68,
+    "quote": "Ich nehme mein Wort niemals zurück! Das ist mein Nindo, mein Ninja-Weg!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 69,
+    "quote": "Es gibt keine Hoffnung im Kampf. Es gibt nur absolute Verzweiflung, geboren aus dem kollektiven Bewusstsein der Menschheit.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 70,
+    "quote": "Das Unendliche Tsukuyomi wird endlich Frieden in diese Welt bringen. Ein Ende des verfluchten Kreislaufs des Hasses.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 71,
+    "quote": "Das Leben eines Ninja wird nicht daran gemessen, wie er lebte, sondern was er vor seinem Tod vollbracht hat.",
+    "anime": "Naruto Shippuden",
+    "character": "Deidara",
+    "language": "de"
+  },
+  {
+    "id": 72,
+    "quote": "Die geheime Technik jedes Shinobi... ist niemals aufzugeben!",
+    "anime": "Naruto Shippuden",
+    "character": "Might Guy",
+    "language": "de"
+  },
+  {
+    "id": 73,
+    "quote": "Wenn du dich ändern willst, fang zuerst damit an, dich selbst zu ändern.",
+    "anime": "Naruto Shippuden",
+    "character": "Shikamaru Nara",
+    "language": "de"
+  },
+  {
+    "id": 74,
+    "quote": "Selbst der stärkste Gegner hat immer eine Schwäche.",
+    "anime": "Naruto Shippuden",
+    "character": "Neji Hyuga",
+    "language": "de"
+  },
+  {
+    "id": 75,
+    "quote": "Ich werde niemals zulassen, dass sich Kameraden unter meiner Aufsicht gegenseitig töten!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 76,
+    "quote": "Kunst ist eine Explosion! Es ist vergängliche Schönheit!",
+    "anime": "Naruto Shippuden",
+    "character": "Deidara",
+    "language": "de"
+  },
+  {
+    "id": 77,
+    "quote": "Die Blume, die in der Widrigkeit blüht, ist die seltenste und schönste von allen.",
+    "anime": "Naruto Shippuden",
+    "character": "Tsunade",
+    "language": "de"
+  },
+  {
+    "id": 78,
+    "quote": "Wenn du etwas Wichtiges zu beschützen hast, dann kannst du wirklich stark werden.",
+    "anime": "Naruto Shippuden",
+    "character": "Zabuza Momochi",
+    "language": "de"
+  },
+  {
+    "id": 79,
+    "quote": "Die Dunkelheit in den Herzen der Menschen... das ist wahre Hässlichkeit.",
+    "anime": "Naruto Shippuden",
+    "character": "Sasuke Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 80,
+    "quote": "In dieser Welt gibt es keine schmerzlose Lektion.",
+    "anime": "Naruto Shippuden",
+    "character": "Kakashi Hatake",
+    "language": "de"
+  },
+  {
+    "id": 81,
+    "quote": "Ein Herz voller Rache hat keinen Platz für Liebe.",
+    "anime": "Naruto Shippuden",
+    "character": "Sakura Haruno",
+    "language": "de"
+  },
+  {
+    "id": 82,
+    "quote": "Wahre Stärke besteht nicht darin, Kämpfe zu gewinnen. Es geht darum, zu beschützen, was am wichtigsten ist.",
+    "anime": "Naruto Shippuden",
+    "character": "Hinata Hyuga",
+    "language": "de"
+  },
+  {
+    "id": 83,
+    "quote": "Der Wille des Feuers wird niemals erlöschen!",
+    "anime": "Naruto Shippuden",
+    "character": "Hashirama Senju",
+    "language": "de"
+  },
+  {
+    "id": 84,
+    "quote": "Es gibt keinen Vorteil darin, durch das Leben zu hetzen.",
+    "anime": "Naruto Shippuden",
+    "character": "Shikamaru Nara",
+    "language": "de"
+  },
+  {
+    "id": 85,
+    "quote": "Die Waffe eines Shinobi ist sein Herz!",
+    "anime": "Naruto Shippuden",
+    "character": "Kakashi Hatake",
+    "language": "de"
+  },
+  {
+    "id": 86,
+    "quote": "Wenn dir dein Schicksal nicht gefällt, akzeptiere es nicht. Hab den Mut, es zu ändern!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 87,
+    "quote": "Hokage zu werden ist mein Traum!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 88,
+    "quote": "Das stärkste Gift ist Hass.",
+    "anime": "Naruto Shippuden",
+    "character": "Chiyo",
+    "language": "de"
+  },
+  {
+    "id": 89,
+    "quote": "In der Gesellschaft beschweren sich diejenigen, die nicht viele Fähigkeiten haben, oft mehr.",
+    "anime": "Naruto Shippuden",
+    "character": "Sai",
+    "language": "de"
+  },
+  {
+    "id": 90,
+    "quote": "Die Augen, die Dunkelheit sehen, und die Hände, die Schmerz fühlen, werden eines Tages Licht schaffen.",
+    "anime": "Naruto Shippuden",
+    "character": "Nagato",
+    "language": "de"
+  },
+  {
+    "id": 91,
+    "quote": "Ein Leben ohne Zweck ist überhaupt kein Leben.",
+    "anime": "Naruto Shippuden",
+    "character": "Kisame Hoshigaki",
+    "language": "de"
+  },
+  {
+    "id": 92,
+    "quote": "Wir kämpfen nicht um zu töten, sondern um die kostbaren Leben um uns herum zu beschützen.",
+    "anime": "Naruto Shippuden",
+    "character": "Minato Namikaze",
+    "language": "de"
+  },
+  {
+    "id": 93,
+    "quote": "Die schwierigsten Entscheidungen erfordern den stärksten Willen.",
+    "anime": "Naruto Shippuden",
+    "character": "Itachi Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 94,
+    "quote": "Wahrer Wandel kann nicht vollbracht werden, wenn er durch Gesetze und Grenzen, Vorhersagen und Vorstellungen gebunden ist.",
+    "anime": "Naruto Shippuden",
+    "character": "Pain",
+    "language": "de"
+  },
+  {
+    "id": 95,
+    "quote": "In dem Moment, in dem sich Menschen gegenseitig verstehen, wird die Welt endlich Frieden kennen.",
+    "anime": "Naruto Shippuden",
+    "character": "Yahiko",
+    "language": "de"
+  },
+  {
+    "id": 96,
+    "quote": "Ein Leben ohne Opfer ist eines ohne Bedeutung.",
+    "anime": "Naruto Shippuden",
+    "character": "Orochimaru",
+    "language": "de"
+  },
+  {
+    "id": 97,
+    "quote": "Am Ende ist Macht die einzige wahre Tugend... und Schwäche das einzige Laster.",
+    "anime": "Naruto Shippuden",
+    "character": "Madara Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 98,
+    "quote": "Der Weg zum Frieden ist mit Opfern gepflastert.",
+    "anime": "Naruto Shippuden",
+    "character": "Tobirama Senju",
+    "language": "de"
+  },
+  {
+    "id": 99,
+    "quote": "Selbst wenn ich sterbe, werde ich immer Hokage sein!",
+    "anime": "Naruto Shippuden",
+    "character": "Hiruzen Sarutobi",
+    "language": "de"
+  },
+  {
+    "id": 100,
+    "quote": "Glaub daran!",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 101,
+    "quote": "Je länger der Schatten geworfen wird, desto heller muss das Licht sein.",
+    "anime": "Naruto Shippuden",
+    "character": "Hiruzen Sarutobi",
+    "language": "de"
+  },
+  {
+    "id": 102,
+    "quote": "Ein wahrer Meister ist ein ewiger Schüler.",
+    "anime": "Naruto Shippuden",
+    "character": "Might Guy",
+    "language": "de"
+  },
+  {
+    "id": 103,
+    "quote": "Diejenigen, die Regeln brechen, sind Abschaum, aber diejenigen, die ihre Freunde verlassen, sind schlimmer als Abschaum.",
+    "anime": "Naruto Shippuden",
+    "character": "Obito Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 104,
+    "quote": "Die Kraft einer Person reicht nicht aus, um etwas zu ändern. Deshalb müssen wir Hilfe von anderen annehmen.",
+    "anime": "Naruto Shippuden",
+    "character": "Shikamaru Nara",
+    "language": "de"
+  },
+  {
+    "id": 105,
+    "quote": "Eine Wunde, die nie heilt... das ist Hass.",
+    "anime": "Naruto Shippuden",
+    "character": "Sasuke Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 106,
+    "quote": "Wenn du jemanden beschützt, der dir wertvoll ist, gewinnst du wahre Stärke.",
+    "anime": "Naruto Shippuden",
+    "character": "Zabuza Momochi",
+    "language": "de"
+  },
+  {
+    "id": 107,
+    "quote": "Mein Schmerz ist viel größer als deiner!",
+    "anime": "Naruto Shippuden",
+    "character": "Nagato",
+    "language": "de"
+  },
+  {
+    "id": 108,
+    "quote": "Der wahre Kampf beginnt erst, nachdem du an deine Grenzen gedrängt wurdest.",
+    "anime": "Naruto Shippuden",
+    "character": "Kakashi Hatake",
+    "language": "de"
+  },
+  {
+    "id": 109,
+    "quote": "Ein Traum ist nicht etwas, was du siehst, wenn du schläfst. Es ist etwas, das dich nicht schlafen lässt.",
+    "anime": "Naruto Shippuden",
+    "character": "Rock Lee",
+    "language": "de"
+  },
+  {
+    "id": 110,
+    "quote": "Die Welt ist voller Hass und Schmerz. Aber ich glaube, dass der Frieden eines Tages kommen wird.",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 111,
+    "quote": "Macht kommt nicht von Fähigkeit, sondern von unbezwingbarem Willen.",
+    "anime": "Naruto Shippuden",
+    "character": "Itachi Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 112,
+    "quote": "Wenn du deinen Weg aus den Augen verlierst, höre auf das Ziel in deinem Herzen.",
+    "anime": "Naruto Shippuden",
+    "character": "Hagoromo Ōtsutsuki",
+    "language": "de"
+  },
+  {
+    "id": 113,
+    "quote": "Die Shinobi-Welt wird vom Hass regiert. Aber ich werde diesen Zyklus durchbrechen.",
+    "anime": "Naruto Shippuden",
+    "character": "Naruto Uzumaki",
+    "language": "de"
+  },
+  {
+    "id": 114,
+    "quote": "Die Kunst der Medizin besteht darin, den Patienten zu unterhalten, während die Natur die Krankheit heilt.",
+    "anime": "Naruto Shippuden",
+    "character": "Tsunade",
+    "language": "de"
+  },
+  {
+    "id": 115,
+    "quote": "Die Dunkelheit der Nacht lässt die Sterne heller leuchten.",
+    "anime": "Naruto Shippuden",
+    "character": "Hashirama Senju",
+    "language": "de"
+  },
+  {
+    "id": 116,
+    "quote": "Wenn du andere nicht verstehst, kannst du dich selbst nicht wirklich verstehen.",
+    "anime": "Naruto Shippuden",
+    "character": "Jiraiya",
+    "language": "de"
+  },
+  {
+    "id": 117,
+    "quote": "In dem Moment, in dem du ans Aufgeben denkst, denke an den Grund, warum du so lange durchgehalten hast.",
+    "anime": "Naruto Shippuden",
+    "character": "Neji Hyuga",
+    "language": "de"
+  },
+  {
+    "id": 118,
+    "quote": "Deine Worte schneiden tiefer als jede Klinge.",
+    "anime": "Naruto Shippuden",
+    "character": "Sasuke Uchiha",
+    "language": "de"
+  },
+  {
+    "id": 119,
+    "quote": "Ein Anführer muss vor seinem Volk gehen und ihm durch sein Beispiel den Weg zeigen.",
+    "anime": "Naruto Shippuden",
+    "character": "Gaara",
+    "language": "de"
+  },
+  {
+    "id": 120,
+    "quote": "Die Zukunft ist kein Weg, sondern eine Wahl.",
+    "anime": "Naruto Shippuden",
+    "character": "Minato Namikaze",
+    "language": "de"
+  },
+  {
+    "id": 121,
+    "quote": "Wenn du gewinnst, lebst du. Wenn du verlierst, stirbst du. Wenn du nicht kämpfst, kannst du nicht gewinnen!",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 122,
+    "quote": "Diese Welt ist grausam... aber auch schön.",
+    "anime": "Angriff auf Titan",
+    "character": "Mikasa Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 123,
+    "quote": "Die Welt ist gnadenlos, und sie ist auch sehr schön.",
+    "anime": "Angriff auf Titan",
+    "character": "Levi Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 124,
+    "quote": "Jemand, der nichts opfern kann, kann nichts ändern.",
+    "anime": "Angriff auf Titan",
+    "character": "Armin Arlert",
+    "language": "de"
+  },
+  {
+    "id": 125,
+    "quote": "Gib deine Träume auf und stirb.",
+    "anime": "Angriff auf Titan",
+    "character": "Levi Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 126,
+    "quote": "Ich bin genauso wie du. Ich habe mich immer selbst gehasst. Geboren in diese Welt... Ich konnte mir nie verzeihen, dass ich einfach am Leben bin.",
+    "anime": "Angriff auf Titan",
+    "character": "Reiner Braun",
+    "language": "de"
+  },
+  {
+    "id": 127,
+    "quote": "Das Einzige, was uns erlaubt ist, ist zu glauben, dass wir die Wahl, die wir getroffen haben, nicht bereuen werden.",
+    "anime": "Angriff auf Titan",
+    "character": "Levi Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 128,
+    "quote": "Ich weiß nicht, welche Option du wählen solltest. Ich überlasse dir die Entscheidung. Aber was auch immer du wählst... sei bereit, die Konsequenzen zu akzeptieren.",
+    "anime": "Angriff auf Titan",
+    "character": "Erwin Smith",
+    "language": "de"
+  },
+  {
+    "id": 129,
+    "quote": "Ich wurde in diese Welt geboren.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 130,
+    "quote": "Wir sind alle frei. Was uns betrifft, sind wir die freiesten Soldaten der Welt.",
+    "anime": "Angriff auf Titan",
+    "character": "Hange Zoë",
+    "language": "de"
+  },
+  {
+    "id": 131,
+    "quote": "Ich gehe weiter vorwärts... bis meine Feinde zerstört sind.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 132,
+    "quote": "Der einzige Weg, jemanden wirklich zu besiegen, ist ihn zu verstehen.",
+    "anime": "Angriff auf Titan",
+    "character": "Armin Arlert",
+    "language": "de"
+  },
+  {
+    "id": 133,
+    "quote": "Wenn du nicht kämpfst, kannst du nicht gewinnen!",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 134,
+    "quote": "Ich werde jeden einzelnen dieser Tiere töten!",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 135,
+    "quote": "Ich will nicht sterben... weil ich in diese Welt geboren wurde.",
+    "anime": "Angriff auf Titan",
+    "character": "Armin Arlert",
+    "language": "de"
+  },
+  {
+    "id": 136,
+    "quote": "Die Menschheit wird nie aufhören, gegen sich selbst zu kämpfen, bis nur noch ein Mensch... oder weniger übrig ist.",
+    "anime": "Angriff auf Titan",
+    "character": "Kenny Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 137,
+    "quote": "Jeder musste von etwas betrunken sein, um weiterzumachen.",
+    "anime": "Angriff auf Titan",
+    "character": "Erwin Smith",
+    "language": "de"
+  },
+  {
+    "id": 138,
+    "quote": "Ich weiß nicht mehr, was richtig ist. Aber ich weiß, dass ich weitergehen muss.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 139,
+    "quote": "Das ist eine Geschichte. Eine Geschichte, die du angefangen hast. Nicht wahr, Eren?",
+    "anime": "Angriff auf Titan",
+    "character": "Zeke Yeager",
+    "language": "de"
+  },
+  {
+    "id": 140,
+    "quote": "Wir sind alle Sklaven von etwas.",
+    "anime": "Angriff auf Titan",
+    "character": "Kenny Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 141,
+    "quote": "Ich bin nur ein normales Mädchen, das kämpfen gelernt hat.",
+    "anime": "Angriff auf Titan",
+    "character": "Mikasa Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 142,
+    "quote": "Die einzige Wahrheit in dieser Welt ist, dass es keine Wahrheit gibt.",
+    "anime": "Angriff auf Titan",
+    "character": "Levi Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 143,
+    "quote": "Um die Menschheit zu retten, müssen wir unsere Menschlichkeit aufgeben.",
+    "anime": "Angriff auf Titan",
+    "character": "Dot Pixis",
+    "language": "de"
+  },
+  {
+    "id": 144,
+    "quote": "Der Unterschied zwischen einem Gott und einem Teufel liegt darin, welche Seite gewinnt.",
+    "anime": "Angriff auf Titan",
+    "character": "Hange Zoë",
+    "language": "de"
+  },
+  {
+    "id": 145,
+    "quote": "Ich will kein Gott sein. Ich will nur meine Feinde vernichten.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 146,
+    "quote": "Wenn du anfängst zu bereuen, wirst du deine zukünftigen Entscheidungen stumpf machen und andere deine Entscheidungen für dich treffen lassen.",
+    "anime": "Angriff auf Titan",
+    "character": "Levi Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 147,
+    "quote": "Ich bin genauso wie du. Ich habe mich immer selbst gehasst.",
+    "anime": "Angriff auf Titan",
+    "character": "Reiner Braun",
+    "language": "de"
+  },
+  {
+    "id": 148,
+    "quote": "Wenn Menschen mit etwas wirklich Erschreckendem konfrontiert werden, erstarren ihre Herzen.",
+    "anime": "Angriff auf Titan",
+    "character": "Armin Arlert",
+    "language": "de"
+  },
+  {
+    "id": 149,
+    "quote": "Der Feind der Menschheit ist jenseits dieser Mauern. Und das sind wir.",
+    "anime": "Angriff auf Titan",
+    "character": "Reiner Braun",
+    "language": "de"
+  },
+  {
+    "id": 150,
+    "quote": "Ich bin frei...",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 151,
+    "quote": "Ich will nicht, dass diese Welt verschwindet.",
+    "anime": "Angriff auf Titan",
+    "character": "Levi Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 152,
+    "quote": "Wir haben das Meer noch nicht gesehen.",
+    "anime": "Angriff auf Titan",
+    "character": "Armin Arlert",
+    "language": "de"
+  },
+  {
+    "id": 153,
+    "quote": "Ich werde nicht sterben. Nicht bevor ich gesehen habe, was jenseits dieser Mauern ist.",
+    "anime": "Angriff auf Titan",
+    "character": "Armin Arlert",
+    "language": "de"
+  },
+  {
+    "id": 154,
+    "quote": "Kämpfe! Gewinne! Kämpfe! Gewinne!",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 155,
+    "quote": "Ich bin der gepanzerte Titan und er der kolossale Titan.",
+    "anime": "Angriff auf Titan",
+    "character": "Reiner Braun",
+    "language": "de"
+  },
+  {
+    "id": 156,
+    "quote": "Das Einzige, was wir tun können, ist weiterzumachen.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 157,
+    "quote": "Ich bin wie du. Ich habe die Last getragen, ein Eldier zu sein.",
+    "anime": "Angriff auf Titan",
+    "character": "Zeke Yeager",
+    "language": "de"
+  },
+  {
+    "id": 158,
+    "quote": "Du kannst nichts ändern, es sei denn, du kannst auch einen Teil von dir selbst aufgeben.",
+    "anime": "Angriff auf Titan",
+    "character": "Kenny Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 159,
+    "quote": "Ich werde dir diesen Schal so oft umwickeln, wie du willst!",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 160,
+    "quote": "Widmet euer Herz!",
+    "anime": "Angriff auf Titan",
+    "character": "Aufklärungstrupp",
+    "language": "de"
+  },
+  {
+    "id": 161,
+    "quote": "Wenn wir alle unsere Feinde dort töten... werden wir endlich frei sein?",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 162,
+    "quote": "Die Welt ist ein grausamer Ort. Aber sie ist auch sehr schön.",
+    "anime": "Angriff auf Titan",
+    "character": "Mikasa Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 163,
+    "quote": "Ich werde jeden Titanen auf dieser Erde ausrotten.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 164,
+    "quote": "Der einzige Weg zu gewinnen ist zu kämpfen.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 165,
+    "quote": "Ich will nicht sterben. Ich bin noch nicht bereit zu sterben.",
+    "anime": "Angriff auf Titan",
+    "character": "Sasha Blouse",
+    "language": "de"
+  },
+  {
+    "id": 166,
+    "quote": "Ich lag so falsch. Es gibt keine Guten in dieser Welt.",
+    "anime": "Angriff auf Titan",
+    "character": "Reiner Braun",
+    "language": "de"
+  },
+  {
+    "id": 167,
+    "quote": "Ich bin nur ein Kind, das nichts wusste.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 168,
+    "quote": "Wenn du nicht kämpfst, kannst du nicht überleben!",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 169,
+    "quote": "Wir sind gleich. Wir beide wurden in diese Welt geboren.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 170,
+    "quote": "Ich will kein Bauer mehr sein.",
+    "anime": "Angriff auf Titan",
+    "character": "Historia Reiss",
+    "language": "de"
+  },
+  {
+    "id": 171,
+    "quote": "Das Einzige, was uns erlaubt ist zu glauben, ist, dass wir die Wahl, die wir getroffen haben, nicht bereuen werden.",
+    "anime": "Angriff auf Titan",
+    "character": "Levi Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 172,
+    "quote": "Ich habe keine Reue. Ich wurde in diese Welt geboren.",
+    "anime": "Angriff auf Titan",
+    "character": "Grisha Yeager",
+    "language": "de"
+  },
+  {
+    "id": 173,
+    "quote": "Ich werde weitermachen. Bis ich die Feinde zerstöre.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 174,
+    "quote": "Du kannst keine Horrorgeschichte mit einem glücklichen Ende erwarten.",
+    "anime": "Angriff auf Titan",
+    "character": "Levi Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 175,
+    "quote": "Das Einzige, was uns bleibt, ist zu kämpfen!",
+    "anime": "Angriff auf Titan",
+    "character": "Erwin Smith",
+    "language": "de"
+  },
+  {
+    "id": 176,
+    "quote": "Ich werde diesem Kreislauf des Hasses ein Ende setzen.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 177,
+    "quote": "Ich bin frei. Egal was passiert, ich bin frei.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 178,
+    "quote": "Es tut mir leid. Ich werde nicht sterben. Ich kann noch nicht sterben.",
+    "anime": "Angriff auf Titan",
+    "character": "Armin Arlert",
+    "language": "de"
+  },
+  {
+    "id": 179,
+    "quote": "Das ist Freiheit.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 180,
+    "quote": "Uns wurde nicht das Recht gegeben aufzugeben.",
+    "anime": "Angriff auf Titan",
+    "character": "Erwin Smith",
+    "language": "de"
+  },
+  {
+    "id": 181,
+    "quote": "Ich wurde so geboren. Direkt in diese grausame Welt.",
+    "anime": "Angriff auf Titan",
+    "character": "Ymir",
+    "language": "de"
+  },
+  {
+    "id": 182,
+    "quote": "Ich werde die Freiheit mit meinen eigenen Händen zurücknehmen.",
+    "anime": "Angriff auf Titan",
+    "character": "Mikasa Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 183,
+    "quote": "Das Einzige, was wir tun können, ist vorwärts zu gehen.",
+    "anime": "Angriff auf Titan",
+    "character": "Armin Arlert",
+    "language": "de"
+  },
+  {
+    "id": 184,
+    "quote": "Ich bin nicht dein Feind. Das war ich nie.",
+    "anime": "Angriff auf Titan",
+    "character": "Annie Leonhart",
+    "language": "de"
+  },
+  {
+    "id": 185,
+    "quote": "Ich werde dieser Welt ein Ende setzen.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 186,
+    "quote": "Wir sind alle Sklaven der Freiheit.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 187,
+    "quote": "Ich werde weitermachen. Bis ich meine Feinde zerstöre.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 188,
+    "quote": "Ich will die Außenwelt sehen und verstehen.",
+    "anime": "Angriff auf Titan",
+    "character": "Armin Arlert",
+    "language": "de"
+  },
+  {
+    "id": 189,
+    "quote": "Das ist die Geschichte, die du begonnen hast.",
+    "anime": "Angriff auf Titan",
+    "character": "Zeke Yeager",
+    "language": "de"
+  },
+  {
+    "id": 190,
+    "quote": "Wir müssen weitermachen, auch wenn wir sterben. Auch nach unserem Tod.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 191,
+    "quote": "Ich werde meinen Traum aufgeben und für dich sterben.",
+    "anime": "Angriff auf Titan",
+    "character": "Armin Arlert",
+    "language": "de"
+  },
+  {
+    "id": 192,
+    "quote": "Die Freiheit zu leben ist die Freiheit zu sterben.",
+    "anime": "Angriff auf Titan",
+    "character": "Kenny Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 193,
+    "quote": "Ich werde sie alle töten. Jedes einzelne dieser Tiere auf dieser Erde.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 194,
+    "quote": "Das ist der Weg, den wir gewählt haben. Es gibt kein Zurück mehr.",
+    "anime": "Angriff auf Titan",
+    "character": "Levi Ackerman",
+    "language": "de"
+  },
+  {
+    "id": 195,
+    "quote": "Ich werde die ganze Welt zerstören.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 196,
+    "quote": "Wir sind gleich. Du und ich sind gleich.",
+    "anime": "Angriff auf Titan",
+    "character": "Reiner Braun",
+    "language": "de"
+  },
+  {
+    "id": 197,
+    "quote": "Ich werde diesem Krieg ein Ende setzen.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 198,
+    "quote": "Das ist der einzige Weg.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  },
+  {
+    "id": 199,
+    "quote": "Ich wurde in diese Welt geboren.",
+    "anime": "Angriff auf Titan",
+    "character": "Historia Reiss",
+    "language": "de"
+  },
+  {
+    "id": 200,
+    "quote": "Wir sind frei.",
+    "anime": "Angriff auf Titan",
+    "character": "Eren Yeager",
+    "language": "de"
+  }
+]
