@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 1,
+    "quote": "我不会逃跑，我绝不会违背自己的话！这就是我的忍道：我的忍者之路！",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 2,
+    "quote": "在忍者世界中，违背规则的人被称为废物...但是抛弃伙伴的人比废物更糟糕。",
+    "anime": "火影忍者疾风传",
+    "character": "旗木卡卡西",
+    "language": "zh"
+  },
+  {
+    "id": 3,
+    "quote": "如果你不喜欢自己的命运，就不要接受它。相反，要有勇气按照自己的意愿去改变它。",
+    "anime": "火影忍者疾风传",
+    "character": "长门（佩恩）",
+    "language": "zh"
+  },
+  {
+    "id": 4,
+    "quote": "吊车尾会通过努力打败天才。我会证明给你看！",
+    "anime": "火影忍者疾风传",
+    "character": "洛克·李",
+    "language": "zh"
+  },
+  {
+    "id": 5,
+    "quote": "知道痛苦是什么感觉，正是我们努力对他人友善的原因。",
+    "anime": "火影忍者疾风传",
+    "character": "我爱罗",
+    "language": "zh"
+  },
+  {
+    "id": 6,
+    "quote": "当人们受到伤害时，他们学会了憎恨...当人们伤害他人时，他们被憎恨并被负罪感折磨。",
+    "anime": "火影忍者疾风传",
+    "character": "自来也",
+    "language": "zh"
+  },
+  {
+    "id": 7,
+    "quote": "心中的空洞由他人填补...我的朋友让我明白了这一点。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波带土",
+    "language": "zh"
+  },
+  {
+    "id": 8,
+    "quote": "那些无法认识自己的人最终会失败。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波鼬",
+    "language": "zh"
+  },
+  {
+    "id": 9,
+    "quote": "忍者的生命不是用他如何生活来衡量的，而是用他死前完成了什么来衡量的。",
+    "anime": "火影忍者疾风传",
+    "character": "波风水门",
+    "language": "zh"
+  },
+  {
+    "id": 10,
+    "quote": "真正的力量不是在你为自己而战时产生的。它在你为保护某人而战时产生。",
+    "anime": "火影忍者疾风传",
+    "character": "日向雏田",
+    "language": "zh"
+  },
+  {
+    "id": 11,
+    "quote": "当人们懂得爱的那一刻，他们就要承担憎恨的风险。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波斑",
+    "language": "zh"
+  },
+  {
+    "id": 12,
+    "quote": "如果你想杀死我，就诅咒我！憎恨我！然后丑陋地活着！",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波佐助",
+    "language": "zh"
+  },
+  {
+    "id": 13,
+    "quote": "真正的老师不教授性质变化；他们教你如何生活。",
+    "anime": "火影忍者疾风传",
+    "character": "猿飞阿斯玛",
+    "language": "zh"
+  },
+  {
+    "id": 14,
+    "quote": "愚蠢和天才的区别在于天才是有限度的。",
+    "anime": "火影忍者疾风传",
+    "character": "奈良鹿丸",
+    "language": "zh"
+  },
+  {
+    "id": 15,
+    "quote": "同情？那是我最讨厌的情感。它什么都改变不了。",
+    "anime": "火影忍者疾风传",
+    "character": "蝎",
+    "language": "zh"
+  },
+  {
+    "id": 16,
+    "quote": "人类无法战胜孤独。",
+    "anime": "火影忍者疾风传",
+    "character": "奇拉比",
+    "language": "zh"
+  },
+  {
+    "id": 17,
+    "quote": "活得越久，你就越会意识到现实只是由痛苦、苦难和空虚组成的。",
+    "anime": "火影忍者疾风传",
+    "character": "佩恩",
+    "language": "zh"
+  },
+  {
+    "id": 18,
+    "quote": "当一个人学会爱时，他必须承担憎恨的风险。",
+    "anime": "火影忍者疾风传",
+    "character": "阿飞",
+    "language": "zh"
+  },
+  {
+    "id": 19,
+    "quote": "知道什么是对的却选择忽视它，是懦夫的行为。",
+    "anime": "火影忍者疾风传",
+    "character": "春野樱",
+    "language": "zh"
+  },
+  {
+    "id": 20,
+    "quote": "一个仍有人想念你的地方，就是你可以称之为家的地方。",
+    "anime": "火影忍者疾风传",
+    "character": "自来也",
+    "language": "zh"
+  },
+  {
+    "id": 21,
+    "quote": "希望的概念不过是放弃。一个在这个世界上没有真正意义的词。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波斑",
+    "language": "zh"
+  },
+  {
+    "id": 22,
+    "quote": "如果你不能分享别人的痛苦，你就永远无法理解他们。",
+    "anime": "火影忍者疾风传",
+    "character": "长门",
+    "language": "zh"
+  },
+  {
+    "id": 23,
+    "quote": "爱不是必需的；力量才是唯一真正的必需品！",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波佐助",
+    "language": "zh"
+  },
+  {
+    "id": 24,
+    "quote": "这个世界并不像我想象的那么简单...所以我停止了思考。",
+    "anime": "火影忍者疾风传",
+    "character": "飞段",
+    "language": "zh"
+  },
+  {
+    "id": 25,
+    "quote": "一个人能够克服困难时就会成长。保护很重要，但有些事情一个人必须自己学会。",
+    "anime": "火影忍者疾风传",
+    "character": "海野伊鲁卡",
+    "language": "zh"
+  },
+  {
+    "id": 26,
+    "quote": "我不在乎死不死。我不必获胜...我只需要坚持立场，不逃跑。",
+    "anime": "火影忍者疾风传",
+    "character": "日向宁次",
+    "language": "zh"
+  },
+  {
+    "id": 27,
+    "quote": "当你放弃的时候，你的梦想和其他一切都消失了。",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡玖辛奈",
+    "language": "zh"
+  },
+  {
+    "id": 28,
+    "quote": "那些能够原谅自己并能够接受真正本性的人...他们才是强者！",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波鼬",
+    "language": "zh"
+  },
+  {
+    "id": 29,
+    "quote": "忍者的真正尺度不是他如何生活，而是他如何死去。",
+    "anime": "火影忍者疾风传",
+    "character": "志村团藏",
+    "language": "zh"
+  },
+  {
+    "id": 30,
+    "quote": "恐惧不是邪恶的。它告诉你你的弱点是什么。一旦你知道了你的弱点，你就能变得更强更善良。",
+    "anime": "火影忍者疾风传",
+    "character": "红莲",
+    "language": "zh"
+  },
+  {
+    "id": 31,
+    "quote": "有时你必须受伤才能知道，跌倒才能成长，失去才能获得，因为人生最大的教训都是通过痛苦学会的。",
+    "anime": "火影忍者疾风传",
+    "character": "佩恩",
+    "language": "zh"
+  },
+  {
+    "id": 32,
+    "quote": "下一代总是会超越上一代。这是生活中永无止境的循环之一。",
+    "anime": "火影忍者疾风传",
+    "character": "猿飞日斩",
+    "language": "zh"
+  },
+  {
+    "id": 33,
+    "quote": "无论你多么讨厌，这就是你。试图逃避这一点和逃避你自己没什么不同。",
+    "anime": "火影忍者疾风传",
+    "character": "干柿鬼鲛",
+    "language": "zh"
+  },
+  {
+    "id": 34,
+    "quote": "微笑是摆脱困难处境最简单的方法。",
+    "anime": "火影忍者疾风传",
+    "character": "佐井",
+    "language": "zh"
+  },
+  {
+    "id": 35,
+    "quote": "忍者是无论遇到什么都能坚持下去的人。",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 36,
+    "quote": "弱者什么都决定不了，甚至连如何死都决定不了。",
+    "anime": "火影忍者疾风传",
+    "character": "小南",
+    "language": "zh"
+  },
+  {
+    "id": 37,
+    "quote": "你应该停止试图让我放弃！",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 38,
+    "quote": "当你保护你爱的人时，勇气会从内心涌出。",
+    "anime": "火影忍者疾风传",
+    "character": "千代",
+    "language": "zh"
+  },
+  {
+    "id": 39,
+    "quote": "世界充满了仇恨和痛苦。但我仍然相信实现和平是可能的。",
+    "anime": "火影忍者疾风传",
+    "character": "弥彦",
+    "language": "zh"
+  },
+  {
+    "id": 40,
+    "quote": "只有那些准备被杀的人才应该杀人！",
+    "anime": "火影忍者疾风传",
+    "character": "鲁路修·兰佩路基",
+    "language": "zh"
+  },
+  {
+    "id": 41,
+    "quote": "无论夜晚多么深沉，最终总会变成白天。",
+    "anime": "火影忍者疾风传",
+    "character": "夕日红",
+    "language": "zh"
+  },
+  {
+    "id": 42,
+    "quote": "天才，嗯？那是什么意思？'天才'？我生来就没有很多天赋，不像宁次那样有天赋...但我努力工作，从不放弃！那是我的天赋...那是我的忍道！",
+    "anime": "火影忍者疾风传",
+    "character": "洛克·李",
+    "language": "zh"
+  },
+  {
+    "id": 43,
+    "quote": "如果你不喜欢你的道路，就开始铺设另一条！",
+    "anime": "火影忍者疾风传",
+    "character": "纲手",
+    "language": "zh"
+  },
+  {
+    "id": 44,
+    "quote": "我会永远爱你，直到我死的那一天以及之后。即使那样，我也会永远爱你。",
+    "anime": "火影忍者疾风传",
+    "character": "白",
+    "language": "zh"
+  },
+  {
+    "id": 45,
+    "quote": "有时你必须受伤才能知道，跌倒才能成长，失去才能获得。",
+    "anime": "火影忍者疾风传",
+    "character": "佩恩",
+    "language": "zh"
+  },
+  {
+    "id": 46,
+    "quote": "青春之火永远燃烧！",
+    "anime": "火影忍者疾风传",
+    "character": "迈特·凯",
+    "language": "zh"
+  },
+  {
+    "id": 47,
+    "quote": "我不会让我的同伴死去。我会用我的生命保护你！",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 48,
+    "quote": "如果你想杀我，就憎恨我，厌恶我，然后丑陋地生存下去。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波佐助",
+    "language": "zh"
+  },
+  {
+    "id": 49,
+    "quote": "当人们互相理解的那一刻...那就是真正和平开始的时候。",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 50,
+    "quote": "我存在，就是为了不被击败。",
+    "anime": "火影忍者疾风传",
+    "character": "旗木卡卡西",
+    "language": "zh"
+  },
+  {
+    "id": 51,
+    "quote": "独自一人的痛苦完全超出了这个世界，不是吗？我不知道为什么，但我如此理解你的感受，真的很痛。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波带土",
+    "language": "zh"
+  },
+  {
+    "id": 52,
+    "quote": "我终于明白了...有人需要我。我在这里是必要的！",
+    "anime": "火影忍者疾风传",
+    "character": "我爱罗",
+    "language": "zh"
+  },
+  {
+    "id": 53,
+    "quote": "人们将自己的生活束缚在他们接受为正确和真实的东西上...这就是他们如何定义现实的。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波鼬",
+    "language": "zh"
+  },
+  {
+    "id": 54,
+    "quote": "忍者必须看到表面之下。",
+    "anime": "火影忍者疾风传",
+    "character": "旗木卡卡西",
+    "language": "zh"
+  },
+  {
+    "id": 55,
+    "quote": "我不完美，但我总是做我自己。",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 56,
+    "quote": "面对现实吧！在这个被诅咒的世界里，事情永远不会按计划进行。你活得越久，就越意识到这个现实中真正存在的只有痛苦、苦难和徒劳。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波斑",
+    "language": "zh"
+  },
+  {
+    "id": 57,
+    "quote": "当一个人学会爱时，他必须承担仇恨的风险。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波带土",
+    "language": "zh"
+  },
+  {
+    "id": 58,
+    "quote": "写轮眼的真正力量...不仅仅是复制忍术。而是看穿所有谎言，理解这个世界的真相。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波鼬",
+    "language": "zh"
+  },
+  {
+    "id": 59,
+    "quote": "我永远不会停止相信我自己的忍道！",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 60,
+    "quote": "在这个世界上，哪里有光明，就有阴影。只要存在胜利者的概念，就必须有失败者。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波斑",
+    "language": "zh"
+  },
+  {
+    "id": 61,
+    "quote": "力量不是意志，而是让事物在物理上发生的现象。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波斑",
+    "language": "zh"
+  },
+  {
+    "id": 62,
+    "quote": "宇智波是一个注定要复仇的家族。即使这种复仇...是针对他们自己的血亲。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波佐助",
+    "language": "zh"
+  },
+  {
+    "id": 63,
+    "quote": "希望的概念不过是放弃。在这个世界上，这个词没有真正的意义。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波斑",
+    "language": "zh"
+  },
+  {
+    "id": 64,
+    "quote": "真正的孤独是在一个满是人的房间里仍然感到孤独。",
+    "anime": "火影忍者疾风传",
+    "character": "旗木卡卡西",
+    "language": "zh"
+  },
+  {
+    "id": 65,
+    "quote": "初学者和大师之间的区别在于，大师失败的次数比初学者尝试的次数还多。",
+    "anime": "火影忍者疾风传",
+    "character": "自来也",
+    "language": "zh"
+  },
+  {
+    "id": 66,
+    "quote": "这个被诅咒的世界...仇恨的循环...我要打破它！",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 67,
+    "quote": "当人们认识爱的那一刻，他们就冒着承受仇恨的风险。而仇恨正是创造牺牲的原因。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波斑",
+    "language": "zh"
+  },
+  {
+    "id": 68,
+    "quote": "我从不食言！这是我的忍道，我的忍者之道！",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 69,
+    "quote": "战斗中没有希望。只有从人类集体意识中诞生的绝对绝望。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波斑",
+    "language": "zh"
+  },
+  {
+    "id": 70,
+    "quote": "无限月读将最终为这个世界带来和平。结束仇恨的诅咒循环。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波斑",
+    "language": "zh"
+  },
+  {
+    "id": 71,
+    "quote": "忍者的生命不是由他如何生活来衡量的，而是由他死前完成了什么来衡量的。",
+    "anime": "火影忍者疾风传",
+    "character": "迪达拉",
+    "language": "zh"
+  },
+  {
+    "id": 72,
+    "quote": "每个忍者的秘技...就是永不放弃！",
+    "anime": "火影忍者疾风传",
+    "character": "迈特凯",
+    "language": "zh"
+  },
+  {
+    "id": 73,
+    "quote": "如果你想改变，先从改变自己开始。",
+    "anime": "火影忍者疾风传",
+    "character": "奈良鹿丸",
+    "language": "zh"
+  },
+  {
+    "id": 74,
+    "quote": "即使是最强的对手也总是有弱点。",
+    "anime": "火影忍者疾风传",
+    "character": "日向宁次",
+    "language": "zh"
+  },
+  {
+    "id": 75,
+    "quote": "我绝不会让伙伴在我的监督下互相残杀！",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 76,
+    "quote": "艺术就是爆炸！它是短暂的美丽！",
+    "anime": "火影忍者疾风传",
+    "character": "迪达拉",
+    "language": "zh"
+  },
+  {
+    "id": 77,
+    "quote": "在逆境中绽放的花朵是最稀有和美丽的。",
+    "anime": "火影忍者疾风传",
+    "character": "纲手",
+    "language": "zh"
+  },
+  {
+    "id": 78,
+    "quote": "当你有重要的东西要保护时，你才能变得真正强大。",
+    "anime": "火影忍者疾风传",
+    "character": "桃地再不斩",
+    "language": "zh"
+  },
+  {
+    "id": 79,
+    "quote": "人们心中的黑暗...那才是真正的丑陋。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波佐助",
+    "language": "zh"
+  },
+  {
+    "id": 80,
+    "quote": "在这个世界上，没有不痛苦的教训。",
+    "anime": "火影忍者疾风传",
+    "character": "旗木卡卡西",
+    "language": "zh"
+  },
+  {
+    "id": 81,
+    "quote": "充满复仇的心没有爱的位置。",
+    "anime": "火影忍者疾风传",
+    "character": "春野樱",
+    "language": "zh"
+  },
+  {
+    "id": 82,
+    "quote": "真正的力量不是赢得战斗。而是保护最重要的东西。",
+    "anime": "火影忍者疾风传",
+    "character": "日向雏田",
+    "language": "zh"
+  },
+  {
+    "id": 83,
+    "quote": "火之意志永不熄灭！",
+    "anime": "火影忍者疾风传",
+    "character": "千手柱间",
+    "language": "zh"
+  },
+  {
+    "id": 84,
+    "quote": "匆忙度过生活没有任何好处。",
+    "anime": "火影忍者疾风传",
+    "character": "奈良鹿丸",
+    "language": "zh"
+  },
+  {
+    "id": 85,
+    "quote": "忍者的武器是他的心！",
+    "anime": "火影忍者疾风传",
+    "character": "旗木卡卡西",
+    "language": "zh"
+  },
+  {
+    "id": 86,
+    "quote": "如果你不喜欢你的命运，就不要接受它。有勇气去改变它！",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 87,
+    "quote": "成为火影是我的梦想！",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 88,
+    "quote": "最强的毒药是仇恨。",
+    "anime": "火影忍者疾风传",
+    "character": "千代",
+    "language": "zh"
+  },
+  {
+    "id": 89,
+    "quote": "在社会中，那些没有多少能力的人往往抱怨得更多。",
+    "anime": "火影忍者疾风传",
+    "character": "佐井",
+    "language": "zh"
+  },
+  {
+    "id": 90,
+    "quote": "看见黑暗的眼睛和感受痛苦的手，有一天会创造光明。",
+    "anime": "火影忍者疾风传",
+    "character": "长门",
+    "language": "zh"
+  },
+  {
+    "id": 91,
+    "quote": "没有目标的生活根本不是生活。",
+    "anime": "火影忍者疾风传",
+    "character": "干柿鬼鲛",
+    "language": "zh"
+  },
+  {
+    "id": 92,
+    "quote": "我们战斗不是为了杀戮，而是为了保护我们周围的宝贵生命。",
+    "anime": "火影忍者疾风传",
+    "character": "波风水门",
+    "language": "zh"
+  },
+  {
+    "id": 93,
+    "quote": "最困难的选择需要最强的意志。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波鼬",
+    "language": "zh"
+  },
+  {
+    "id": 94,
+    "quote": "如果被法律和限制、预测和想象所束缚，就无法实现真正的改变。",
+    "anime": "火影忍者疾风传",
+    "character": "佩恩",
+    "language": "zh"
+  },
+  {
+    "id": 95,
+    "quote": "当人们开始相互理解的那一刻，世界终将知道和平。",
+    "anime": "火影忍者疾风传",
+    "character": "弥彦",
+    "language": "zh"
+  },
+  {
+    "id": 96,
+    "quote": "没有牺牲的生活是没有意义的生活。",
+    "anime": "火影忍者疾风传",
+    "character": "大蛇丸",
+    "language": "zh"
+  },
+  {
+    "id": 97,
+    "quote": "最终，力量是唯一真正的美德...而弱点是唯一的恶习。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波斑",
+    "language": "zh"
+  },
+  {
+    "id": 98,
+    "quote": "通往和平的道路是用牺牲铺成的。",
+    "anime": "火影忍者疾风传",
+    "character": "千手扉间",
+    "language": "zh"
+  },
+  {
+    "id": 99,
+    "quote": "即使我死了，我也永远是火影！",
+    "anime": "火影忍者疾风传",
+    "character": "猿飞日斩",
+    "language": "zh"
+  },
+  {
+    "id": 100,
+    "quote": "相信这一点！",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 101,
+    "quote": "影子投射得越长，光芒就必须越亮。",
+    "anime": "火影忍者疾风传",
+    "character": "猿飞日斩",
+    "language": "zh"
+  },
+  {
+    "id": 102,
+    "quote": "真正的师父是永远的学生。",
+    "anime": "火影忍者疾风传",
+    "character": "迈特凯",
+    "language": "zh"
+  },
+  {
+    "id": 103,
+    "quote": "违反规则的人是垃圾，但是抛弃同伴的人比垃圾还不如。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波带土",
+    "language": "zh"
+  },
+  {
+    "id": 104,
+    "quote": "一个人的力量不足以改变任何事情。这就是为什么我们需要接受别人的帮助。",
+    "anime": "火影忍者疾风传",
+    "character": "奈良鹿丸",
+    "language": "zh"
+  },
+  {
+    "id": 105,
+    "quote": "永远无法愈合的伤口...那就是仇恨。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波佐助",
+    "language": "zh"
+  },
+  {
+    "id": 106,
+    "quote": "当你保护对你来说珍贵的人时，你就会获得真正的力量。",
+    "anime": "火影忍者疾风传",
+    "character": "桃地再不斩",
+    "language": "zh"
+  },
+  {
+    "id": 107,
+    "quote": "我的痛苦远比你的大！",
+    "anime": "火影忍者疾风传",
+    "character": "长门",
+    "language": "zh"
+  },
+  {
+    "id": 108,
+    "quote": "真正的战斗只有在你被推到极限之后才开始。",
+    "anime": "火影忍者疾风传",
+    "character": "旗木卡卡西",
+    "language": "zh"
+  },
+  {
+    "id": 109,
+    "quote": "梦想不是你睡觉时看到的东西。它是不让你睡觉的东西。",
+    "anime": "火影忍者疾风传",
+    "character": "洛克李",
+    "language": "zh"
+  },
+  {
+    "id": 110,
+    "quote": "世界充满了仇恨和痛苦。但我相信和平总有一天会到来。",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 111,
+    "quote": "力量不是来自能力，而是来自不屈的意志。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波鼬",
+    "language": "zh"
+  },
+  {
+    "id": 112,
+    "quote": "当你看不到自己的道路时，倾听你心中的目标。",
+    "anime": "火影忍者疾风传",
+    "character": "大筒木羽衣",
+    "language": "zh"
+  },
+  {
+    "id": 113,
+    "quote": "忍者世界被仇恨所统治。但我要打破这个循环。",
+    "anime": "火影忍者疾风传",
+    "character": "漩涡鸣人",
+    "language": "zh"
+  },
+  {
+    "id": 114,
+    "quote": "医学的艺术在于在自然治愈疾病的同时娱乐病人。",
+    "anime": "火影忍者疾风传",
+    "character": "纲手",
+    "language": "zh"
+  },
+  {
+    "id": 115,
+    "quote": "夜晚的黑暗让星星闪耀得更亮。",
+    "anime": "火影忍者疾风传",
+    "character": "千手柱间",
+    "language": "zh"
+  },
+  {
+    "id": 116,
+    "quote": "如果你不理解别人，你就无法真正理解自己。",
+    "anime": "火影忍者疾风传",
+    "character": "自来也",
+    "language": "zh"
+  },
+  {
+    "id": 117,
+    "quote": "当你想要放弃的那一刻，想想你坚持这么久的原因。",
+    "anime": "火影忍者疾风传",
+    "character": "日向宁次",
+    "language": "zh"
+  },
+  {
+    "id": 118,
+    "quote": "你的话比任何刀刃都切得更深。",
+    "anime": "火影忍者疾风传",
+    "character": "宇智波佐助",
+    "language": "zh"
+  },
+  {
+    "id": 119,
+    "quote": "领导者必须走在人民前面，通过自己的榜样为他们指明道路。",
+    "anime": "火影忍者疾风传",
+    "character": "我爱罗",
+    "language": "zh"
+  },
+  {
+    "id": 120,
+    "quote": "未来不是一条道路，而是一个选择。",
+    "anime": "火影忍者疾风传",
+    "character": "波风水门",
+    "language": "zh"
+  },
+  {
+    "id": 121,
+    "quote": "如果你赢了，你就活着。如果你输了，你就死了。如果你不战斗，你就无法获胜！",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 122,
+    "quote": "这个世界很残酷...但也很美丽。",
+    "anime": "进击的巨人",
+    "character": "三笠·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 123,
+    "quote": "世界是无情的，也是非常美丽的。",
+    "anime": "进击的巨人",
+    "character": "利威尔·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 124,
+    "quote": "不能牺牲任何东西的人，无法改变任何东西。",
+    "anime": "进击的巨人",
+    "character": "阿尔敏·阿诺德",
+    "language": "zh"
+  },
+  {
+    "id": 125,
+    "quote": "放弃你的梦想然后死去。",
+    "anime": "进击的巨人",
+    "character": "利威尔·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 126,
+    "quote": "我和你一样。我一直憎恨自己。生在这个世界上...我从来无法原谅自己仅仅是活着。",
+    "anime": "进击的巨人",
+    "character": "莱纳·布朗",
+    "language": "zh"
+  },
+  {
+    "id": 127,
+    "quote": "我们唯一被允许做的就是相信我们不会后悔自己做出的选择。",
+    "anime": "进击的巨人",
+    "character": "利威尔·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 128,
+    "quote": "我不知道你应该选择哪个选项。我会把决定留给你。但无论你选择什么...准备好接受后果。",
+    "anime": "进击的巨人",
+    "character": "艾尔文·史密斯",
+    "language": "zh"
+  },
+  {
+    "id": 129,
+    "quote": "我生在这个世界上。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 130,
+    "quote": "我们都是自由的。就我们而言，我们是世界上最自由的士兵。",
+    "anime": "进击的巨人",
+    "character": "韩吉·佐耶",
+    "language": "zh"
+  },
+  {
+    "id": 131,
+    "quote": "我继续前进...直到我的敌人被摧毁。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 132,
+    "quote": "真正击败某人的唯一方法就是理解他们。",
+    "anime": "进击的巨人",
+    "character": "阿尔敏·阿诺德",
+    "language": "zh"
+  },
+  {
+    "id": 133,
+    "quote": "如果你不战斗，你就无法获胜！",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 134,
+    "quote": "我要杀死每一个这些动物！",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 135,
+    "quote": "我不想死...因为我生在这个世界上。",
+    "anime": "进击的巨人",
+    "character": "阿尔敏·阿诺德",
+    "language": "zh"
+  },
+  {
+    "id": 136,
+    "quote": "人类永远不会停止与自己战斗，直到只剩下一个人...或更少。",
+    "anime": "进击的巨人",
+    "character": "肯尼·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 137,
+    "quote": "每个人都必须沉醉于某种东西才能继续前进。",
+    "anime": "进击的巨人",
+    "character": "艾尔文·史密斯",
+    "language": "zh"
+  },
+  {
+    "id": 138,
+    "quote": "我不再知道什么是对的。但我知道我必须继续前进。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 139,
+    "quote": "这是一个故事。一个你开始的故事。不是吗，艾伦？",
+    "anime": "进击的巨人",
+    "character": "吉克·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 140,
+    "quote": "我们都是某种东西的奴隶。",
+    "anime": "进击的巨人",
+    "character": "肯尼·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 141,
+    "quote": "我只是一个学会战斗的普通女孩。",
+    "anime": "进击的巨人",
+    "character": "三笠·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 142,
+    "quote": "这个世界唯一的真理就是没有真理。",
+    "anime": "进击的巨人",
+    "character": "利威尔·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 143,
+    "quote": "为了拯救人类，我们必须放弃我们的人性。",
+    "anime": "进击的巨人",
+    "character": "多特·皮克西斯",
+    "language": "zh"
+  },
+  {
+    "id": 144,
+    "quote": "神和恶魔的区别在于哪一方获胜。",
+    "anime": "进击的巨人",
+    "character": "韩吉·佐耶",
+    "language": "zh"
+  },
+  {
+    "id": 145,
+    "quote": "我不想成为神。我只想摧毁我的敌人。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 146,
+    "quote": "如果你开始后悔，你会让你未来的决定变得迟钝，让别人为你做决定。",
+    "anime": "进击的巨人",
+    "character": "利威尔·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 147,
+    "quote": "我和你一样。我一直憎恨自己。",
+    "anime": "进击的巨人",
+    "character": "莱纳·布朗",
+    "language": "zh"
+  },
+  {
+    "id": 148,
+    "quote": "当人们面对真正可怕的事情时，他们的心会冻结。",
+    "anime": "进击的巨人",
+    "character": "阿尔敏·阿诺德",
+    "language": "zh"
+  },
+  {
+    "id": 149,
+    "quote": "人类的敌人在这些城墙之外。而那就是我们。",
+    "anime": "进击的巨人",
+    "character": "莱纳·布朗",
+    "language": "zh"
+  },
+  {
+    "id": 150,
+    "quote": "我是自由的...",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 151,
+    "quote": "我不希望这个世界消失。",
+    "anime": "进击的巨人",
+    "character": "利威·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 152,
+    "quote": "我们还没有看到大海。",
+    "anime": "进击的巨人",
+    "character": "阿尔敏·阿诺德",
+    "language": "zh"
+  },
+  {
+    "id": 153,
+    "quote": "我不会死的。在看到这些墙外的东西之前，我不会死。",
+    "anime": "进击的巨人",
+    "character": "阿尔敏·阿诺德",
+    "language": "zh"
+  },
+  {
+    "id": 154,
+    "quote": "战斗！获胜！战斗！获胜！",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 155,
+    "quote": "我是铠甲巨人，他是超大型巨人。",
+    "anime": "进击的巨人",
+    "character": "莱纳·布朗",
+    "language": "zh"
+  },
+  {
+    "id": 156,
+    "quote": "我们唯一能做的就是继续前进。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 157,
+    "quote": "我和你一样。我承受着作为艾尔迪亚人的负担。",
+    "anime": "进击的巨人",
+    "character": "吉克·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 158,
+    "quote": "除非你也能抛弃自己的一部分，否则你什么都改变不了。",
+    "anime": "进击的巨人",
+    "character": "肯尼·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 159,
+    "quote": "我会为你裹上这条围巾，想要多少次都可以！",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 160,
+    "quote": "献出你的心脏！",
+    "anime": "进击的巨人",
+    "character": "调查兵团",
+    "language": "zh"
+  },
+  {
+    "id": 161,
+    "quote": "如果我们杀死那里所有的敌人...我们最终会自由吗？",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 162,
+    "quote": "这个世界是残酷的。但它也很美丽。",
+    "anime": "进击的巨人",
+    "character": "三笠·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 163,
+    "quote": "我要消灭这个地球上的每一个巨人。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 164,
+    "quote": "获胜的唯一方法就是战斗。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 165,
+    "quote": "我不想死。我还没有准备好死。",
+    "anime": "进击的巨人",
+    "character": "萨莎·布劳斯",
+    "language": "zh"
+  },
+  {
+    "id": 166,
+    "quote": "我大错特错了。这个世界上没有好人。",
+    "anime": "进击的巨人",
+    "character": "莱纳·布朗",
+    "language": "zh"
+  },
+  {
+    "id": 167,
+    "quote": "我只是一个什么都不懂的孩子。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 168,
+    "quote": "如果你不战斗，你就无法生存！",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 169,
+    "quote": "我们是一样的。我们都出生在这个世界上。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 170,
+    "quote": "我不想再做棋子了。",
+    "anime": "进击的巨人",
+    "character": "希斯特利亚·雷斯",
+    "language": "zh"
+  },
+  {
+    "id": 171,
+    "quote": "我们唯一被允许相信的就是我们不会后悔自己做出的选择。",
+    "anime": "进击的巨人",
+    "character": "利威·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 172,
+    "quote": "我没有遗憾。我出生在这个世界上。",
+    "anime": "进击的巨人",
+    "character": "格里沙·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 173,
+    "quote": "我会继续前进。直到摧毁敌人。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 174,
+    "quote": "你不能指望恐怖故事有个快乐的结局。",
+    "anime": "进击的巨人",
+    "character": "利威·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 175,
+    "quote": "我们唯一剩下的就是战斗！",
+    "anime": "进击的巨人",
+    "character": "埃尔文·史密斯",
+    "language": "zh"
+  },
+  {
+    "id": 176,
+    "quote": "我要结束这个仇恨的循环。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 177,
+    "quote": "我是自由的。无论发生什么，我都是自由的。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 178,
+    "quote": "对不起。我不会死。我还不能死。",
+    "anime": "进击的巨人",
+    "character": "阿尔敏·阿诺德",
+    "language": "zh"
+  },
+  {
+    "id": 179,
+    "quote": "这就是自由。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 180,
+    "quote": "我们没有被赋予放弃的权利。",
+    "anime": "进击的巨人",
+    "character": "埃尔文·史密斯",
+    "language": "zh"
+  },
+  {
+    "id": 181,
+    "quote": "我生来如此。直接出生在这个残酷的世界。",
+    "anime": "进击的巨人",
+    "character": "尤米尔",
+    "language": "zh"
+  },
+  {
+    "id": 182,
+    "quote": "我会用自己的双手夺回自由。",
+    "anime": "进击的巨人",
+    "character": "三笠·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 183,
+    "quote": "我们唯一能做的就是前进。",
+    "anime": "进击的巨人",
+    "character": "阿尔敏·阿诺德",
+    "language": "zh"
+  },
+  {
+    "id": 184,
+    "quote": "我不是你的敌人。我从来都不是。",
+    "anime": "进击的巨人",
+    "character": "安妮·利昂纳德",
+    "language": "zh"
+  },
+  {
+    "id": 185,
+    "quote": "我要结束这个世界。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 186,
+    "quote": "我们都是自由的奴隶。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 187,
+    "quote": "我会继续前进。直到摧毁我的敌人。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 188,
+    "quote": "我想看到并理解外面的世界。",
+    "anime": "进击的巨人",
+    "character": "阿尔敏·阿诺德",
+    "language": "zh"
+  },
+  {
+    "id": 189,
+    "quote": "这是你开始的故事。",
+    "anime": "进击的巨人",
+    "character": "吉克·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 190,
+    "quote": "我们必须继续前进，即使我们死了。即使在我们死后。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 191,
+    "quote": "我会放弃我的梦想，为你而死。",
+    "anime": "进击的巨人",
+    "character": "阿尔敏·阿诺德",
+    "language": "zh"
+  },
+  {
+    "id": 192,
+    "quote": "生存的自由就是死亡的自由。",
+    "anime": "进击的巨人",
+    "character": "肯尼·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 193,
+    "quote": "我要杀死他们所有人。这个地球上的每一个动物。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 194,
+    "quote": "这是我们选择的道路。现在没有回头路了。",
+    "anime": "进击的巨人",
+    "character": "利威·阿克曼",
+    "language": "zh"
+  },
+  {
+    "id": 195,
+    "quote": "我要摧毁整个世界。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 196,
+    "quote": "我们是一样的。你和我是一样的。",
+    "anime": "进击的巨人",
+    "character": "莱纳·布朗",
+    "language": "zh"
+  },
+  {
+    "id": 197,
+    "quote": "我要结束这场战争。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 198,
+    "quote": "这是唯一的办法。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  },
+  {
+    "id": 199,
+    "quote": "我出生在这个世界上。",
+    "anime": "进击的巨人",
+    "character": "希斯特利亚·雷斯",
+    "language": "zh"
+  },
+  {
+    "id": 200,
+    "quote": "我们是自由的。",
+    "anime": "进击的巨人",
+    "character": "艾伦·耶格尔",
+    "language": "zh"
+  }
+]
