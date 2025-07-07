@@ -15,7 +15,14 @@ module.exports = (req, res) => {
       timestamp: new Date().toISOString(),
       nodeVersion: process.version
     };
-        
+    
+    // Get recent requests (mock data - in real app you'd track this)
+    const recentRequests = [
+      { endpoint: '/v1/random', timestamp: new Date(Date.now() - 10000).toISOString() },
+      { endpoint: '/v2/image?id=42', timestamp: new Date(Date.now() - 30000).toISOString() },
+      { endpoint: '/v1/anime?name=Naruto', timestamp: new Date(Date.now() - 45000).toISOString() }
+    ];
+    
     res.json({
       api: 'AniQuotes API',
       version: '2.5',
@@ -24,8 +31,19 @@ module.exports = (req, res) => {
       health,
       stats,
       recentRequests,
-      creator: 'GitHub/@Shineii86',
-      message: 'Created with ❤️ by Shinei Nouzen'
+      documentation: 'AniQuotes/Documentation',
+      endpoints: {
+        v1: {
+          random: '/v1/random',
+          anime: '/v1/anime?name=;anime',
+          character: '/v1/character?name=:character'
+        },
+        v2: {
+          languages: '/v2/languages?lang=:lang',
+          image: '/v2/image?id=:id'
+        },
+        creator: 'GitHub/@Shineii86',
+        message: 'Created with ❤️ by Shinei Nouzen'
       }
     });
   } catch (error) {
