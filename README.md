@@ -1,5 +1,8 @@
 <div align="center"><a href="https://github.com/AniQuotes"><img src="https://github.com/Shineii86/AniQuotesAPI/blob/main/assets/LogoSD.png" LOGO" width="200" height="200"/></a>
 
+[![AniQuotes Badge](https://img.shields.io/endpoint?url=https://aniquotesapi.vercel.app/api/badge)](https://aniquotesapi.vercel.app/api/badge)
+
+
 *A Multilingual Anime Quotes API With Image Generation.*
     
 <a href="https://github.com/Shineii86"> Creator </a> •
