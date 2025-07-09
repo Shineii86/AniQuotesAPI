@@ -1,15 +1,15 @@
 {
   "name": "aniquotes",
   "version": "2.5.0",
+  "type": "module",
   "scripts": {
-    "start": "vercel dev",
-    "test": "jest",
-    "build": "npm install"
+    "dev": "vercel dev",
+    "build": "npm install",
+    "test": "jest"
   },
   "dependencies": {
     "@napi-rs/canvas": "^0.1.45",
     "@vercel/node": "^2.8.4",
-    "node-fetch": "^3.3.0",
     "axios": "^1.6.0"
   },
   "devDependencies": {
