@@ -1,17 +1,29 @@
 {
   "name": "aniquotes",
-  "version": "1.0.0",
+  "version": "2.5.0",
+  "description": "AniQuotes API - Anime Quotes in Multiple Languages with Images",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "vercel dev",
-    "test": "jest",
-    "build": "npm install"
+    "dev": "vercel dev",
+    "build": "npm install",
+    "test": "jest"
   },
+  "keywords": [
+    "anime",
+    "quotes",
+    "api",
+    "canvas",
+    "vercel"
+  ],
+  "author": "Shinei Nouzen (@Shineii86)",
+  "license": "MIT",
   "dependencies": {
     "@napi-rs/canvas": "^0.1.45",
-    "@vercel/node": "^2.8.4",
     "node-fetch": "^3.3.0"
   },
   "devDependencies": {
+    "@vercel/node": "^2.8.4",
     "jest": "^29.3.1",
     "vercel": "^28.16.11"
   }
