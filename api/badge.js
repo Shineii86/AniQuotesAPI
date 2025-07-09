@@ -1,6 +1,6 @@
-import fetch from "node-fetch";
+const fetch = require("node-fetch");
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   try {
     const response = await fetch("https://aniquotesapi.vercel.app/status");
     const data = await response.json();
@@ -22,4 +22,4 @@ export default async function handler(req, res) {
       color: "lightgrey"
     });
   }
-}
+};
