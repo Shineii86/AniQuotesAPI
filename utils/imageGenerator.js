@@ -1,9 +1,9 @@
-// Anime Quote Image Generator - Professional Version
+// Anime Quote Image Generator - Multi-language
 const { createCanvas, GlobalFonts } = require('@napi-rs/canvas');
 const path = require('path');
 const { findQuoteById } = require('./helpers');
 
-// Register custom fonts (JP, EN, Anime Style)
+// Register custom fonts
 try {
   GlobalFonts.registerFromPath(path.join(__dirname, '../fonts/NotoSansJP/NotoSansJP-Regular.ttf'), 'Noto Sans JP');
   GlobalFonts.registerFromPath(path.join(__dirname, '../fonts/NotoSansJP/NotoSansJP-Bold.ttf'), 'Noto Sans JP Bold');
@@ -30,16 +30,18 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
 
     const canvasWidth = 1200;
     const padding = 100;
-    const lineHeight = 58;
+    const lineHeight = 64;
     const attributionGap = 60;
-    const watermarkGap = 40;
+    const watermarkGap = 50;
 
-    const baseFontSize = lang === 'jp' ? 38 : 40;
-    const attributionFontSize = lang === 'jp' ? 30 : 32;
-    const watermarkFontSize = 16;
+    const baseFontSize = 40;
+    const attributionFontSize = 32;
+    const watermarkFontSize = 18;
 
-    let fontQuote = `bold ${baseFontSize}px "${lang === 'jp' ? 'Noto Sans JP Bold' : 'Noto Sans Bold'}"`;
-    let fontAttribution = `italic ${attributionFontSize}px "${lang === 'jp' ? 'Noto Sans JP' : 'Noto Sans'}"`;
+    const isJapanese = lang === 'jp';
+
+    let fontQuote = `bold ${baseFontSize}px "${isJapanese ? 'Noto Sans JP Bold' : 'Noto Sans Bold'}"`;
+    let fontAttribution = `italic ${attributionFontSize}px "${isJapanese ? 'Noto Sans JP' : 'Noto Sans'}"`;
 
     if (Math.random() > 0.7) {
       fontQuote = `${baseFontSize + 4}px "Anime Ace"`;
@@ -51,9 +53,11 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
     tempCtx.font = fontQuote;
 
     const quoteText = `"${quote.quote}"`;
-    const { lines } = wrapTextForMeasurement(tempCtx, quoteText, canvasWidth - padding * 2);
-    const textBlockHeight = lines.length * lineHeight;
+    const { lines } = isJapanese
+      ? wrapJapaneseTextForMeasurement(tempCtx, quoteText, canvasWidth - padding * 2)
+      : wrapTextForMeasurement(tempCtx, quoteText, canvasWidth - padding * 2);
 
+    const textBlockHeight = lines.length * lineHeight;
     const canvasHeight = padding + textBlockHeight + attributionGap + watermarkGap + padding;
 
     const canvas = createCanvas(canvasWidth, canvasHeight);
@@ -67,17 +71,6 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
     ctx.fillStyle = bgGradient;
     ctx.fillRect(0, 0, canvasWidth, canvasHeight);
 
-    const shapes = lang === 'jp' ? 40 : 80;
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.15)';
-    for (let i = 0; i < shapes; i++) {
-      const x = Math.random() * canvasWidth;
-      const y = Math.random() * canvasHeight;
-      const radius = Math.random() * 3 + 2;
-      ctx.beginPath();
-      ctx.arc(x, y, radius, 0, Math.PI * 2);
-      ctx.fill();
-    }
-
     ctx.font = fontQuote;
     ctx.fillStyle = '#fff';
     ctx.textAlign = 'center';
@@ -85,22 +78,22 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
     ctx.shadowColor = 'rgba(0,0,0,0.6)';
     ctx.shadowBlur = 8;
 
-    if (lang === 'jp') {
-      wrapJapaneseText(ctx, quoteText, canvasWidth / 2, padding, canvasWidth - padding * 2, lineHeight);
-    } else {
-      wrapText(ctx, quoteText, canvasWidth / 2, padding, canvasWidth - padding * 2, lineHeight);
-    }
+    const drawTextFunc = isJapanese ? wrapJapaneseText : wrapText;
+    drawTextFunc(ctx, quoteText, canvasWidth / 2, padding, canvasWidth - padding * 2, lineHeight);
 
     ctx.font = fontAttribution;
     ctx.shadowBlur = 5;
     const attributionText = `– ${quote.character}, ${quote.anime}`;
     ctx.fillText(attributionText, canvasWidth / 2, padding + textBlockHeight + attributionGap);
 
-    ctx.font = `bold ${watermarkFontSize}px "Noto Sans"`;
-    ctx.shadowBlur = 3;
+    // Redesigned watermark
+    ctx.font = `600 ${watermarkFontSize}px "Noto Sans"`;
     ctx.textAlign = 'right';
+    ctx.textBaseline = 'bottom';
     ctx.fillStyle = 'rgba(255, 255, 255, 0.85)';
-    ctx.fillText('API Source: GitHub/AniQuotes', canvasWidth - 20, canvasHeight - 20);
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
+    ctx.shadowBlur = 2;
+    ctx.fillText('API Source: GitHub/AniQuotes', canvasWidth - 24, canvasHeight - 24);
 
     return canvas.toBuffer('image/png');
   } catch (error) {
@@ -124,25 +117,22 @@ function wrapTextForMeasurement(ctx, text, maxWidth) {
       line = testLine;
     }
   }
-
   if (line) lines.push(line);
-
   return { lines };
 }
 
 function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
   const { lines } = wrapTextForMeasurement(ctx, text, maxWidth);
   for (let i = 0; i < lines.length; i++) {
-    ctx.fillText(lines[i], x, y + (i * lineHeight));
+    ctx.fillText(lines[i], x, y + i * lineHeight);
   }
 }
 
-function wrapJapaneseText(ctx, text, x, y, maxWidth, lineHeight) {
-  const characters = Array.from(text);
+function wrapJapaneseTextForMeasurement(ctx, text, maxWidth) {
+  const chars = Array.from(text);
   let line = '';
   const lines = [];
-
-  for (const char of characters) {
+  for (const char of chars) {
     const testLine = line + char;
     const metrics = ctx.measureText(testLine);
     if (metrics.width > maxWidth && line !== '') {
@@ -152,10 +142,13 @@ function wrapJapaneseText(ctx, text, x, y, maxWidth, lineHeight) {
       line = testLine;
     }
   }
-
   if (line) lines.push(line);
+  return { lines };
+}
 
+function wrapJapaneseText(ctx, text, x, y, maxWidth, lineHeight) {
+  const { lines } = wrapJapaneseTextForMeasurement(ctx, text, maxWidth);
   for (let i = 0; i < lines.length; i++) {
-    ctx.fillText(lines[i], x, y + (i * lineHeight));
+    ctx.fillText(lines[i], x, y + i * lineHeight);
   }
 }
