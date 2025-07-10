@@ -2,85 +2,95 @@ const fs = require('fs');
 const path = require('path');
 const { readMasterQuotes, readLanguageQuotes } = require('./helpers');
 
-// Cache for stats data
+// In-memory cache
 let statsCache = null;
 let lastUpdated = 0;
-const CACHE_DURATION = 300000; // 5 minutes
+const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
 
+/**
+ * Returns a list of supported language codes from /data/languages/*.json
+ * @returns {string[]} Language codes (e.g., ['ja', 'es'])
+ */
 function getSupportedLanguages() {
   const languagesDir = path.join(process.cwd(), 'data', 'languages');
+
   try {
     return fs.readdirSync(languagesDir)
       .filter(file => file.endsWith('.json'))
-      .map(file => file.replace('.json', ''));
+      .map(file => path.basename(file, '.json'));
   } catch (error) {
-    console.error('Error reading languages directory:', error);
+    console.error('[APIStats] Failed to read languages directory:', error);
     return [];
   }
 }
 
+/**
+ * Generates and caches API statistics
+ * @returns {object} Structured statistics object
+ */
 module.exports.getAPIStats = () => {
   const now = Date.now();
-  
-  // Return cached data if still valid
+
   if (statsCache && (now - lastUpdated) < CACHE_DURATION) {
     return statsCache;
   }
-  
+
   try {
     const masterQuotes = readMasterQuotes();
-    const supportedLanguages = getSupportedLanguages();
-    
+    const otherLangs = getSupportedLanguages();
+    const supportedLanguages = ['en', ...otherLangs];
+
     const stats = {
+      totalQuotes: 0,
       quotesByLanguage: {},
       quotesByAnime: {},
       quotesByCharacter: {},
-      lastUpdated: new Date().toISOString(),
-      supportedLanguages: ['en', ...supportedLanguages]
+      supportedLanguages,
+      meta: {
+        creator: "Shinei Nouzen",
+        github: "https://github.com/Shineii86",
+        telegram: "https://telegram.me/Shineii86",
+        timestamp: new Date().toISOString()
+      }
     };
-    
-    // Process master quotes for anime/character counts
-    masterQuotes.forEach(quote => {
-      const anime = quote.anime.trim();
-      const character = quote.character.trim();
-      
-      stats.quotesByAnime[anime] = (stats.quotesByAnime[anime] || 0) + 1;
-      stats.quotesByCharacter[character] = (stats.quotesByCharacter[character] || 0) + 1;
-    });
-    
-    // Calculate total quotes across all languages
-    let totalQuotes = 0;
-    
-    // Process all languages including English
-    stats.supportedLanguages.forEach(lang => {
+
+    // Count quotes by anime and character
+    for (const { anime, character } of masterQuotes) {
+      const a = anime.trim();
+      const c = character.trim();
+      stats.quotesByAnime[a] = (stats.quotesByAnime[a] || 0) + 1;
+      stats.quotesByCharacter[c] = (stats.quotesByCharacter[c] || 0) + 1;
+    }
+
+    // Count quotes per language
+    for (const lang of supportedLanguages) {
       try {
-        // For English, use master quotes directly
-        const quotes = lang === 'en' 
-          ? masterQuotes 
-          : readLanguageQuotes(lang);
-          
-        const count = quotes.length;
+        const quotes = lang === 'en' ? masterQuotes : readLanguageQuotes(lang);
+        const count = Array.isArray(quotes) ? quotes.length : 0;
         stats.quotesByLanguage[lang] = count;
-        totalQuotes += count;
-      } catch (error) {
-        console.error(`Error processing ${lang} quotes:`, error);
+        stats.totalQuotes += count;
+      } catch (err) {
+        console.error(`[APIStats] Error reading quotes for '${lang}':`, err);
         stats.quotesByLanguage[lang] = 0;
       }
-    });
-    
-    // Add total quotes to stats
-    stats.totalQuotes = totalQuotes;
-    
-    // Cache the results
+    }
+
     statsCache = stats;
     lastUpdated = now;
-    
     return stats;
+
   } catch (error) {
-    console.error('Error generating API stats:', error);
+    console.error('[APIStats] Failed to generate statistics:', error);
     return {
-      error: 'Failed to generate statistics',
-      details: error.message
+      status: "error",
+      message: "Unable to generate quote statistics",
+      details: error.message,
+      meta: {
+        creator: "Shinei Nouzen",
+        github: "https://github.com/Shineii86",
+        telegram: "https://telegram.me/Shineii86",
+        timestamp: new Date().toISOString()
+      }
     };
   }
 };
