@@ -4,24 +4,20 @@ const process = require('process');
 
 module.exports = (req, res) => {
   try {
-    const stats = getAPIStats();
+    const rawStats = getAPIStats();
 
-    // Sort quotesByAnime and quotesByCharacter in DESCENDING order by number (value)
-    const sortedQuotesByAnime = Object.fromEntries(
-      Object.entries(stats.quotesByAnime).sort((a, b) => b[1] - a[1])
-    );
-
-    const sortedQuotesByCharacter = Object.fromEntries(
-      Object.entries(stats.quotesByCharacter).sort((a, b) => b[1] - a[1])
-    );
-
-    // Replace original stats with sorted versions
-    stats.quotesByAnime = sortedQuotesByAnime;
-    stats.quotesByCharacter = sortedQuotesByCharacter;
+    // Sort helper
+    const sortByValueDesc = (obj) =>
+      Object.entries(obj)
+        .sort(([, a], [, b]) => b - a)
+        .reduce((acc, [k, v]) => {
+          acc[k] = v;
+          return acc;
+        }, {});
 
     const health = {
       status: 'operational',
-      uptime: process.uptime(),
+      uptime: parseFloat(process.uptime().toFixed(9)),
       memory: {
         rss: process.memoryUsage().rss,
         heapUsed: process.memoryUsage().heapUsed,
@@ -32,26 +28,40 @@ module.exports = (req, res) => {
       timestamp: new Date().toISOString()
     };
 
-    res.status(200).json({
-      api: 'AniQuotes API',
-      version: '2.5 Beta',
-      status: 'alive',
-      health,
-      stats,
+    const sortedStats = {
+      totalQuotes: rawStats.totalQuotes,
+      quotesByLanguage: sortByValueDesc(rawStats.quotesByLanguage || {}),
+      quotesByAnime: sortByValueDesc(rawStats.quotesByAnime || {}),
+      quotesByCharacter: sortByValueDesc(rawStats.quotesByCharacter || {}),
+      supportedLanguages: rawStats.supportedLanguages || [],
       meta: {
-        creator: 'Shinei Nouzen',
-        github: 'https://github.com/Shineii86',
-        telegram: 'https://telegram.me/Shineii86'
+        creator: "Shinei Nouzen",
+        github: "https://github.com/Shineii86",
+        telegram: "https://telegram.me/Shineii86",
+        timestamp: new Date().toISOString()
+      }
+    };
+
+    res.json({
+      api: "AniQuotes API",
+      version: "2.5-Beta",
+      status: "alive",
+      health,
+      stats: sortedStats,
+      meta: {
+        creator: "Shinei Nouzen",
+        github: "https://github.com/Shineii86",
+        telegram: "https://telegram.me/Shineii86"
       }
     });
   } catch (error) {
     res.status(500).json({
-      error: 'Internal Server Error',
+      error: "Internal Server Error",
       message: error.message,
       meta: {
-        creator: 'Shinei Nouzen',
-        github: 'https://github.com/Shineii86',
-        telegram: 'https://telegram.me/Shineii86'
+        creator: "Shinei Nouzen",
+        github: "https://github.com/Shineii86",
+        telegram: "https://telegram.me/Shineii86"
       }
     });
   }
