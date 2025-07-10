@@ -5,12 +5,19 @@ module.exports = (req, res) => {
   try {
     const quotes = readMasterQuotes();
     const randomQuote = getRandomQuote(quotes);
-    
-    res.json({
-      ...randomQuote,
-      credit: "GitHub/Shineii86"
+
+    res.status(200).json({
+      status: "success",
+      data: randomQuote,
+      meta: {
+        creator: "Shinei Nouzen",
+        github: "https://github.com/Shineii86",
+        telegram: "https://telegran.me/Shineii86",
+        timestamp: new Date().toISOString()
+      }
     });
   } catch (error) {
+    console.error('Error fetching random quote:', error);
     handleError(res, 500, 'Internal Server Error');
   }
 };
