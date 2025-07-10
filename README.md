@@ -105,7 +105,7 @@ AniQuotesAPI
 
 ## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Objects/Bomb.webp" alt="Bomb" width="25" height="25" /> Deploy Your Own API
 
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Shineii86/AniQuotesAPI)
+[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Shineii86/aniquotesapi)
 
 1. Click the Deploy button
 2. Clone the repository
