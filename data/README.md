@@ -1,4 +1,4 @@
-ii# Quotes Database
+# Quotes Database
 
 A curated collection of high-quality quotes in JSON format for developers and content creators.
 
