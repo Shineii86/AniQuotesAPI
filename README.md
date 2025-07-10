@@ -7,7 +7,7 @@
     
 <a href="https://github.com/Shineii86"> Creator </a> •
     <a href="https://github.com/AniQuotes/Documentation"> Documentation </a> •
-    <a href="https://github.com/AniQuotes"> Organizations </a> • <a href="https://github.com/AniQuotes/Status"> Status </a>
+    <a href="https://github.com/AniQuotes"> Organizations </a> • <a href="https://github.com/AniQuotes/Statistics"> Statistics </a>
 
 [![Deploy](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://aniquotesapi.vercel.app)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](CONTRIBUTING.md)
