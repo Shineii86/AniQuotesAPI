@@ -4905,6 +4905,705 @@
     "anime": "86-Eight Six",
     "character": "Shinei Nouzen",
     "language": "en"
+  },
+  {
+    "id": 701,
+    "quote": "Human lives are fleeting flames. That's why every spark shines so brilliantly.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 702,
+    "quote": "True strength isn't measured by magic power, but by the will to protect what matters.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 703,
+    "quote": "Courage means facing your fears even when your knees shake.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 704,
+    "quote": "A hero's legacy isn't in statues, but in the hearts they've touched.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 705,
+    "quote": "Time heals nothing by itself. It's what we do with it that matters.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 706,
+    "quote": "Precision in magic comes from thousands of failures mastered.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 707,
+    "quote": "A warrior's axe defends dreams, not just borders.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 708,
+    "quote": "Faith isn't in gods, but in people's capacity to rise again.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 709,
+    "quote": "Regret is the shadow of immortality. Walk with it, but don't let it consume you.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 710,
+    "quote": "Growth happens outside the boundaries of comfort.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 711,
+    "quote": "Heroism is found in small, persistent acts of kindness.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 712,
+    "quote": "Protecting others starts with believing you're worth protecting too.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 713,
+    "quote": "Miracles are just efforts others didn't witness.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 714,
+    "quote": "Mountains teach patience; valleys teach resilience.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 715,
+    "quote": "Memories are fragile, but that's why we hold them gently.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 716,
+    "quote": "Mastery is endless. There's always a higher peak beyond the one you climb.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 717,
+    "quote": "A true journey never ends; it just changes paths.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 718,
+    "quote": "Fear isn't your enemy. Surrendering to it is.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 719,
+    "quote": "Dwarven steel endures because it remembers the forge.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 720,
+    "quote": "Compassion is the highest form of wisdom.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 721,
+    "quote": "A thousand years of solitude taught me this: connection is everything.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 722,
+    "quote": "Perfection is an illusion. Progress is the reality.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 723,
+    "quote": "Leave kindness wherever you go; it outlives monuments.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 724,
+    "quote": "Your weakest moment defines your strength more than victory ever could.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 725,
+    "quote": "Faith moves mountains when hands are too weary.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 726,
+    "quote": "Stone crumbles, but legends etched in hearts remain.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 727,
+    "quote": "Immortality is a lonely road. Walk it with companions.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 728,
+    "quote": "Magic isn't about destruction. It's about creating possibilities.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 729,
+    "quote": "A hero's smile can light darker paths than any torch.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 730,
+    "quote": "Admitting weakness takes more courage than pretending strength.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 731,
+    "quote": "Wine shared with friends tastes sweeter than nectar alone.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 732,
+    "quote": "Anvils shape swords; adversity shapes souls.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 733,
+    "quote": "Grief is the price of love. I'd pay it infinitely.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 734,
+    "quote": "Control your mana like your breath: steady, intentional, life-giving.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 735,
+    "quote": "Legends aren't born from power, but from choices.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 736,
+    "quote": "A shield protects not just bodies, but futures.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 737,
+    "quote": "Prayers need no temple. They live in actions.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 738,
+    "quote": "Metal remembers every strike. So do I.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 739,
+    "quote": "Centuries pass, but true bonds defy time.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 740,
+    "quote": "Discipline is the bridge between dreams and reality.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 741,
+    "quote": "Change the world by changing one heart—starting with your own.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 742,
+    "quote": "Battle cries come easier than whispered apologies.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 743,
+    "quote": "Redemption needs no audience, only intention.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 744,
+    "quote": "Forged in fire, tempered by time—that's a warrior's truth.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 745,
+    "quote": "Human seasons pass quickly. Treasure each blossom.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 746,
+    "quote": "Mana flows like rivers. Be the calm depth, not the crashing wave.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 747,
+    "quote": "A leader's strength is making others feel strong.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 748,
+    "quote": "Scars are maps of where courage overcame fear.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 749,
+    "quote": "Grace isn't given; it's practiced daily.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 750,
+    "quote": "Stone endures, but even mountains bow to wind and time.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 751,
+    "quote": "Loneliness is the tax immortality pays.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 752,
+    "quote": "Focus isn't narrowing your world—it's clarifying it.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 753,
+    "quote": "Hope is the quietest form of rebellion.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 754,
+    "quote": "Stand tall when trembling—that's when it counts most.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 755,
+    "quote": "Forgiveness is the soul's deepest magic.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 756,
+    "quote": "Dwarven honor: say little, do much.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 757,
+    "quote": "Watching humans live is like witnessing meteors—brief, blazing, beautiful.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 758,
+    "quote": "Every spell is a promise to yourself.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 759,
+    "quote": "Heroes aren't legends—they're neighbors who act.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 760,
+    "quote": "Courage isn't the absence of fear; it's moving forward despite it.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 761,
+    "quote": "The holiest temples are built in humble hearts.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 762,
+    "quote": "Endurance isn't stubbornness—it's love in motion.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 763,
+    "quote": "Regrets are seeds. Plant wisdom with them.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 764,
+    "quote": "Magic without discipline is a storm without direction.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 765,
+    "quote": "Smiles can be shields; kindness can be swords.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 766,
+    "quote": "A warrior's value isn't in kills, but in lives preserved.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 767,
+    "quote": "Blessings hide in ordinary moments. Open your eyes.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 768,
+    "quote": "Metal bends, stone cracks—but resolve? Unbreakable.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 769,
+    "quote": "To elves, humans are fireworks: glorious because they end.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 770,
+    "quote": "Perfection paralyzes. Progress empowers.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 771,
+    "quote": "Dream big, act small—that's how mountains are moved.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 772,
+    "quote": "Your greatest battle is against the voice saying 'I can't.'",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 773,
+    "quote": "Divinity lives in shared bread and whispered confessions.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 774,
+    "quote": "Dwarves measure worth in deeds, not words.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 775,
+    "quote": "I collect memories because they outlast even elves.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 776,
+    "quote": "Control isn't suppression—it's harmonious flow.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 777,
+    "quote": "Leave every place kinder than you found it.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 778,
+    "quote": "Bravery is contagious. Be patient-zero.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 779,
+    "quote": "Prayer isn't asking for changes—it's finding strength to endure them.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 780,
+    "quote": "An axe speaks only truth: either it holds, or it breaks.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 781,
+    "quote": "Immortality's curse? Watching sunsets alone.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 782,
+    "quote": "Mana responds to emotion. Calm your heart to command it.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 783,
+    "quote": "A hero's mightiest weapon is unwavering hope.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 784,
+    "quote": "Protect smiles, not just territory.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 785,
+    "quote": "Sins weigh heavy, but redemption lifts wings.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 786,
+    "quote": "Mountains don't boast. They endure.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 787,
+    "quote": "Human lives: too short for elves, too long for regrets.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 788,
+    "quote": "Great mages are forged in daily discipline, not destiny.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 789,
+    "quote": "Kings rise and fall. True heroes lift others eternally.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 790,
+    "quote": "Tremble if you must—just never retreat.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 791,
+    "quote": "Holiness is in the hand that feeds, not the one that preaches.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 792,
+    "quote": "Dwarven oaths: unbreakable as bedrock.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 793,
+    "quote": "Centuries pass, yet grief feels fresh as dawn.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 794,
+    "quote": "Magic mastery is 1% talent, 99% stubborn repetition.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
+  },
+  {
+    "id": 795,
+    "quote": "Change the world's story with small, brave chapters.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Himmel",
+    "language": "en"
+  },
+  {
+    "id": 796,
+    "quote": "A warrior's heart is measured by what it shields.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Stark",
+    "language": "en"
+  },
+  {
+    "id": 797,
+    "quote": "Salvation begins when we extend a hand, not preach.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Heiter",
+    "language": "en"
+  },
+  {
+    "id": 798,
+    "quote": "Stone speaks through silence. Listen.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Eisen",
+    "language": "en"
+  },
+  {
+    "id": 799,
+    "quote": "I wander not to find myself, but to remember who traveled with me.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Frieren",
+    "language": "en"
+  },
+  {
+    "id": 800,
+    "quote": "Power restrained is truer than power unleashed.",
+    "anime": "Frieren: Beyond Journey’s End",
+    "character": "Fern",
+    "language": "en"
   }
-  ]
-
+]
