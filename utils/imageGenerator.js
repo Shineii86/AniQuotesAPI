@@ -102,7 +102,7 @@ module.exports.generateImage = async (quoteId, lang = 'en') => {
     ctx.fillStyle = 'rgba(255, 255, 255, 0.85)';
     ctx.fillText('API Source: GitHub/AniQuotes', canvasWidth - 20, canvasHeight - 20);
 
-    return canvas.toBuffer('aniquotes/png');
+    return canvas.toBuffer('image/png');
   } catch (error) {
     console.error('Image generation error:', error.message);
     throw new Error('Image generation failed');
