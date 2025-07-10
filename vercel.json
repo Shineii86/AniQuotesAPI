@@ -2,6 +2,7 @@
   "rewrites": [
     { "source": "/", "destination": "/api/home.js" },
     { "source": "/badge", "destination": "/api/badge.js" },
+    { "source": "/meta", "destination": "api//meta.js" }
     { "source": "/status", "destination": "/api/status.js" },
     { "source": "/v1/(.*)", "destination": "/api/v1/$1" },
     { "source": "/v2/(.*)", "destination": "/api/v2/$1" }
