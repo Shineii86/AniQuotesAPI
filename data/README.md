@@ -1,4 +1,4 @@
-# Quotes Database
+ii# Quotes Database
 
 A curated collection of high-quality quotes in JSON format for developers and content creators.
 
@@ -47,7 +47,7 @@ console.log(`Quotes provided by ${quoteData._metadata.author}`);
 ```json
 {
   "_metadata": {
-    "copyright": "Copyright © 2025 Shinei Nouze . All rights reserved.",
+    "copyright": "Copyright © 2025 Shinei Nouzen. All rights reserved.",
     "license": "CC BY-NC 4.0",
     "attribution_required": true
   },
