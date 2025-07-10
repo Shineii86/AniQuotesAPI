@@ -1,8 +1,4 @@
-{
-  "_copyright": "Copyright © Shinei Nouzen. All Rights Reserved.",
-  "_github": "https://github.com/Shineii86",
-  "_telegram": "https://telegram.me/Shineii86",
-  "quotes": [
+[
   {
     "id": 1,
     "quote": "I'm not gonna run away, I never go back on my word! That's my nindo: my ninja way!",
@@ -5610,5 +5606,4 @@
     "character": "Fern",
     "language": "en"
   }
-  ]
-}
+]
