@@ -34,12 +34,6 @@ module.exports = (req, res) => {
       quotesByAnime: sortByValueDesc(rawStats.quotesByAnime || {}),
       quotesByCharacter: sortByValueDesc(rawStats.quotesByCharacter || {}),
       supportedLanguages: rawStats.supportedLanguages || [],
-      meta: {
-        creator: "Shinei Nouzen",
-        github: "https://github.com/Shineii86",
-        telegram: "https://telegram.me/Shineii86",
-        timestamp: new Date().toISOString()
-      }
     };
 
     res.json({
@@ -51,7 +45,8 @@ module.exports = (req, res) => {
       meta: {
         creator: "Shinei Nouzen",
         github: "https://github.com/Shineii86",
-        telegram: "https://telegram.me/Shineii86"
+        telegram: "https://telegram.me/Shineii86",
+        message: "Build with ❤️ by Shinei Nouzen"
       }
     });
   } catch (error) {
@@ -61,7 +56,8 @@ module.exports = (req, res) => {
       meta: {
         creator: "Shinei Nouzen",
         github: "https://github.com/Shineii86",
-        telegram: "https://telegram.me/Shineii86"
+        telegram: "https://telegram.me/Shineii86",
+        message: "Build with ❤️ by Shinei Nouzen"
       }
     });
   }
