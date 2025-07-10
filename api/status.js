@@ -6,16 +6,16 @@ module.exports = (req, res) => {
   try {
     const stats = getAPIStats();
 
-    // Sort quotesByAnime and quotesByCharacter in ascending order
+    // Sort quotesByAnime and quotesByCharacter in DESCENDING order by number (value)
     const sortedQuotesByAnime = Object.fromEntries(
-      Object.entries(stats.quotesByAnime).sort((a, b) => a[0].localeCompare(b[0]))
+      Object.entries(stats.quotesByAnime).sort((a, b) => b[1] - a[1])
     );
 
     const sortedQuotesByCharacter = Object.fromEntries(
-      Object.entries(stats.quotesByCharacter).sort((a, b) => a[0].localeCompare(b[0]))
+      Object.entries(stats.quotesByCharacter).sort((a, b) => b[1] - a[1])
     );
 
-    // Replace unsorted stats with sorted ones
+    // Replace original stats with sorted versions
     stats.quotesByAnime = sortedQuotesByAnime;
     stats.quotesByCharacter = sortedQuotesByCharacter;
 
@@ -34,7 +34,7 @@ module.exports = (req, res) => {
 
     res.status(200).json({
       api: 'AniQuotes API',
-      version: '2.5',
+      version: '2.5 Beta',
       status: 'alive',
       health,
       stats,
@@ -42,17 +42,6 @@ module.exports = (req, res) => {
         creator: 'Shinei Nouzen',
         github: 'https://github.com/Shineii86',
         telegram: 'https://telegram.me/Shineii86'
-      },
-      endpoints: {
-        v1: {
-          random: '/v1/random',
-          anime: '/v1/anime?name=:anime',
-          character: '/v1/character?name=:character'
-        },
-        v2: {
-          languages: '/v2/languages?lang=:lang',
-          image: '/v2/image?id=:id'
-        }
       }
     });
   } catch (error) {
