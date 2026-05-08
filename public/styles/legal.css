@@ -1,0 +1,67 @@
+/* ═══════════════════════════════════════
+   AniQuotes API — Legal Pages Shared Styles
+   Used by: Terms of Service, Privacy Policy, 404
+   ═══════════════════════════════════════ */
+:root {
+  --bg: #0a0a0f;
+  --bg2: #0f0f17;
+  --border: rgba(255,255,255,0.06);
+  --text: #f1f5f9;
+  --text2: #94a3b8;
+  --text3: #64748b;
+  --accent: #a78bfa;
+  --pink: #ec4899;
+  --cyan: #06b6d4;
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+header { padding: 24px 0; border-bottom: 1px solid var(--border); }
+header a { color: var(--accent); text-decoration: none; font-weight: 600; font-size: 1.1rem; }
+header a:hover { text-decoration: underline; }
+main { flex: 1; padding: 60px 0 80px; }
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, var(--accent), var(--pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.updated { color: var(--text3); font-size: 0.9rem; margin-bottom: 40px; }
+h2 { font-size: 1.3rem; font-weight: 600; margin: 32px 0 12px; color: var(--text); }
+p, li { color: var(--text2); font-size: 1rem; margin-bottom: 12px; }
+ul { padding-left: 24px; }
+li { margin-bottom: 8px; }
+a { color: var(--accent); }
+a:hover { text-decoration: underline; }
+.back { display: inline-block; margin-top: 40px; color: var(--accent); text-decoration: none; font-weight: 500; }
+.back:hover { text-decoration: underline; }
+footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 0;
+  text-align: center;
+  color: var(--text3);
+  font-size: 0.85rem;
+}
+/* Tables (used in Privacy Policy) */
+table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+th, td { text-align: left; padding: 10px 14px; border: 1px solid var(--border); color: var(--text2); font-size: 0.95rem; }
+th { background: var(--bg2); color: var(--text); font-weight: 600; }
+code {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.85em;
+  background: rgba(139,92,246,0.1);
+  color: var(--accent);
+  padding: 2px 6px;
+  border-radius: 4px;
+}

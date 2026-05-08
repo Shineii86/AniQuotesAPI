@@ -1,6 +1,6 @@
 {
   "name": "aniquotes",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "scripts": {
     "dev": "vercel dev",
     "build": "npm install",

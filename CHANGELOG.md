@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.1] - 2026-05-08
+
+### Fixed
+- **ToS page not loading** — Fixed `vercel.json` rewrite destination from `/public/tos.html` to `/tos.html` (Vercel serves `public/` files at root level)
+- **Privacy page not loading** — Fixed `vercel.json` rewrite destination from `/public/privacy.html` to `/privacy.html`
+- **404 page missing** — Added `public/404.html` with styled error page matching the design system (gradient 404 code, terminal preview, action buttons)
+
+### Added
+- **Shared legal stylesheet** (`public/styles/legal.css`) — Extracted common CSS from ToS and Privacy pages to eliminate duplication and simplify maintenance
+- **404 page** (`public/404.html`) — Custom 404 page with animated gradient text, terminal-style error preview, and navigation back to home or random quote
+
+### Changed
+- **ToS and Privacy pages** now reference `/styles/legal.css` instead of inline `<style>` blocks
+- **404 page** uses shared legal stylesheet for base styles, with page-specific overrides for error layout
+
 ## [3.0.0] - 2026-05-08
 
 ### Added

@@ -2,8 +2,8 @@
   "rewrites": [
     { "source": "/status", "destination": "/api/status.js" },
     { "source": "/badge", "destination": "/api/badge.js" },
-    { "source": "/tos", "destination": "/public/tos.html" },
-    { "source": "/privacy", "destination": "/public/privacy.html" },
+    { "source": "/tos", "destination": "/tos.html" },
+    { "source": "/privacy", "destination": "/privacy.html" },
     { "source": "/v1/(.*)", "destination": "/api/v1/$1" },
     { "source": "/v2/(.*)", "destination": "/api/v2/$1" }
   ],

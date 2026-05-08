@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — Page Not Found | AniQuotes API</title>
+  <meta name="description" content="The page you're looking for doesn't exist.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Shineii86/AniQuotesAPI/main/assets/LogoHD.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/legal.css">
+  <style>
+    main { display: flex; align-items: center; justify-content: center; }
+    .error-page { text-align: center; }
+    .error-code {
+      font-size: clamp(6rem, 15vw, 12rem);
+      font-weight: 700;
+      letter-spacing: -4px;
+      line-height: 1;
+      margin-bottom: 16px;
+      background: linear-gradient(135deg, var(--accent), var(--pink), var(--cyan));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% auto;
+      animation: shimmer 4s ease-in-out infinite;
+    }
+    @keyframes shimmer {
+      0%, 100% { background-position: 0% center; }
+      50% { background-position: 100% center; }
+    }
+    .error-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+    }
+    .error-desc {
+      color: var(--text2);
+      font-size: 1.1rem;
+      max-width: 480px;
+      margin: 0 auto 40px;
+      line-height: 1.7;
+    }
+    .error-terminal {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.85rem;
+      color: var(--text3);
+      max-width: 480px;
+      margin: 0 auto 40px;
+      text-align: left;
+    }
+    .error-terminal .prompt { color: #10b981; }
+    .error-terminal .cmd { color: var(--text); }
+    .error-terminal .err { color: var(--pink); }
+    .actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: 10px;
+      font-family: 'Space Grotesk', system-ui, sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      text-decoration: none;
+      border: none;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), var(--pink));
+      color: white;
+      box-shadow: 0 4px 24px rgba(139, 92, 246, 0.3);
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(139, 92, 246, 0.45);
+    }
+    .btn-ghost {
+      background: transparent;
+      color: var(--text2);
+      border: 1px solid var(--border);
+    }
+    .btn-ghost:hover {
+      color: var(--text);
+      border-color: rgba(139, 92, 246, 0.4);
+      background: rgba(139, 92, 246, 0.08);
+    }
+    @media (max-width: 480px) {
+      .error-code { letter-spacing: -2px; }
+      .error-title { font-size: 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container"><a href="/">← AniQuotes API</a></div>
+  </header>
+  <main>
+    <div class="error-page">
+      <div class="error-code">404</div>
+      <h1 class="error-title">Page Not Found</h1>
+      <p class="error-desc">The quote you're looking for might have been spirited away. Even the best anime heroes get lost sometimes.</p>
+      <div class="error-terminal">
+        <div><span class="prompt">$</span> <span class="cmd">curl https://aniquotesapi.vercel.app/this-page</span></div>
+        <div><span class="err">{ "status": "error", "error": { "code": 404, "message": "Page not found" } }</span></div>
+      </div>
+      <div class="actions">
+        <a href="/" class="btn btn-primary"><i class="fas fa-home"></i> Back to Home</a>
+        <a href="/v1/random" class="btn btn-ghost"><i class="fas fa-random"></i> Get a Random Quote</a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">&copy; <span id="year"></span> Shinei Nouzen &middot; All Rights Reserved</div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
