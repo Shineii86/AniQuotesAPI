@@ -1,3 +1,11 @@
+> **⚠️ This project has been archived and is no longer actively maintained.**
+>
+> After 10 months of development as a solo project, this repository is being archived due to limited community support and the unsustainable workload of maintaining multilingual quote data as a single developer. The API may continue to work as long as the Vercel deployment remains active, but no new features, bug fixes, or quote additions will be made.
+>
+> Thank you to everyone who starred, forked, or used the API. Feel free to fork and continue development on your own.
+
+---
+
 <div align="center">
 
 # 💬 AniQuotesAPI
