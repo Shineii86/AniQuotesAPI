@@ -32,6 +32,16 @@ All notable changes to this project will be documented in this file.
   - Subtle noise texture overlay for depth
   - Support for italic Noto Sans font
   - Proper Unicode curly quotes (\u201C \u201D)
+- **README.md rewrite** — complete overhaul matching AniNewsAPI's professional style:
+  - Flat-square badge set with Catppuccin-inspired colors
+  - "At a Glance" metrics table (800+ quotes, 7 endpoints, 10 languages, image gen)
+  - Two-column feature matrix (Core/Multilingual, Images/Deployment)
+  - Architecture section with request flow table and module reference
+  - Detailed endpoint docs with param tables, curl examples, and collapsible response previews
+  - Image Generator documentation with font table
+  - Supported languages table with status indicators
+  - Tech stack, project structure, and contributing guide
+  - Acknowledgments table and social footer
 - **Version bumped** from `2.6.0` to `3.0.0` — major version bump due to provider architecture
 - **`/v1/random`** now tries external providers first, falls back to local data
 - **`/v1/anime`** and **`/v1/character`** merge results from external providers + local data with deduplication
