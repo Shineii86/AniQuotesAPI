@@ -456,6 +456,30 @@
                     </div>
                 </div>
                 
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <h3>Full-Text Search</h3>
+                        <span class="endpoint-method method-get">GET</span>
+                    </div>
+                    <div class="endpoint-url">/v1/search?q=:query</div>
+                    <p class="endpoint-description">Search across all quotes by text, anime name, or character name.</p>
+                    
+                    <div class="params">
+                        <div class="param">
+                            <span class="param-name">q</span>
+                            <span class="param-desc">Search query (required)</span>
+                        </div>
+                        <div class="param">
+                            <span class="param-name">limit</span>
+                            <span class="param-desc">Max results (default: 5, max: 20)</span>
+                        </div>
+                        <div class="param">
+                            <span class="param-name">offset</span>
+                            <span class="param-desc">Skip N results for pagination</span>
+                        </div>
+                    </div>
+                </div>
+                
                 <!-- V2 Endpoints -->
                 <div class="endpoint-card">
                     <div class="endpoint-header">

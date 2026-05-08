@@ -1,4 +1,5 @@
 const { getAPIStats } = require('../utils/stats');
+const { buildMeta } = require('../utils/config');
 const os = require('os');
 const process = require('process');
 
@@ -6,7 +7,6 @@ module.exports = (req, res) => {
   try {
     const rawStats = getAPIStats();
 
-    // Sort helper
     const sortByValueDesc = (obj) =>
       Object.entries(obj)
         .sort(([, a], [, b]) => b - a)
@@ -38,27 +38,17 @@ module.exports = (req, res) => {
 
     res.json({
       api: "AniQuotes API",
-      version: "2.5-Beta",
+      version: "2.6.0",
       status: "alive",
       health,
       stats: sortedStats,
-      meta: {
-        creator: "Shinei Nouzen",
-        github: "https://github.com/Shineii86",
-        telegram: "https://telegram.me/Shineii86",
-        message: "Build with ❤️ by Shinei Nouzen"
-      }
+      meta: buildMeta()
     });
   } catch (error) {
     res.status(500).json({
       error: "Internal Server Error",
       message: error.message,
-      meta: {
-        creator: "Shinei Nouzen",
-        github: "https://github.com/Shineii86",
-        telegram: "https://telegram.me/Shineii86",
-        message: "Build with ❤️ by Shinei Nouzen"
-      }
+      meta: buildMeta()
     });
   }
 };

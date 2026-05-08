@@ -1,5 +1,6 @@
 const { readMasterQuotes, getRandomQuote } = require('../../utils/helpers');
 const { handleError } = require('../../utils/errors');
+const { buildMeta } = require('../../utils/config');
 
 module.exports = (req, res) => {
   try {
@@ -9,13 +10,7 @@ module.exports = (req, res) => {
     res.status(200).json({
       status: "success",
       data: randomQuote,
-      meta: {
-        creator: "Shinei Nouzen",
-        github: "https://github.com/Shineii86",
-        telegram: "https://telegran.me/Shineii86",
-        message: "Build with ❤️ by Shinei Nouzen",
-        timestamp: new Date().toISOString()
-      }
+      meta: buildMeta()
     });
   } catch (error) {
     console.error('Error fetching random quote:', error);

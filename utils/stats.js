@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { readMasterQuotes, readLanguageQuotes } = require('./helpers');
+const { buildMeta } = require('./config');
 
 // In-memory cache
 let statsCache = null;
@@ -46,13 +47,7 @@ module.exports.getAPIStats = () => {
       quotesByAnime: {},
       quotesByCharacter: {},
       supportedLanguages,
-      meta: {
-        creator: "Shinei Nouzen",
-        github: "https://github.com/Shineii86",
-        telegram: "https://telegram.me/Shineii86",
-        message: "Build with ❤️ by Shinei Nouzen",
-        timestamp: new Date().toISOString()
-      }
+      meta: buildMeta()
     };
 
     // Count quotes by anime and character
@@ -86,13 +81,7 @@ module.exports.getAPIStats = () => {
       status: "error",
       message: "Unable to generate quote statistics",
       details: error.message,
-      meta: {
-        creator: "Shinei Nouzen",
-        github: "https://github.com/Shineii86",
-        telegram: "https://telegram.me/Shineii86",
-        message: "Build with ❤️ by Shinei Nouzen",
-        timestamp: new Date().toISOString()
-      }
+      meta: buildMeta()
     };
   }
 };

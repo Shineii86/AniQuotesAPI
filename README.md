@@ -25,10 +25,11 @@
   
 ## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /> Features
 
-- 🔀 Random, Anime, and Character Searchable Endpoints
+- 🔀 Random, Anime, Character, and Full-Text Search Endpoints
 - 🌍 Multilingual Support: English, Japanese, Hindi, and more
 - 🖼️ Quote Image Generator: Beautiful PNGs with watermark, perfect for social media
 - ⚡ Fast, Serverless Deployment (Vercel-ready)
+- 📄 Pagination Support: `limit` and `offset` parameters on all list endpoints
 - 👥 Community-Driven: Add your favorite anime quotes via Pull Requests
 - 📜 Clean API Response with Developer Credit on Every Quote
 - 🧠 Error Handling with HTTP Codes: 400, 404, 429, 500
@@ -51,36 +52,48 @@ AniQuotesAPI
 │   ├── v1/
 │   │   ├── random.js
 │   │   ├── anime.js
-│   │   └── character.js
+│   │   ├── character.js
+│   │   └── search.js
 │   ├── v2/
 │   │   ├── languages.js
 │   │   └── image.js
-│   └── index.js
+│   ├── status.js
+│   └── badge.js
 ├── data/
 │   ├── quotes.json
 │   └── languages/
-│       ├── en.json
+│       ├── de.json
+│       ├── es.json
+│       ├── fr.json
+│       ├── hi.json
+│       ├── it.json
 │       ├── jp.json
-│       └── hi.json
+│       ├── ko.json
+│       ├── pt.json
+│       ├── ru.json
+│       └── zh.json
 ├── fonts/
-│   ├── NotoSans/
-│       ├── NotoSans-Regular.ttf
-│       ├── NotoSans-Bold.ttf
-│       └── NotoSans-Italic.ttf
-│   ├── NotoSansJP/
-│       ├── NotoSansJP-Regular.ttf
-│       └── NotoSansJP-Bold.ttf
 │   ├── Anime/
-│       └── AnimeAce.ttf
-│       └── AnimeFont.ttf
+│   │   ├── AnimeAce.ttf
+│   │   └── AnimeFont.ttf
+│   ├── NotoSans/
+│   │   ├── NotoSans-Regular.ttf
+│   │   ├── NotoSans-Bold.ttf
+│   │   ├── NotoSans-Italic.ttf
+│   │   └── NotoSans-BoldItalic.ttf
+│   └── NotoSansJP/
+│       └── NotoSansJP-Regular.ttf
 ├── utils/
+│   ├── config.js
 │   ├── helpers.js
 │   ├── errors.js
-│   └── imageGenerator.js
+│   ├── imageGenerator.js
+│   └── stats.js
 ├── public/
-│   └── images/
+│   └── index.html
 ├── vercel.json
 ├── package.json
+├── CHANGELOG.md
 └── README.md
 ```
 
@@ -90,13 +103,14 @@ AniQuotesAPI
 | Endpoint | Params | Description |
 |----------|--------|-------------|
 | `api/v1/random` | None | Random quote |
-| `api/v1/anime` | `?name=` | Quotes by anime |
-| `api/v1/character` | `?name=` | Quotes by character |
+| `api/v1/anime` | `?name=&limit=&offset=` | Quotes by anime |
+| `api/v1/character` | `?name=&limit=&offset=` | Quotes by character |
+| `api/v1/search` | `?q=&limit=&offset=` | Full-text search across quotes |
 
 ### V2
 | Endpoint | Params | Description |
 |----------|--------|-------------|
-| `api/v2/languages` | `?lang=&anime=&character=` | Multilingual quotes |
+| `api/v2/languages` | `?lang=&anime=&character=&limit=&offset=` | Multilingual quotes |
 | `api/v2/image` | `?id=&lang=` | Generate quote image |
 
 <a href="https://github.com/Shineii86/AniPay">

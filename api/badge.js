@@ -1,4 +1,6 @@
-export default async function handler(req, res) {
+const { buildMeta } = require('../utils/config');
+
+module.exports = async (req, res) => {
   try {
     const response = await fetch("https://aniquotesapi.vercel.app/status");
 
@@ -8,13 +10,11 @@ export default async function handler(req, res) {
     const total = data?.stats?.totalQuotes || "???";
     const isAlive = data?.status === "alive";
 
-    // Add metadata as HTTP headers (optional)
     res.setHeader("X-Creator", "Shinei Nouzen");
     res.setHeader("X-GitHub", "https://github.com/Shineii86");
     res.setHeader("X-Telegram", "https://telegram.me/Shineii86");
     res.setHeader("X-Timestamp", new Date().toISOString());
 
-    // Shields.io compatible badge response
     res.status(200).json({
       schemaVersion: 1,
       label: "AniQuotes",
@@ -33,4 +33,4 @@ export default async function handler(req, res) {
       color: "lightgrey"
     });
   }
-}
+};

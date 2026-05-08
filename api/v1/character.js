@@ -1,45 +1,42 @@
-const { readMasterQuotes, filterQuotes } = require('../../utils/helpers');
+const { readMasterQuotes, filterQuotes, getRandomItems, paginate } = require('../../utils/helpers');
 const { handleError } = require('../../utils/errors');
-
-// Helper to get random N elements from an array
-function getRandomQuotes(arr, count) {
-  const shuffled = arr.sort(() => 0.5 - Math.random());
-  return shuffled.slice(0, Math.min(count, arr.length));
-}
+const { buildMeta } = require('../../utils/config');
 
 module.exports = (req, res) => {
-  const { name } = req.query;
+  const { name, limit, offset } = req.query;
 
-  if (!name) {
-    return handleError(res, 400, "Missing 'name' query parameter");
-  }
+  if (!name) {
+    return handleError(res, 400, "Missing 'name' query parameter");
+  }
 
-  try {
-    const allQuotes = readMasterQuotes();
-    const filteredQuotes = filterQuotes(allQuotes, 'character', name);
+  try {
+    const allQuotes = readMasterQuotes();
+    const filteredQuotes = filterQuotes(allQuotes, 'character', name);
 
-    if (filteredQuotes.length === 0) {
-      return handleError(res, 404, `No quotes found for character: "${name}"`);
-    }
+    if (filteredQuotes.length === 0) {
+      return handleError(res, 404, `No quotes found for character: "${name}"`);
+    }
 
-    res.status(200).json({
-      status: "success",
-      data: {
-        quotes: getRandomQuotes(filteredQuotes, 3),
-        pagination: {
-          total: filteredQuotes.length
-        }
-      },
-      meta: {
-        creator: "Shinei Nouzen",
-        github: "https://github.com/Shineii86",
-        telegram: "https://telegram.me/Shineii86",
-        message: "Build with ❤️ by Shinei Nouzen",
-        timestamp: new Date().toISOString()
-      }
-    });
-  } catch (error) {
-    console.error('Error in character quotes handler:', error);
-    handleError(res, 500, 'Internal Server Error');
-  }
+    const lim = Math.min(parseInt(limit, 10) || 3, 20);
+    const off = parseInt(offset, 10) || 0;
+    const randomQuotes = getRandomItems(filteredQuotes, lim);
+    const page = paginate(randomQuotes, 0, lim);
+
+    res.status(200).json({
+      status: "success",
+      data: {
+        quotes: page.items,
+        pagination: {
+          total: filteredQuotes.length,
+          limit: lim,
+          offset: off,
+          hasMore: page.hasMore
+        }
+      },
+      meta: buildMeta()
+    });
+  } catch (error) {
+    console.error('Error in character quotes handler:', error);
+    handleError(res, 500, 'Internal Server Error');
+  }
 };
