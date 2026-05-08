@@ -1,8 +1,9 @@
-const { readMasterQuotes, filterQuotes, getRandomItems, paginate } = require('../../utils/helpers');
+const { getByCharacter } = require('../../utils/providers');
+const { paginate } = require('../../utils/helpers');
 const { handleError } = require('../../utils/errors');
 const { buildMeta } = require('../../utils/config');
 
-module.exports = (req, res) => {
+module.exports = async (req, res) => {
   const { name, limit, offset } = req.query;
 
   if (!name) {
@@ -10,28 +11,30 @@ module.exports = (req, res) => {
   }
 
   try {
-    const allQuotes = readMasterQuotes();
-    const filteredQuotes = filterQuotes(allQuotes, 'character', name);
+    const lim = Math.min(parseInt(limit, 10) || 3, 20);
+    const off = parseInt(offset, 10) || 0;
 
-    if (filteredQuotes.length === 0) {
+    const result = await getByCharacter(name, lim + off);
+
+    if (result.total === 0) {
       return handleError(res, 404, `No quotes found for character: "${name}"`);
     }
 
-    const lim = Math.min(parseInt(limit, 10) || 3, 20);
-    const off = parseInt(offset, 10) || 0;
-    const randomQuotes = getRandomItems(filteredQuotes, lim);
-    const page = paginate(randomQuotes, 0, lim);
+    const page = paginate(result.quotes, 0, lim);
+
+    res.setHeader('Cache-Control', 'public, max-age=300');
 
     res.status(200).json({
       status: "success",
       data: {
         quotes: page.items,
         pagination: {
-          total: filteredQuotes.length,
+          total: result.total,
           limit: lim,
           offset: off,
           hasMore: page.hasMore
-        }
+        },
+        sources: result.sources
       },
       meta: buildMeta()
     });

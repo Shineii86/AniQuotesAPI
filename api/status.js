@@ -1,4 +1,5 @@
 const { getAPIStats } = require('../utils/stats');
+const { getProviderStatus } = require('../utils/providers');
 const { buildMeta } = require('../utils/config');
 const os = require('os');
 const process = require('process');
@@ -38,10 +39,18 @@ module.exports = (req, res) => {
 
     res.json({
       api: "AniQuotes API",
-      version: "2.6.0",
+      version: "3.0.0",
       status: "alive",
       health,
       stats: sortedStats,
+      providers: getProviderStatus(),
+      features: {
+        externalProviders: true,
+        autoTranslation: true,
+        imageGeneration: true,
+        pagination: true,
+        fullTextSearch: true
+      },
       meta: buildMeta()
     });
   } catch (error) {

@@ -1,8 +1,9 @@
-const { readMasterQuotes, searchQuotes, getRandomItems, paginate } = require('../../utils/helpers');
+const { search } = require('../../utils/providers');
+const { paginate } = require('../../utils/helpers');
 const { handleError } = require('../../utils/errors');
 const { buildMeta } = require('../../utils/config');
 
-module.exports = (req, res) => {
+module.exports = async (req, res) => {
   const { q, limit, offset } = req.query;
 
   if (!q) {
@@ -10,16 +11,18 @@ module.exports = (req, res) => {
   }
 
   try {
-    const allQuotes = readMasterQuotes();
-    const results = searchQuotes(allQuotes, q);
+    const lim = Math.min(parseInt(limit, 10) || 5, 20);
+    const off = parseInt(offset, 10) || 0;
 
-    if (results.length === 0) {
+    const result = await search(q, lim + off);
+
+    if (result.total === 0) {
       return handleError(res, 404, `No quotes found matching: "${q}"`);
     }
 
-    const lim = Math.min(parseInt(limit, 10) || 5, 20);
-    const off = parseInt(offset, 10) || 0;
-    const page = paginate(results, off, lim);
+    const page = paginate(result.quotes, off, lim);
+
+    res.setHeader('Cache-Control', 'public, max-age=60');
 
     res.status(200).json({
       status: "success",
@@ -27,7 +30,7 @@ module.exports = (req, res) => {
         query: q,
         quotes: page.items,
         pagination: {
-          total: results.length,
+          total: result.total,
           limit: lim,
           offset: off,
           hasMore: page.hasMore

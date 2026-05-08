@@ -26,9 +26,10 @@
 ## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25" /> Features
 
 - 🔀 Random, Anime, Character, and Full-Text Search Endpoints
-- 🌍 Multilingual Support: English, Japanese, Hindi, and more
+- 🌍 Multilingual Support with **Auto-Translation** (LibreTranslate)
 - 🖼️ Quote Image Generator: Beautiful PNGs with watermark, perfect for social media
 - ⚡ Fast, Serverless Deployment (Vercel-ready)
+- 📡 **External Provider System**: Aggregates quotes from Animechan API + local data
 - 📄 Pagination Support: `limit` and `offset` parameters on all list endpoints
 - 👥 Community-Driven: Add your favorite anime quotes via Pull Requests
 - 📜 Clean API Response with Developer Credit on Every Quote
@@ -84,11 +85,16 @@ AniQuotesAPI
 │   └── NotoSansJP/
 │       └── NotoSansJP-Regular.ttf
 ├── utils/
-│   ├── config.js
-│   ├── helpers.js
-│   ├── errors.js
-│   ├── imageGenerator.js
-│   └── stats.js
+│   ├── providers/
+│   │   ├── index.js       (Provider manager — aggregates all sources)
+│   │   └── animechan.js   (Animechan API provider)
+│   ├── cache.js            (In-memory response cache with TTL)
+│   ├── config.js           (Shared metadata and buildMeta helper)
+│   ├── helpers.js          (Data loading, filtering, pagination)
+│   ├── errors.js           (Standardized error responses)
+│   ├── translator.js       (LibreTranslate auto-translation)
+│   ├── imageGenerator.js   (Canvas-based quote image generator)
+│   └── stats.js            (API statistics generator)
 ├── public/
 │   └── index.html
 ├── vercel.json
@@ -110,8 +116,8 @@ AniQuotesAPI
 ### V2
 | Endpoint | Params | Description |
 |----------|--------|-------------|
-| `api/v2/languages` | `?lang=&anime=&character=&limit=&offset=` | Multilingual quotes |
-| `api/v2/image` | `?id=&lang=` | Generate quote image |
+| `api/v2/languages` | `?lang=&anime=&character=&limit=&offset=` | Multilingual quotes with **auto-translation** |
+| `api/v2/image` | `?id=&lang=` or `?quote=&anime=&character=&lang=` | Generate quote image (by ID, inline data, or random) |
 
 <a href="https://github.com/Shineii86/AniPay">
     <img src="https://github.com/Shineii86/AniPay/blob/main/Source/Banner3.png" alt="Banner">
@@ -125,6 +131,15 @@ AniQuotesAPI
 2. Clone the repository
 3. `npm install`
 4. `vercel deploy`
+
+### Environment Variables (Optional)
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `LIBRETRANSLATE_URL` | Custom LibreTranslate instance URL | `https://libretranslate.com` |
+| `LIBRETRANSLATE_API_KEY` | API key for LibreTranslate (if required) | _(none)_ |
+
+> **Tip**: For production use, self-host [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) for unlimited translations without rate limits.
 
 ## <img src="https://raw.githubusercontent.com/Shineii86/Emojis/main/People/Writing%20Hand.webp" alt="Writing Hand" width="25" height="25" /> Add New Quotes
 

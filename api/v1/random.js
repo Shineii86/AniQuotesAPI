@@ -1,15 +1,20 @@
-const { readMasterQuotes, getRandomQuote } = require('../../utils/helpers');
+const { getRandom } = require('../../utils/providers');
 const { handleError } = require('../../utils/errors');
 const { buildMeta } = require('../../utils/config');
 
-module.exports = (req, res) => {
+module.exports = async (req, res) => {
   try {
-    const quotes = readMasterQuotes();
-    const randomQuote = getRandomQuote(quotes);
+    const quote = await getRandom();
+
+    if (!quote) {
+      return handleError(res, 404, 'No quotes available');
+    }
+
+    res.setHeader('Cache-Control', 'public, max-age=300');
 
     res.status(200).json({
       status: "success",
-      data: randomQuote,
+      data: quote,
       meta: buildMeta()
     });
   } catch (error) {
